@@ -65,8 +65,6 @@ export default function AboutPage() {
 
   return (
     <div className="min-h-screen bg-black">
-      <Navbar />
-
       {/* Hero Section */}
       <section className="pt-32 pb-20 px-4 md:px-8 lg:px-16 bg-black">
         <div className="max-w-7xl mx-auto text-center">
@@ -253,8 +251,6 @@ export default function AboutPage() {
           </div>
         </div>
       </section>
-
-      <Footer />
     </div>
   );
 }

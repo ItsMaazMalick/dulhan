@@ -1065,6 +1065,7 @@ __turbopack_context__.s([
 ]);
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$1_$40$babel$2b$core$40$7$2e$28$2e$5_babel$2d$plugin$2d$react$2d$compiler$40$1$2e$0$2e$0_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/.pnpm/next@16.0.1_@babel+core@7.28.5_babel-plugin-react-compiler@1.0.0_react-dom@19.2.0_react@19.2.0__react@19.2.0/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$1_$40$babel$2b$core$40$7$2e$28$2e$5_babel$2d$plugin$2d$react$2d$compiler$40$1$2e$0$2e$0_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/.pnpm/next@16.0.1_@babel+core@7.28.5_babel-plugin-react-compiler@1.0.0_react-dom@19.2.0_react@19.2.0__react@19.2.0/node_modules/next/dist/compiled/react/compiler-runtime.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$framer$2d$motion$40$12$2e$23$2e$24_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/.pnpm/framer-motion@12.23.24_react-dom@19.2.0_react@19.2.0__react@19.2.0/node_modules/framer-motion/dist/es/render/components/motion/proxy.mjs [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$lucide$2d$react$40$0$2e$552$2e$0_react$40$19$2e$2$2e$0$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$grid$2d$2x2$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Grid2X2$3e$__ = __turbopack_context__.i("[project]/node_modules/.pnpm/lucide-react@0.552.0_react@19.2.0/node_modules/lucide-react/dist/esm/icons/grid-2x2.js [app-client] (ecmascript) <export default as Grid2X2>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$lucide$2d$react$40$0$2e$552$2e$0_react$40$19$2e$2$2e$0$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$grid$2d$3x3$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Grid3X3$3e$__ = __turbopack_context__.i("[project]/node_modules/.pnpm/lucide-react@0.552.0_react@19.2.0/node_modules/lucide-react/dist/esm/icons/grid-3x3.js [app-client] (ecmascript) <export default as Grid3X3>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$lucide$2d$react$40$0$2e$552$2e$0_react$40$19$2e$2$2e$0$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$list$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__List$3e$__ = __turbopack_context__.i("[project]/node_modules/.pnpm/lucide-react@0.552.0_react@19.2.0/node_modules/lucide-react/dist/esm/icons/list.js [app-client] (ecmascript) <export default as List>");
@@ -1074,15 +1075,16 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$lu
 ;
 ;
 ;
+;
 function LayoutToggle(t0) {
-    const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$1_$40$babel$2b$core$40$7$2e$28$2e$5_babel$2d$plugin$2d$react$2d$compiler$40$1$2e$0$2e$0_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(5);
-    if ($[0] !== "0a3692aea7a78dc9ad61bf655679047c9af0fa0a0740246609abca48c830883a") {
-        for(let $i = 0; $i < 5; $i += 1){
+    const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$1_$40$babel$2b$core$40$7$2e$28$2e$5_babel$2d$plugin$2d$react$2d$compiler$40$1$2e$0$2e$0_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(21);
+    if ($[0] !== "e670a591b68336c4619c63c6ed86fd65e2b0b89e83d593d5caafd41dcf3b5a77") {
+        for(let $i = 0; $i < 21; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "0a3692aea7a78dc9ad61bf655679047c9af0fa0a0740246609abca48c830883a";
+        $[0] = "e670a591b68336c4619c63c6ed86fd65e2b0b89e83d593d5caafd41dcf3b5a77";
     }
-    const { activeLayout, onLayoutChange } = t0;
+    const { activeLayout, onLayoutChange, paginated, filtered } = t0;
     let t1;
     if ($[1] === Symbol.for("react.memo_cache_sentinel")) {
         t1 = [
@@ -1108,7 +1110,7 @@ function LayoutToggle(t0) {
             },
             {
                 id: "compact",
-                label: "Compact",
+                label: "Compact View",
                 icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$lucide$2d$react$40$0$2e$552$2e$0_react$40$19$2e$2$2e$0$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$text$2d$align$2d$start$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__AlignLeft$3e$__["AlignLeft"]
             }
         ];
@@ -1118,44 +1120,243 @@ function LayoutToggle(t0) {
     }
     const layouts = t1;
     let t2;
-    if ($[2] !== activeLayout || $[3] !== onLayoutChange) {
-        t2 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$1_$40$babel$2b$core$40$7$2e$28$2e$5_babel$2d$plugin$2d$react$2d$compiler$40$1$2e$0$2e$0_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "flex gap-4 flex-wrap bg-slate-900/50 border border-amber-600/30 rounded-lg p-4 backdrop-blur justify-center",
+    let t3;
+    let t4;
+    if ($[2] === Symbol.for("react.memo_cache_sentinel")) {
+        t2 = {
+            opacity: 0,
+            y: 10
+        };
+        t3 = {
+            opacity: 1,
+            y: 0
+        };
+        t4 = {
+            duration: 0.4
+        };
+        $[2] = t2;
+        $[3] = t3;
+        $[4] = t4;
+    } else {
+        t2 = $[2];
+        t3 = $[3];
+        t4 = $[4];
+    }
+    let t5;
+    if ($[5] !== paginated) {
+        t5 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$1_$40$babel$2b$core$40$7$2e$28$2e$5_babel$2d$plugin$2d$react$2d$compiler$40$1$2e$0$2e$0_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+            className: "text-amber-400 font-bold",
+            children: paginated
+        }, void 0, false, {
+            fileName: "[project]/src/components/layout-toggle.tsx",
+            lineNumber: 80,
+            columnNumber: 10
+        }, this);
+        $[5] = paginated;
+        $[6] = t5;
+    } else {
+        t5 = $[6];
+    }
+    let t6;
+    if ($[7] !== filtered) {
+        t6 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$1_$40$babel$2b$core$40$7$2e$28$2e$5_babel$2d$plugin$2d$react$2d$compiler$40$1$2e$0$2e$0_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+            className: "text-amber-400 font-bold",
+            children: filtered
+        }, void 0, false, {
+            fileName: "[project]/src/components/layout-toggle.tsx",
+            lineNumber: 88,
+            columnNumber: 10
+        }, this);
+        $[7] = filtered;
+        $[8] = t6;
+    } else {
+        t6 = $[8];
+    }
+    let t7;
+    if ($[9] !== t5 || $[10] !== t6) {
+        t7 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$1_$40$babel$2b$core$40$7$2e$28$2e$5_babel$2d$plugin$2d$react$2d$compiler$40$1$2e$0$2e$0_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: "text-gray-400 animate-fadeInLeft",
+            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$1_$40$babel$2b$core$40$7$2e$28$2e$5_babel$2d$plugin$2d$react$2d$compiler$40$1$2e$0$2e$0_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                className: "text-sm",
+                children: [
+                    "Showing ",
+                    t5,
+                    " ",
+                    "of ",
+                    t6,
+                    " ",
+                    "results"
+                ]
+            }, void 0, true, {
+                fileName: "[project]/src/components/layout-toggle.tsx",
+                lineNumber: 96,
+                columnNumber: 60
+            }, this)
+        }, void 0, false, {
+            fileName: "[project]/src/components/layout-toggle.tsx",
+            lineNumber: 96,
+            columnNumber: 10
+        }, this);
+        $[9] = t5;
+        $[10] = t6;
+        $[11] = t7;
+    } else {
+        t7 = $[11];
+    }
+    let t8;
+    if ($[12] !== activeLayout || $[13] !== onLayoutChange) {
+        t8 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$1_$40$babel$2b$core$40$7$2e$28$2e$5_babel$2d$plugin$2d$react$2d$compiler$40$1$2e$0$2e$0_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: "flex flex-wrap gap-8",
             children: layouts.map({
                 "LayoutToggle[layouts.map()]": (layout)=>{
                     const Icon = layout.icon;
-                    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$1_$40$babel$2b$core$40$7$2e$28$2e$5_babel$2d$plugin$2d$react$2d$compiler$40$1$2e$0$2e$0_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                    const isActive = activeLayout === layout.id;
+                    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$1_$40$babel$2b$core$40$7$2e$28$2e$5_babel$2d$plugin$2d$react$2d$compiler$40$1$2e$0$2e$0_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$framer$2d$motion$40$12$2e$23$2e$24_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].button, {
                         onClick: {
-                            "LayoutToggle[layouts.map() > <button>.onClick]": ()=>onLayoutChange(layout.id)
-                        }["LayoutToggle[layouts.map() > <button>.onClick]"],
+                            "LayoutToggle[layouts.map() > <motion.button>.onClick]": ()=>onLayoutChange(layout.id)
+                        }["LayoutToggle[layouts.map() > <motion.button>.onClick]"],
                         title: layout.label,
-                        className: `p-3 rounded-lg transition-all duration-300 group ${activeLayout === layout.id ? "bg-amber-500 text-black shadow-lg shadow-amber-500/50" : "bg-slate-800 text-amber-400 border border-amber-600/30 hover:bg-amber-500 hover:text-black hover:shadow-lg hover:shadow-amber-500/30"}`,
-                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$1_$40$babel$2b$core$40$7$2e$28$2e$5_babel$2d$plugin$2d$react$2d$compiler$40$1$2e$0$2e$0_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(Icon, {
-                            className: "w-5 h-5"
-                        }, void 0, false, {
-                            fileName: "[project]/src/components/layout-toggle.tsx",
-                            lineNumber: 57,
-                            columnNumber: 373
-                        }, this)
-                    }, layout.id, false, {
+                        whileHover: {
+                            scale: 1.12
+                        },
+                        whileTap: {
+                            scale: 0.9
+                        },
+                        className: `relative group flex items-center justify-center p-3 rounded-xl transition-all duration-300 border backdrop-blur-sm ${isActive ? "bg-amber-500 text-black border-amber-400 shadow-lg shadow-amber-500/40" : "bg-slate-800/60 text-amber-400 border-amber-600/20 hover:bg-amber-500 hover:text-black hover:shadow-lg hover:shadow-amber-500/30"}`,
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$1_$40$babel$2b$core$40$7$2e$28$2e$5_babel$2d$plugin$2d$react$2d$compiler$40$1$2e$0$2e$0_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(Icon, {
+                                className: "w-5 h-5 transition-transform duration-300 group-hover:rotate-6"
+                            }, void 0, false, {
+                                fileName: "[project]/src/components/layout-toggle.tsx",
+                                lineNumber: 115,
+                                columnNumber: 363
+                            }, this),
+                            isActive && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$1_$40$babel$2b$core$40$7$2e$28$2e$5_babel$2d$plugin$2d$react$2d$compiler$40$1$2e$0$2e$0_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$framer$2d$motion$40$12$2e$23$2e$24_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].span, {
+                                layoutId: "active-glow",
+                                className: "absolute inset-0 rounded-xl ring-2 ring-amber-500/50",
+                                transition: {
+                                    type: "spring",
+                                    stiffness: 300,
+                                    damping: 20
+                                }
+                            }, void 0, false, {
+                                fileName: "[project]/src/components/layout-toggle.tsx",
+                                lineNumber: 115,
+                                columnNumber: 459
+                            }, this)
+                        ]
+                    }, layout.id, true, {
                         fileName: "[project]/src/components/layout-toggle.tsx",
-                        lineNumber: 55,
+                        lineNumber: 109,
                         columnNumber: 18
                     }, this);
                 }
             }["LayoutToggle[layouts.map()]"])
         }, void 0, false, {
             fileName: "[project]/src/components/layout-toggle.tsx",
-            lineNumber: 52,
+            lineNumber: 105,
             columnNumber: 10
         }, this);
-        $[2] = activeLayout;
-        $[3] = onLayoutChange;
-        $[4] = t2;
+        $[12] = activeLayout;
+        $[13] = onLayoutChange;
+        $[14] = t8;
     } else {
-        t2 = $[4];
+        t8 = $[14];
     }
-    return t2;
+    let t10;
+    let t9;
+    if ($[15] === Symbol.for("react.memo_cache_sentinel")) {
+        t9 = {
+            scale: 1.05,
+            boxShadow: "0 0 15px rgba(251,191,36,0.4)"
+        };
+        t10 = {
+            type: "spring",
+            stiffness: 200,
+            damping: 15
+        };
+        $[15] = t10;
+        $[16] = t9;
+    } else {
+        t10 = $[15];
+        t9 = $[16];
+    }
+    let t11;
+    if ($[17] === Symbol.for("react.memo_cache_sentinel")) {
+        t11 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$1_$40$babel$2b$core$40$7$2e$28$2e$5_babel$2d$plugin$2d$react$2d$compiler$40$1$2e$0$2e$0_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$framer$2d$motion$40$12$2e$23$2e$24_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].select, {
+            whileFocus: t9,
+            transition: t10,
+            className: "bg-slate-900/70 border border-amber-600/30 text-amber-300 rounded-xl px-4 py-3 focus:outline-none focus:border-amber-500 shadow-inner shadow-black/40 transition-all duration-300",
+            children: [
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$1_$40$babel$2b$core$40$7$2e$28$2e$5_babel$2d$plugin$2d$react$2d$compiler$40$1$2e$0$2e$0_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
+                    children: "Default Sort"
+                }, void 0, false, {
+                    fileName: "[project]/src/components/layout-toggle.tsx",
+                    lineNumber: 148,
+                    columnNumber: 249
+                }, this),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$1_$40$babel$2b$core$40$7$2e$28$2e$5_babel$2d$plugin$2d$react$2d$compiler$40$1$2e$0$2e$0_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
+                    children: "Price: Low to High"
+                }, void 0, false, {
+                    fileName: "[project]/src/components/layout-toggle.tsx",
+                    lineNumber: 148,
+                    columnNumber: 278
+                }, this),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$1_$40$babel$2b$core$40$7$2e$28$2e$5_babel$2d$plugin$2d$react$2d$compiler$40$1$2e$0$2e$0_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
+                    children: "Price: High to Low"
+                }, void 0, false, {
+                    fileName: "[project]/src/components/layout-toggle.tsx",
+                    lineNumber: 148,
+                    columnNumber: 313
+                }, this),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$1_$40$babel$2b$core$40$7$2e$28$2e$5_babel$2d$plugin$2d$react$2d$compiler$40$1$2e$0$2e$0_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
+                    children: "Newest"
+                }, void 0, false, {
+                    fileName: "[project]/src/components/layout-toggle.tsx",
+                    lineNumber: 148,
+                    columnNumber: 348
+                }, this),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$1_$40$babel$2b$core$40$7$2e$28$2e$5_babel$2d$plugin$2d$react$2d$compiler$40$1$2e$0$2e$0_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
+                    children: "Best Rated"
+                }, void 0, false, {
+                    fileName: "[project]/src/components/layout-toggle.tsx",
+                    lineNumber: 148,
+                    columnNumber: 371
+                }, this)
+            ]
+        }, void 0, true, {
+            fileName: "[project]/src/components/layout-toggle.tsx",
+            lineNumber: 148,
+            columnNumber: 11
+        }, this);
+        $[17] = t11;
+    } else {
+        t11 = $[17];
+    }
+    let t12;
+    if ($[18] !== t7 || $[19] !== t8) {
+        t12 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$1_$40$babel$2b$core$40$7$2e$28$2e$5_babel$2d$plugin$2d$react$2d$compiler$40$1$2e$0$2e$0_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$framer$2d$motion$40$12$2e$23$2e$24_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
+            initial: t2,
+            animate: t3,
+            transition: t4,
+            className: "flex flex-wrap items-center justify-between gap-6 rounded-2xl border border-amber-500/30 bg-transparent p-5 shadow-lg shadow-amber-500/10 backdrop-blur-xl",
+            children: [
+                t7,
+                t8,
+                t11
+            ]
+        }, void 0, true, {
+            fileName: "[project]/src/components/layout-toggle.tsx",
+            lineNumber: 155,
+            columnNumber: 11
+        }, this);
+        $[18] = t7;
+        $[19] = t8;
+        $[20] = t12;
+    } else {
+        t12 = $[20];
+    }
+    return t12;
 }
 _c = LayoutToggle;
 var _c;
@@ -2237,12 +2438,12 @@ var _s = __turbopack_context__.k.signature();
 const PRODUCTS_PER_PAGE = 8;
 function TopCategoriesPage() {
     _s();
-    const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$1_$40$babel$2b$core$40$7$2e$28$2e$5_babel$2d$plugin$2d$react$2d$compiler$40$1$2e$0$2e$0_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(88);
-    if ($[0] !== "ebf0763ffeed63d5b1f19ba3dd4cacf18a08b1135132852fd668e8632e5cf9ce") {
-        for(let $i = 0; $i < 88; $i += 1){
+    const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$1_$40$babel$2b$core$40$7$2e$28$2e$5_babel$2d$plugin$2d$react$2d$compiler$40$1$2e$0$2e$0_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(90);
+    if ($[0] !== "1d4b3bf8057f96884922e8ae148e7f1d34e0cdf428fd721622fe6c0e64a647a8") {
+        for(let $i = 0; $i < 90; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "ebf0763ffeed63d5b1f19ba3dd4cacf18a08b1135132852fd668e8632e5cf9ce";
+        $[0] = "1d4b3bf8057f96884922e8ae148e7f1d34e0cdf428fd721622fe6c0e64a647a8";
     }
     const [selectedCategory, setSelectedCategory] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$1_$40$babel$2b$core$40$7$2e$28$2e$5_babel$2d$plugin$2d$react$2d$compiler$40$1$2e$0$2e$0_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(1);
     const [selectedSubcategory, setSelectedSubcategory] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$1_$40$babel$2b$core$40$7$2e$28$2e$5_babel$2d$plugin$2d$react$2d$compiler$40$1$2e$0$2e$0_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(null);
@@ -2257,9 +2458,10 @@ function TopCategoriesPage() {
     const [layout, setLayout] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$1_$40$babel$2b$core$40$7$2e$28$2e$5_babel$2d$plugin$2d$react$2d$compiler$40$1$2e$0$2e$0_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])("grid-3");
     const [currentPage, setCurrentPage] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$1_$40$babel$2b$core$40$7$2e$28$2e$5_babel$2d$plugin$2d$react$2d$compiler$40$1$2e$0$2e$0_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(1);
     (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$1_$40$babel$2b$core$40$7$2e$28$2e$5_babel$2d$plugin$2d$react$2d$compiler$40$1$2e$0$2e$0_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(0);
+    const [selectedGender, setSelectedGender] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$1_$40$babel$2b$core$40$7$2e$28$2e$5_babel$2d$plugin$2d$react$2d$compiler$40$1$2e$0$2e$0_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])("bride");
     let t1;
-    if ($[2] === Symbol.for("react.memo_cache_sentinel")) {
-        t1 = [
+    if ($[2] !== selectedGender) {
+        t1 = selectedGender === "bride" ? [
             {
                 id: 1,
                 name: "Lehenga",
@@ -2269,7 +2471,8 @@ function TopCategoriesPage() {
                 id: 2,
                 name: "Saree",
                 image: "/b2.png"
-            },
+            }
+        ] : [
             {
                 id: 3,
                 name: "Anarkali",
@@ -2286,9 +2489,10 @@ function TopCategoriesPage() {
                 image: "/bb1.png"
             }
         ];
-        $[2] = t1;
+        $[2] = selectedGender;
+        $[3] = t1;
     } else {
-        t1 = $[2];
+        t1 = $[3];
     }
     const categories = t1;
     let filteredProducts;
@@ -2305,7 +2509,7 @@ function TopCategoriesPage() {
     let t8;
     let t9;
     let totalPages;
-    if ($[3] !== currentPage || $[4] !== layout || $[5] !== selectedCategory || $[6] !== selectedSubcategory || $[7] !== wishlist) {
+    if ($[4] !== categories || $[5] !== currentPage || $[6] !== layout || $[7] !== selectedCategory || $[8] !== selectedGender || $[9] !== selectedSubcategory || $[10] !== wishlist) {
         const subcategoriesMap = {
             1: [
                 "Bridal Lehenga",
@@ -2339,7 +2543,7 @@ function TopCategoriesPage() {
             ]
         };
         let t10;
-        if ($[22] === Symbol.for("react.memo_cache_sentinel")) {
+        if ($[25] === Symbol.for("react.memo_cache_sentinel")) {
             t10 = [
                 {
                     id: 1,
@@ -2348,7 +2552,8 @@ function TopCategoriesPage() {
                     subcategory: "Bridal Lehenga",
                     price: 45000,
                     image: "/b1.png",
-                    rating: 4.5
+                    rating: 4.5,
+                    gender: "bride"
                 },
                 {
                     id: 2,
@@ -2357,7 +2562,8 @@ function TopCategoriesPage() {
                     subcategory: "Silk Saree",
                     price: 35000,
                     image: "/b2.png",
-                    rating: 4.8
+                    rating: 4.8,
+                    gender: "bride"
                 },
                 {
                     id: 3,
@@ -2366,7 +2572,8 @@ function TopCategoriesPage() {
                     subcategory: "Embroidered Anarkali",
                     price: 28000,
                     image: "/b11.png",
-                    rating: 4.3
+                    rating: 4.3,
+                    gender: "bride"
                 },
                 {
                     id: 4,
@@ -2375,7 +2582,8 @@ function TopCategoriesPage() {
                     subcategory: "Bridal Sharara",
                     price: 32000,
                     image: "/b22.png",
-                    rating: 4.6
+                    rating: 4.6,
+                    gender: "bride"
                 },
                 {
                     id: 5,
@@ -2384,7 +2592,8 @@ function TopCategoriesPage() {
                     subcategory: "Bridal Gown",
                     price: 55000,
                     image: "/bb1.png",
-                    rating: 4.9
+                    rating: 4.9,
+                    gender: "bride"
                 },
                 {
                     id: 6,
@@ -2393,7 +2602,8 @@ function TopCategoriesPage() {
                     subcategory: "Party Lehenga",
                     price: 42000,
                     image: "/bb2.png",
-                    rating: 4.4
+                    rating: 4.4,
+                    gender: "bride"
                 },
                 {
                     id: 7,
@@ -2402,7 +2612,8 @@ function TopCategoriesPage() {
                     subcategory: "Banarasi Saree",
                     price: 38000,
                     image: "/bb3.png",
-                    rating: 4.7
+                    rating: 4.7,
+                    gender: "bride"
                 },
                 {
                     id: 8,
@@ -2411,7 +2622,8 @@ function TopCategoriesPage() {
                     subcategory: "Designer Anarkali",
                     price: 30000,
                     image: "/bb4.png",
-                    rating: 4.5
+                    rating: 4.5,
+                    gender: "bride"
                 },
                 {
                     id: 9,
@@ -2420,7 +2632,8 @@ function TopCategoriesPage() {
                     subcategory: "Wedding Lehenga",
                     price: 48000,
                     image: "/b1.png",
-                    rating: 4.7
+                    rating: 4.7,
+                    gender: "grome"
                 },
                 {
                     id: 10,
@@ -2429,7 +2642,8 @@ function TopCategoriesPage() {
                     subcategory: "Bridal Saree",
                     price: 40000,
                     image: "/b2.png",
-                    rating: 4.8
+                    rating: 4.8,
+                    gender: "grome"
                 },
                 {
                     id: 11,
@@ -2438,7 +2652,8 @@ function TopCategoriesPage() {
                     subcategory: "Party Sharara",
                     price: 35000,
                     image: "/b11.png",
-                    rating: 4.6
+                    rating: 4.6,
+                    gender: "grome"
                 },
                 {
                     id: 12,
@@ -2447,45 +2662,49 @@ function TopCategoriesPage() {
                     subcategory: "Designer Gown",
                     price: 60000,
                     image: "/b22.png",
-                    rating: 4.9
+                    rating: 4.9,
+                    gender: "grome"
                 }
             ];
-            $[22] = t10;
+            $[25] = t10;
         } else {
-            t10 = $[22];
+            t10 = $[25];
         }
         const products = t10;
         let t11;
-        if ($[23] !== selectedCategory || $[24] !== selectedSubcategory) {
+        if ($[26] !== categories || $[27] !== selectedCategory || $[28] !== selectedGender || $[29] !== selectedSubcategory) {
             t11 = products.filter({
                 "TopCategoriesPage[products.filter()]": (product)=>{
+                    const genderMatch = product.gender === selectedGender;
                     const categoryMatch = product.category === categories.find({
                         "TopCategoriesPage[products.filter() > categories.find()]": (c)=>c.id === selectedCategory
                     }["TopCategoriesPage[products.filter() > categories.find()]"])?.name;
                     const subcategoryMatch = !selectedSubcategory || product.subcategory === selectedSubcategory;
-                    return categoryMatch && subcategoryMatch;
+                    return genderMatch && categoryMatch && subcategoryMatch;
                 }
             }["TopCategoriesPage[products.filter()]"]);
-            $[23] = selectedCategory;
-            $[24] = selectedSubcategory;
-            $[25] = t11;
+            $[26] = categories;
+            $[27] = selectedCategory;
+            $[28] = selectedGender;
+            $[29] = selectedSubcategory;
+            $[30] = t11;
         } else {
-            t11 = $[25];
+            t11 = $[30];
         }
         filteredProducts = t11;
         totalPages = Math.ceil(filteredProducts.length / PRODUCTS_PER_PAGE);
         let t12;
-        if ($[26] !== currentPage || $[27] !== filteredProducts) {
+        if ($[31] !== currentPage || $[32] !== filteredProducts) {
             t12 = filteredProducts.slice((currentPage - 1) * PRODUCTS_PER_PAGE, currentPage * PRODUCTS_PER_PAGE);
-            $[26] = currentPage;
-            $[27] = filteredProducts;
-            $[28] = t12;
+            $[31] = currentPage;
+            $[32] = filteredProducts;
+            $[33] = t12;
         } else {
-            t12 = $[28];
+            t12 = $[33];
         }
         paginatedProducts = t12;
         let t13;
-        if ($[29] === Symbol.for("react.memo_cache_sentinel")) {
+        if ($[34] === Symbol.for("react.memo_cache_sentinel")) {
             t13 = ({
                 "TopCategoriesPage[toggleWishlist]": (productId)=>{
                     setWishlist({
@@ -2496,14 +2715,14 @@ function TopCategoriesPage() {
                     }["TopCategoriesPage[toggleWishlist > setWishlist()]"]);
                 }
             })["TopCategoriesPage[toggleWishlist]"];
-            $[29] = t13;
+            $[34] = t13;
         } else {
-            t13 = $[29];
+            t13 = $[34];
         }
         const toggleWishlist = t13;
         const currentSubcategories = subcategoriesMap[selectedCategory] || [];
         let t14;
-        if ($[30] === Symbol.for("react.memo_cache_sentinel")) {
+        if ($[35] === Symbol.for("react.memo_cache_sentinel")) {
             t14 = ({
                 "TopCategoriesPage[handleCategoryChange]": (categoryId)=>{
                     setSelectedCategory(categoryId);
@@ -2511,26 +2730,26 @@ function TopCategoriesPage() {
                     setCurrentPage(1);
                 }
             })["TopCategoriesPage[handleCategoryChange]"];
-            $[30] = t14;
+            $[35] = t14;
         } else {
-            t14 = $[30];
+            t14 = $[35];
         }
         const handleCategoryChange = t14;
         let t15;
-        if ($[31] === Symbol.for("react.memo_cache_sentinel")) {
+        if ($[36] === Symbol.for("react.memo_cache_sentinel")) {
             t15 = ({
                 "TopCategoriesPage[handleSubcategoryChange]": (subcat)=>{
                     setSelectedSubcategory(subcat);
                     setCurrentPage(1);
                 }
             })["TopCategoriesPage[handleSubcategoryChange]"];
-            $[31] = t15;
+            $[36] = t15;
         } else {
-            t15 = $[31];
+            t15 = $[36];
         }
         const handleSubcategoryChange = t15;
         let t16;
-        if ($[32] !== currentPage) {
+        if ($[37] !== currentPage) {
             t16 = ({
                 "TopCategoriesPage[handlePreviousPage]": ()=>{
                     if (currentPage > 1) {
@@ -2542,14 +2761,14 @@ function TopCategoriesPage() {
                     }
                 }
             })["TopCategoriesPage[handlePreviousPage]"];
-            $[32] = currentPage;
-            $[33] = t16;
+            $[37] = currentPage;
+            $[38] = t16;
         } else {
-            t16 = $[33];
+            t16 = $[38];
         }
         handlePreviousPage = t16;
         let t17;
-        if ($[34] !== currentPage || $[35] !== totalPages) {
+        if ($[39] !== currentPage || $[40] !== totalPages) {
             t17 = ({
                 "TopCategoriesPage[handleNextPage]": ()=>{
                     if (currentPage < totalPages) {
@@ -2561,15 +2780,15 @@ function TopCategoriesPage() {
                     }
                 }
             })["TopCategoriesPage[handleNextPage]"];
-            $[34] = currentPage;
-            $[35] = totalPages;
-            $[36] = t17;
+            $[39] = currentPage;
+            $[40] = totalPages;
+            $[41] = t17;
         } else {
-            t17 = $[36];
+            t17 = $[41];
         }
         handleNextPage = t17;
         let t18;
-        if ($[37] !== layout || $[38] !== paginatedProducts || $[39] !== wishlist) {
+        if ($[42] !== layout || $[43] !== paginatedProducts || $[44] !== wishlist) {
             t18 = ({
                 "TopCategoriesPage[renderLayout]": ()=>{
                     if (paginatedProducts.length === 0) {
@@ -2580,12 +2799,12 @@ function TopCategoriesPage() {
                                 children: "No products found in this category."
                             }, void 0, false, {
                                 fileName: "[project]/src/app/top-categories/page.tsx",
-                                lineNumber: 306,
+                                lineNumber: 323,
                                 columnNumber: 55
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/src/app/top-categories/page.tsx",
-                            lineNumber: 306,
+                            lineNumber: 323,
                             columnNumber: 20
                         }, this);
                     }
@@ -2598,7 +2817,7 @@ function TopCategoriesPage() {
                                     onToggleWishlist: toggleWishlist
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/top-categories/page.tsx",
-                                    lineNumber: 311,
+                                    lineNumber: 328,
                                     columnNumber: 24
                                 }, this);
                             }
@@ -2610,7 +2829,7 @@ function TopCategoriesPage() {
                                     onToggleWishlist: toggleWishlist
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/top-categories/page.tsx",
-                                    lineNumber: 315,
+                                    lineNumber: 332,
                                     columnNumber: 24
                                 }, this);
                             }
@@ -2623,7 +2842,7 @@ function TopCategoriesPage() {
                                     onToggleWishlist: toggleWishlist
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/top-categories/page.tsx",
-                                    lineNumber: 320,
+                                    lineNumber: 337,
                                     columnNumber: 24
                                 }, this);
                             }
@@ -2635,7 +2854,7 @@ function TopCategoriesPage() {
                                     onToggleWishlist: toggleWishlist
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/top-categories/page.tsx",
-                                    lineNumber: 324,
+                                    lineNumber: 341,
                                     columnNumber: 24
                                 }, this);
                             }
@@ -2647,34 +2866,34 @@ function TopCategoriesPage() {
                                     onToggleWishlist: toggleWishlist
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/top-categories/page.tsx",
-                                    lineNumber: 328,
+                                    lineNumber: 345,
                                     columnNumber: 24
                                 }, this);
                             }
                     }
                 }
             })["TopCategoriesPage[renderLayout]"];
-            $[37] = layout;
-            $[38] = paginatedProducts;
-            $[39] = wishlist;
-            $[40] = t18;
+            $[42] = layout;
+            $[43] = paginatedProducts;
+            $[44] = wishlist;
+            $[45] = t18;
         } else {
-            t18 = $[40];
+            t18 = $[45];
         }
         renderLayout = t18;
         t8 = "min-h-screen bg-black";
-        if ($[41] === Symbol.for("react.memo_cache_sentinel")) {
+        if ($[46] === Symbol.for("react.memo_cache_sentinel")) {
             t9 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$1_$40$babel$2b$core$40$7$2e$28$2e$5_babel$2d$plugin$2d$react$2d$compiler$40$1$2e$0$2e$0_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$navbar$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/src/app/top-categories/page.tsx",
-                lineNumber: 343,
+                lineNumber: 360,
                 columnNumber: 12
             }, this);
-            $[41] = t9;
+            $[46] = t9;
         } else {
-            t9 = $[41];
+            t9 = $[46];
         }
         t5 = "py-16";
-        if ($[42] === Symbol.for("react.memo_cache_sentinel")) {
+        if ($[47] === Symbol.for("react.memo_cache_sentinel")) {
             t6 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$1_$40$babel$2b$core$40$7$2e$28$2e$5_babel$2d$plugin$2d$react$2d$compiler$40$1$2e$0$2e$0_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "bg-gradient-to-r from-black via-slate-900 to-black border-b border-amber-600/30 py-12",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$1_$40$babel$2b$core$40$7$2e$28$2e$5_babel$2d$plugin$2d$react$2d$compiler$40$1$2e$0$2e$0_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2685,7 +2904,7 @@ function TopCategoriesPage() {
                             children: "Top Categories"
                         }, void 0, false, {
                             fileName: "[project]/src/app/top-categories/page.tsx",
-                            lineNumber: 350,
+                            lineNumber: 367,
                             columnNumber: 155
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$1_$40$babel$2b$core$40$7$2e$28$2e$5_babel$2d$plugin$2d$react$2d$compiler$40$1$2e$0$2e$0_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2693,110 +2912,185 @@ function TopCategoriesPage() {
                             children: "Discover our exquisite bridal collection"
                         }, void 0, false, {
                             fileName: "[project]/src/app/top-categories/page.tsx",
-                            lineNumber: 350,
+                            lineNumber: 367,
                             columnNumber: 245
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/app/top-categories/page.tsx",
-                    lineNumber: 350,
+                    lineNumber: 367,
                     columnNumber: 115
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/app/top-categories/page.tsx",
-                lineNumber: 350,
+                lineNumber: 367,
                 columnNumber: 12
             }, this);
-            $[42] = t6;
+            $[47] = t6;
         } else {
-            t6 = $[42];
+            t6 = $[47];
         }
         let t19;
-        if ($[43] === Symbol.for("react.memo_cache_sentinel")) {
+        if ($[48] === Symbol.for("react.memo_cache_sentinel")) {
             t19 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$1_$40$babel$2b$core$40$7$2e$28$2e$5_babel$2d$plugin$2d$react$2d$compiler$40$1$2e$0$2e$0_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                className: "text-2xl font-serif text-white mb-6 animate-fadeInDown",
+                className: "text-2xl font-serif text-white animate-fadeInDown",
                 children: "Search by Category"
             }, void 0, false, {
                 fileName: "[project]/src/app/top-categories/page.tsx",
-                lineNumber: 357,
+                lineNumber: 374,
                 columnNumber: 13
             }, this);
-            $[43] = t19;
+            $[48] = t19;
         } else {
-            t19 = $[43];
+            t19 = $[48];
         }
-        if ($[44] !== selectedCategory) {
-            t7 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$1_$40$babel$2b$core$40$7$2e$28$2e$5_babel$2d$plugin$2d$react$2d$compiler$40$1$2e$0$2e$0_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "max-w-7xl mx-auto px-4 py-8",
+        let t20;
+        if ($[49] === Symbol.for("react.memo_cache_sentinel")) {
+            t20 = [
+                {
+                    id: "bride",
+                    label: "Bride",
+                    icon: "\uD83D\uDC70"
+                },
+                {
+                    id: "groom",
+                    label: "Groom",
+                    icon: "\uD83E\uDD35"
+                }
+            ];
+            $[49] = t20;
+        } else {
+            t20 = $[49];
+        }
+        let t21;
+        if ($[50] !== selectedGender) {
+            t21 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$1_$40$babel$2b$core$40$7$2e$28$2e$5_babel$2d$plugin$2d$react$2d$compiler$40$1$2e$0$2e$0_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "flex flex-col sm:flex-row sm:items-center sm:justify-between gap-6",
                 children: [
                     t19,
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$1_$40$babel$2b$core$40$7$2e$28$2e$5_babel$2d$plugin$2d$react$2d$compiler$40$1$2e$0$2e$0_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "relative",
-                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$1_$40$babel$2b$core$40$7$2e$28$2e$5_babel$2d$plugin$2d$react$2d$compiler$40$1$2e$0$2e$0_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "flex gap-6 overflow-x-auto p-4 scrollbar-hide",
-                            children: categories.map({
-                                "TopCategoriesPage[categories.map()]": (cat, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$1_$40$babel$2b$core$40$7$2e$28$2e$5_babel$2d$plugin$2d$react$2d$compiler$40$1$2e$0$2e$0_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        onClick: {
-                                            "TopCategoriesPage[categories.map() > <div>.onClick]": ()=>handleCategoryChange(cat.id)
-                                        }["TopCategoriesPage[categories.map() > <div>.onClick]"],
-                                        className: "flex-shrink-0 cursor-pointer group animate-slideInLeft",
-                                        style: {
-                                            animationDelay: `${index * 100}ms`
-                                        },
-                                        children: [
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$1_$40$babel$2b$core$40$7$2e$28$2e$5_babel$2d$plugin$2d$react$2d$compiler$40$1$2e$0$2e$0_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                className: `w-30 h-30 rounded-full overflow-hidden border-2 transition-all duration-500 ${selectedCategory === cat.id ? "border-amber-500 shadow-2xl shadow-amber-500/50 scale-105" : "border-amber-600/30 hover:border-amber-500 hover:shadow-xl hover:shadow-amber-500/30"}`,
-                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$1_$40$babel$2b$core$40$7$2e$28$2e$5_babel$2d$plugin$2d$react$2d$compiler$40$1$2e$0$2e$0_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
-                                                    src: cat.image || "/placeholder.svg",
-                                                    alt: cat.name,
-                                                    className: "w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
-                                                }, void 0, false, {
-                                                    fileName: "[project]/src/app/top-categories/page.tsx",
-                                                    lineNumber: 368,
-                                                    columnNumber: 295
-                                                }, this)
-                                            }, void 0, false, {
-                                                fileName: "[project]/src/app/top-categories/page.tsx",
-                                                lineNumber: 368,
-                                                columnNumber: 18
-                                            }, this),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$1_$40$babel$2b$core$40$7$2e$28$2e$5_babel$2d$plugin$2d$react$2d$compiler$40$1$2e$0$2e$0_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                className: "text-center text-white mt-4 text-sm font-semibold group-hover:text-amber-400 transition-colors",
-                                                children: cat.name
-                                            }, void 0, false, {
-                                                fileName: "[project]/src/app/top-categories/page.tsx",
-                                                lineNumber: 368,
-                                                columnNumber: 456
-                                            }, this)
-                                        ]
-                                    }, cat.id, true, {
-                                        fileName: "[project]/src/app/top-categories/page.tsx",
-                                        lineNumber: 364,
-                                        columnNumber: 70
-                                    }, this)
-                            }["TopCategoriesPage[categories.map()]"])
-                        }, void 0, false, {
-                            fileName: "[project]/src/app/top-categories/page.tsx",
-                            lineNumber: 363,
-                            columnNumber: 88
-                        }, this)
+                        className: "flex items-center gap-4 bg-gradient-to-r from-slate-900/70 to-slate-800/70 border border-amber-600/30 rounded-2xl p-2 backdrop-blur-md shadow-lg shadow-amber-500/10 animate-fadeInUp",
+                        children: t20.map({
+                            "TopCategoriesPage[(anonymous)()]": (g)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$1_$40$babel$2b$core$40$7$2e$28$2e$5_babel$2d$plugin$2d$react$2d$compiler$40$1$2e$0$2e$0_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                                    onClick: {
+                                        "TopCategoriesPage[(anonymous)() > <button>.onClick]": ()=>setSelectedGender(g.id)
+                                    }["TopCategoriesPage[(anonymous)() > <button>.onClick]"],
+                                    className: `flex items-center gap-3 px-5 py-3 rounded-xl text-lg font-semibold transition-all duration-300 ${selectedGender === g.id ? "bg-amber-500 text-black shadow-lg shadow-amber-500/50 scale-105" : "bg-slate-900 text-amber-400 border border-amber-600/30 hover:bg-amber-500 hover:text-black hover:shadow-amber-500/30 hover:scale-105"}`,
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$1_$40$babel$2b$core$40$7$2e$28$2e$5_babel$2d$plugin$2d$react$2d$compiler$40$1$2e$0$2e$0_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                            className: "text-2xl",
+                                            children: g.icon
+                                        }, void 0, false, {
+                                            fileName: "[project]/src/app/top-categories/page.tsx",
+                                            lineNumber: 399,
+                                            columnNumber: 412
+                                        }, this),
+                                        g.label
+                                    ]
+                                }, g.id, true, {
+                                    fileName: "[project]/src/app/top-categories/page.tsx",
+                                    lineNumber: 397,
+                                    columnNumber: 54
+                                }, this)
+                        }["TopCategoriesPage[(anonymous)()]"])
                     }, void 0, false, {
                         fileName: "[project]/src/app/top-categories/page.tsx",
-                        lineNumber: 363,
-                        columnNumber: 62
+                        lineNumber: 396,
+                        columnNumber: 102
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/app/top-categories/page.tsx",
-                lineNumber: 363,
+                lineNumber: 396,
+                columnNumber: 13
+            }, this);
+            $[50] = selectedGender;
+            $[51] = t21;
+        } else {
+            t21 = $[51];
+        }
+        let t22;
+        if ($[52] !== categories || $[53] !== selectedCategory) {
+            t22 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$1_$40$babel$2b$core$40$7$2e$28$2e$5_babel$2d$plugin$2d$react$2d$compiler$40$1$2e$0$2e$0_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "relative",
+                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$1_$40$babel$2b$core$40$7$2e$28$2e$5_babel$2d$plugin$2d$react$2d$compiler$40$1$2e$0$2e$0_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    className: "flex gap-6 overflow-x-auto p-4 scrollbar-hide",
+                    children: categories.map({
+                        "TopCategoriesPage[categories.map()]": (cat, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$1_$40$babel$2b$core$40$7$2e$28$2e$5_babel$2d$plugin$2d$react$2d$compiler$40$1$2e$0$2e$0_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                onClick: {
+                                    "TopCategoriesPage[categories.map() > <div>.onClick]": ()=>handleCategoryChange(cat.id)
+                                }["TopCategoriesPage[categories.map() > <div>.onClick]"],
+                                className: "flex-shrink-0 cursor-pointer group animate-slideInLeft",
+                                style: {
+                                    animationDelay: `${index * 100}ms`
+                                },
+                                children: [
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$1_$40$babel$2b$core$40$7$2e$28$2e$5_babel$2d$plugin$2d$react$2d$compiler$40$1$2e$0$2e$0_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: `w-30 h-30 rounded-full overflow-hidden border-2 transition-all duration-500 ${selectedCategory === cat.id ? "border-amber-500 shadow-2xl shadow-amber-500/50 scale-105" : "border-amber-600/30 hover:border-amber-500 hover:shadow-xl hover:shadow-amber-500/30"}`,
+                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$1_$40$babel$2b$core$40$7$2e$28$2e$5_babel$2d$plugin$2d$react$2d$compiler$40$1$2e$0$2e$0_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
+                                            src: cat.image || "/placeholder.svg",
+                                            alt: cat.name,
+                                            className: "w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                                        }, void 0, false, {
+                                            fileName: "[project]/src/app/top-categories/page.tsx",
+                                            lineNumber: 413,
+                                            columnNumber: 293
+                                        }, this)
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/app/top-categories/page.tsx",
+                                        lineNumber: 413,
+                                        columnNumber: 16
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$1_$40$babel$2b$core$40$7$2e$28$2e$5_babel$2d$plugin$2d$react$2d$compiler$40$1$2e$0$2e$0_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                        className: "text-center text-white mt-4 text-sm font-semibold group-hover:text-amber-400 transition-colors",
+                                        children: cat.name
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/app/top-categories/page.tsx",
+                                        lineNumber: 413,
+                                        columnNumber: 454
+                                    }, this)
+                                ]
+                            }, cat.id, true, {
+                                fileName: "[project]/src/app/top-categories/page.tsx",
+                                lineNumber: 409,
+                                columnNumber: 68
+                            }, this)
+                    }["TopCategoriesPage[categories.map()]"])
+                }, void 0, false, {
+                    fileName: "[project]/src/app/top-categories/page.tsx",
+                    lineNumber: 408,
+                    columnNumber: 39
+                }, this)
+            }, void 0, false, {
+                fileName: "[project]/src/app/top-categories/page.tsx",
+                lineNumber: 408,
+                columnNumber: 13
+            }, this);
+            $[52] = categories;
+            $[53] = selectedCategory;
+            $[54] = t22;
+        } else {
+            t22 = $[54];
+        }
+        if ($[55] !== t21 || $[56] !== t22) {
+            t7 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$1_$40$babel$2b$core$40$7$2e$28$2e$5_babel$2d$plugin$2d$react$2d$compiler$40$1$2e$0$2e$0_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "max-w-7xl mx-auto px-4 pt-8",
+                children: [
+                    t21,
+                    t22
+                ]
+            }, void 0, true, {
+                fileName: "[project]/src/app/top-categories/page.tsx",
+                lineNumber: 422,
                 columnNumber: 12
             }, this);
-            $[44] = selectedCategory;
-            $[45] = t7;
+            $[55] = t21;
+            $[56] = t22;
+            $[57] = t7;
         } else {
-            t7 = $[45];
+            t7 = $[57];
         }
-        t4 = "mx-auto px-4 py-8";
+        t4 = "mx-auto px-4 pb-8";
         t2 = "flex gap-8 p-10";
         t3 = currentSubcategories.length > 0 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$1_$40$babel$2b$core$40$7$2e$28$2e$5_babel$2d$plugin$2d$react$2d$compiler$40$1$2e$0$2e$0_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: "w-64  animate-slideInLeft",
@@ -2810,14 +3104,14 @@ function TopCategoriesPage() {
                                 className: "w-1 h-6 bg-amber-500 rounded-full"
                             }, void 0, false, {
                                 fileName: "[project]/src/app/top-categories/page.tsx",
-                                lineNumber: 377,
+                                lineNumber: 431,
                                 columnNumber: 374
                             }, this),
                             "Subcategories"
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/app/top-categories/page.tsx",
-                        lineNumber: 377,
+                        lineNumber: 431,
                         columnNumber: 284
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$1_$40$babel$2b$core$40$7$2e$28$2e$5_babel$2d$plugin$2d$react$2d$compiler$40$1$2e$0$2e$0_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2833,14 +3127,14 @@ function TopCategoriesPage() {
                                         className: `w-2 h-2 rounded-full transition-all ${selectedSubcategory === null ? "bg-amber-500" : "bg-gray-600 group-hover:bg-amber-400"}`
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/top-categories/page.tsx",
-                                        lineNumber: 379,
+                                        lineNumber: 433,
                                         columnNumber: 411
                                     }, this),
                                     "All Subcategories"
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/app/top-categories/page.tsx",
-                                lineNumber: 377,
+                                lineNumber: 431,
                                 columnNumber: 473
                             }, this),
                             currentSubcategories.map({
@@ -2857,21 +3151,21 @@ function TopCategoriesPage() {
                                                 className: `w-2 h-2 rounded-full transition-all ${selectedSubcategory === subcat_0 ? "bg-amber-500" : "bg-gray-600 group-hover:bg-amber-400"}`
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/top-categories/page.tsx",
-                                                lineNumber: 384,
+                                                lineNumber: 438,
                                                 columnNumber: 16
                                             }, this),
                                             subcat_0
                                         ]
                                     }, subcat_0, true, {
                                         fileName: "[project]/src/app/top-categories/page.tsx",
-                                        lineNumber: 380,
+                                        lineNumber: 434,
                                         columnNumber: 85
                                     }, this)
                             }["TopCategoriesPage[currentSubcategories.map()]"])
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/app/top-categories/page.tsx",
-                        lineNumber: 377,
+                        lineNumber: 431,
                         columnNumber: 446
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$1_$40$babel$2b$core$40$7$2e$28$2e$5_babel$2d$plugin$2d$react$2d$compiler$40$1$2e$0$2e$0_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2882,7 +3176,7 @@ function TopCategoriesPage() {
                                 children: "Product Count"
                             }, void 0, false, {
                                 fileName: "[project]/src/app/top-categories/page.tsx",
-                                lineNumber: 385,
+                                lineNumber: 439,
                                 columnNumber: 125
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$1_$40$babel$2b$core$40$7$2e$28$2e$5_babel$2d$plugin$2d$react$2d$compiler$40$1$2e$0$2e$0_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2893,7 +3187,7 @@ function TopCategoriesPage() {
                                         children: filteredProducts.length
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/top-categories/page.tsx",
-                                        lineNumber: 385,
+                                        lineNumber: 439,
                                         columnNumber: 309
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$1_$40$babel$2b$core$40$7$2e$28$2e$5_babel$2d$plugin$2d$react$2d$compiler$40$1$2e$0$2e$0_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2901,240 +3195,120 @@ function TopCategoriesPage() {
                                         children: "items available"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/top-categories/page.tsx",
-                                        lineNumber: 385,
+                                        lineNumber: 439,
                                         columnNumber: 387
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/app/top-categories/page.tsx",
-                                lineNumber: 385,
+                                lineNumber: 439,
                                 columnNumber: 222
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/app/top-categories/page.tsx",
-                        lineNumber: 385,
+                        lineNumber: 439,
                         columnNumber: 69
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/app/top-categories/page.tsx",
-                lineNumber: 377,
+                lineNumber: 431,
                 columnNumber: 88
             }, this)
         }, void 0, false, {
             fileName: "[project]/src/app/top-categories/page.tsx",
-            lineNumber: 377,
+            lineNumber: 431,
             columnNumber: 45
         }, this);
-        $[3] = currentPage;
-        $[4] = layout;
-        $[5] = selectedCategory;
-        $[6] = selectedSubcategory;
-        $[7] = wishlist;
-        $[8] = filteredProducts;
-        $[9] = handleNextPage;
-        $[10] = handlePreviousPage;
-        $[11] = paginatedProducts;
-        $[12] = renderLayout;
-        $[13] = t2;
-        $[14] = t3;
-        $[15] = t4;
-        $[16] = t5;
-        $[17] = t6;
-        $[18] = t7;
-        $[19] = t8;
-        $[20] = t9;
-        $[21] = totalPages;
+        $[4] = categories;
+        $[5] = currentPage;
+        $[6] = layout;
+        $[7] = selectedCategory;
+        $[8] = selectedGender;
+        $[9] = selectedSubcategory;
+        $[10] = wishlist;
+        $[11] = filteredProducts;
+        $[12] = handleNextPage;
+        $[13] = handlePreviousPage;
+        $[14] = paginatedProducts;
+        $[15] = renderLayout;
+        $[16] = t2;
+        $[17] = t3;
+        $[18] = t4;
+        $[19] = t5;
+        $[20] = t6;
+        $[21] = t7;
+        $[22] = t8;
+        $[23] = t9;
+        $[24] = totalPages;
     } else {
-        filteredProducts = $[8];
-        handleNextPage = $[9];
-        handlePreviousPage = $[10];
-        paginatedProducts = $[11];
-        renderLayout = $[12];
-        t2 = $[13];
-        t3 = $[14];
-        t4 = $[15];
-        t5 = $[16];
-        t6 = $[17];
-        t7 = $[18];
-        t8 = $[19];
-        t9 = $[20];
-        totalPages = $[21];
+        filteredProducts = $[11];
+        handleNextPage = $[12];
+        handlePreviousPage = $[13];
+        paginatedProducts = $[14];
+        renderLayout = $[15];
+        t2 = $[16];
+        t3 = $[17];
+        t4 = $[18];
+        t5 = $[19];
+        t6 = $[20];
+        t7 = $[21];
+        t8 = $[22];
+        t9 = $[23];
+        totalPages = $[24];
     }
     let t10;
-    if ($[46] !== paginatedProducts.length) {
-        t10 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$1_$40$babel$2b$core$40$7$2e$28$2e$5_babel$2d$plugin$2d$react$2d$compiler$40$1$2e$0$2e$0_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-            className: "text-amber-400 font-bold",
-            children: paginatedProducts.length
-        }, void 0, false, {
-            fileName: "[project]/src/app/top-categories/page.tsx",
-            lineNumber: 423,
-            columnNumber: 11
-        }, this);
-        $[46] = paginatedProducts.length;
-        $[47] = t10;
-    } else {
-        t10 = $[47];
-    }
-    let t11;
-    if ($[48] !== filteredProducts.length) {
-        t11 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$1_$40$babel$2b$core$40$7$2e$28$2e$5_babel$2d$plugin$2d$react$2d$compiler$40$1$2e$0$2e$0_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-            className: "text-amber-400 font-bold",
-            children: filteredProducts.length
-        }, void 0, false, {
-            fileName: "[project]/src/app/top-categories/page.tsx",
-            lineNumber: 431,
-            columnNumber: 11
-        }, this);
-        $[48] = filteredProducts.length;
-        $[49] = t11;
-    } else {
-        t11 = $[49];
-    }
-    let t12;
-    if ($[50] !== t10 || $[51] !== t11) {
-        t12 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$1_$40$babel$2b$core$40$7$2e$28$2e$5_babel$2d$plugin$2d$react$2d$compiler$40$1$2e$0$2e$0_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "text-gray-400 animate-fadeInLeft",
-            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$1_$40$babel$2b$core$40$7$2e$28$2e$5_babel$2d$plugin$2d$react$2d$compiler$40$1$2e$0$2e$0_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                className: "text-sm",
-                children: [
-                    "Showing",
-                    " ",
-                    t10,
-                    " ",
-                    "of",
-                    " ",
-                    t11,
-                    " ",
-                    "results"
-                ]
-            }, void 0, true, {
-                fileName: "[project]/src/app/top-categories/page.tsx",
-                lineNumber: 439,
-                columnNumber: 61
-            }, this)
-        }, void 0, false, {
-            fileName: "[project]/src/app/top-categories/page.tsx",
-            lineNumber: 439,
-            columnNumber: 11
-        }, this);
-        $[50] = t10;
-        $[51] = t11;
-        $[52] = t12;
-    } else {
-        t12 = $[52];
-    }
-    let t13;
-    if ($[53] !== layout) {
-        t13 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$1_$40$babel$2b$core$40$7$2e$28$2e$5_babel$2d$plugin$2d$react$2d$compiler$40$1$2e$0$2e$0_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "w-full  animate-fadeInRight",
-            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$1_$40$babel$2b$core$40$7$2e$28$2e$5_babel$2d$plugin$2d$react$2d$compiler$40$1$2e$0$2e$0_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$layout$2d$toggle$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                activeLayout: layout,
-                onLayoutChange: setLayout
+    if ($[58] !== filteredProducts.length || $[59] !== layout || $[60] !== paginatedProducts.length) {
+        t10 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$1_$40$babel$2b$core$40$7$2e$28$2e$5_babel$2d$plugin$2d$react$2d$compiler$40$1$2e$0$2e$0_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: "flex flex-col md:flex-row justify-between items-start md:items-center gap-6 mb-8",
+            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$1_$40$babel$2b$core$40$7$2e$28$2e$5_babel$2d$plugin$2d$react$2d$compiler$40$1$2e$0$2e$0_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "w-full  animate-fadeInRight",
+                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$1_$40$babel$2b$core$40$7$2e$28$2e$5_babel$2d$plugin$2d$react$2d$compiler$40$1$2e$0$2e$0_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$layout$2d$toggle$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                    activeLayout: layout,
+                    onLayoutChange: setLayout,
+                    paginated: paginatedProducts.length,
+                    filtered: filteredProducts.length
+                }, void 0, false, {
+                    fileName: "[project]/src/app/top-categories/page.tsx",
+                    lineNumber: 479,
+                    columnNumber: 154
+                }, this)
             }, void 0, false, {
                 fileName: "[project]/src/app/top-categories/page.tsx",
-                lineNumber: 448,
-                columnNumber: 56
+                lineNumber: 479,
+                columnNumber: 109
             }, this)
         }, void 0, false, {
             fileName: "[project]/src/app/top-categories/page.tsx",
-            lineNumber: 448,
+            lineNumber: 479,
             columnNumber: 11
         }, this);
-        $[53] = layout;
-        $[54] = t13;
+        $[58] = filteredProducts.length;
+        $[59] = layout;
+        $[60] = paginatedProducts.length;
+        $[61] = t10;
     } else {
-        t13 = $[54];
+        t10 = $[61];
     }
-    let t14;
-    if ($[55] === Symbol.for("react.memo_cache_sentinel")) {
-        t14 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$1_$40$babel$2b$core$40$7$2e$28$2e$5_babel$2d$plugin$2d$react$2d$compiler$40$1$2e$0$2e$0_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("select", {
-            className: "bg-slate-900 border border-amber-600/30 text-white rounded-lg px-4 py-3 focus:outline-none focus:border-amber-500 focus:shadow-lg focus:shadow-amber-500/50 transition-all duration-300 animate-fadeInRight",
-            children: [
-                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$1_$40$babel$2b$core$40$7$2e$28$2e$5_babel$2d$plugin$2d$react$2d$compiler$40$1$2e$0$2e$0_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
-                    children: "Default Sort"
-                }, void 0, false, {
-                    fileName: "[project]/src/app/top-categories/page.tsx",
-                    lineNumber: 456,
-                    columnNumber: 235
-                }, this),
-                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$1_$40$babel$2b$core$40$7$2e$28$2e$5_babel$2d$plugin$2d$react$2d$compiler$40$1$2e$0$2e$0_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
-                    children: "Price: Low to High"
-                }, void 0, false, {
-                    fileName: "[project]/src/app/top-categories/page.tsx",
-                    lineNumber: 456,
-                    columnNumber: 264
-                }, this),
-                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$1_$40$babel$2b$core$40$7$2e$28$2e$5_babel$2d$plugin$2d$react$2d$compiler$40$1$2e$0$2e$0_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
-                    children: "Price: High to Low"
-                }, void 0, false, {
-                    fileName: "[project]/src/app/top-categories/page.tsx",
-                    lineNumber: 456,
-                    columnNumber: 299
-                }, this),
-                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$1_$40$babel$2b$core$40$7$2e$28$2e$5_babel$2d$plugin$2d$react$2d$compiler$40$1$2e$0$2e$0_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
-                    children: "Newest"
-                }, void 0, false, {
-                    fileName: "[project]/src/app/top-categories/page.tsx",
-                    lineNumber: 456,
-                    columnNumber: 334
-                }, this),
-                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$1_$40$babel$2b$core$40$7$2e$28$2e$5_babel$2d$plugin$2d$react$2d$compiler$40$1$2e$0$2e$0_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
-                    children: "Best Rated"
-                }, void 0, false, {
-                    fileName: "[project]/src/app/top-categories/page.tsx",
-                    lineNumber: 456,
-                    columnNumber: 357
-                }, this)
-            ]
-        }, void 0, true, {
-            fileName: "[project]/src/app/top-categories/page.tsx",
-            lineNumber: 456,
-            columnNumber: 11
-        }, this);
-        $[55] = t14;
-    } else {
-        t14 = $[55];
-    }
-    let t15;
-    if ($[56] !== t12 || $[57] !== t13) {
-        t15 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$1_$40$babel$2b$core$40$7$2e$28$2e$5_babel$2d$plugin$2d$react$2d$compiler$40$1$2e$0$2e$0_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "flex flex-col md:flex-row justify-between items-start md:items-center gap-6 mb-8",
-            children: [
-                t12,
-                t13,
-                t14
-            ]
-        }, void 0, true, {
-            fileName: "[project]/src/app/top-categories/page.tsx",
-            lineNumber: 463,
-            columnNumber: 11
-        }, this);
-        $[56] = t12;
-        $[57] = t13;
-        $[58] = t15;
-    } else {
-        t15 = $[58];
-    }
-    let t16;
-    if ($[59] !== renderLayout) {
-        t16 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$1_$40$babel$2b$core$40$7$2e$28$2e$5_babel$2d$plugin$2d$react$2d$compiler$40$1$2e$0$2e$0_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+    let t11;
+    if ($[62] !== renderLayout) {
+        t11 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$1_$40$babel$2b$core$40$7$2e$28$2e$5_babel$2d$plugin$2d$react$2d$compiler$40$1$2e$0$2e$0_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: "animate-fadeInUp",
             children: renderLayout()
         }, void 0, false, {
             fileName: "[project]/src/app/top-categories/page.tsx",
-            lineNumber: 472,
+            lineNumber: 489,
             columnNumber: 11
         }, this);
-        $[59] = renderLayout;
-        $[60] = t16;
+        $[62] = renderLayout;
+        $[63] = t11;
     } else {
-        t16 = $[60];
+        t11 = $[63];
     }
-    let t17;
-    if ($[61] !== currentPage || $[62] !== handleNextPage || $[63] !== handlePreviousPage || $[64] !== totalPages) {
-        t17 = totalPages > 1 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$1_$40$babel$2b$core$40$7$2e$28$2e$5_babel$2d$plugin$2d$react$2d$compiler$40$1$2e$0$2e$0_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+    let t12;
+    if ($[64] !== currentPage || $[65] !== handleNextPage || $[66] !== handlePreviousPage || $[67] !== totalPages) {
+        t12 = totalPages > 1 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$1_$40$babel$2b$core$40$7$2e$28$2e$5_babel$2d$plugin$2d$react$2d$compiler$40$1$2e$0$2e$0_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: "flex justify-center items-center gap-3 mt-12 animate-fadeInUp",
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$1_$40$babel$2b$core$40$7$2e$28$2e$5_babel$2d$plugin$2d$react$2d$compiler$40$1$2e$0$2e$0_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -3144,7 +3318,7 @@ function TopCategoriesPage() {
                     children: "←"
                 }, void 0, false, {
                     fileName: "[project]/src/app/top-categories/page.tsx",
-                    lineNumber: 480,
+                    lineNumber: 497,
                     columnNumber: 108
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$1_$40$babel$2b$core$40$7$2e$28$2e$5_babel$2d$plugin$2d$react$2d$compiler$40$1$2e$0$2e$0_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3166,13 +3340,13 @@ function TopCategoriesPage() {
                                 children: page
                             }, page, false, {
                                 fileName: "[project]/src/app/top-categories/page.tsx",
-                                lineNumber: 483,
+                                lineNumber: 500,
                                 columnNumber: 55
                             }, this)
                     }["TopCategoriesPage[(anonymous)()]"])
                 }, void 0, false, {
                     fileName: "[project]/src/app/top-categories/page.tsx",
-                    lineNumber: 480,
+                    lineNumber: 497,
                     columnNumber: 556
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$1_$40$babel$2b$core$40$7$2e$28$2e$5_babel$2d$plugin$2d$react$2d$compiler$40$1$2e$0$2e$0_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -3182,151 +3356,137 @@ function TopCategoriesPage() {
                     children: "→"
                 }, void 0, false, {
                     fileName: "[project]/src/app/top-categories/page.tsx",
-                    lineNumber: 492,
+                    lineNumber: 509,
                     columnNumber: 54
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/src/app/top-categories/page.tsx",
-            lineNumber: 480,
+            lineNumber: 497,
             columnNumber: 29
         }, this);
-        $[61] = currentPage;
-        $[62] = handleNextPage;
-        $[63] = handlePreviousPage;
-        $[64] = totalPages;
-        $[65] = t17;
+        $[64] = currentPage;
+        $[65] = handleNextPage;
+        $[66] = handlePreviousPage;
+        $[67] = totalPages;
+        $[68] = t12;
     } else {
-        t17 = $[65];
+        t12 = $[68];
     }
-    let t18;
-    if ($[66] !== t15 || $[67] !== t16 || $[68] !== t17) {
-        t18 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$1_$40$babel$2b$core$40$7$2e$28$2e$5_babel$2d$plugin$2d$react$2d$compiler$40$1$2e$0$2e$0_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+    let t13;
+    if ($[69] !== t10 || $[70] !== t11 || $[71] !== t12) {
+        t13 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$1_$40$babel$2b$core$40$7$2e$28$2e$5_babel$2d$plugin$2d$react$2d$compiler$40$1$2e$0$2e$0_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: "flex-1 animate-fadeInRight",
             children: [
-                t15,
-                t16,
-                t17
-            ]
-        }, void 0, true, {
-            fileName: "[project]/src/app/top-categories/page.tsx",
-            lineNumber: 503,
-            columnNumber: 11
-        }, this);
-        $[66] = t15;
-        $[67] = t16;
-        $[68] = t17;
-        $[69] = t18;
-    } else {
-        t18 = $[69];
-    }
-    let t19;
-    if ($[70] === Symbol.for("react.memo_cache_sentinel")) {
-        t19 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$1_$40$babel$2b$core$40$7$2e$28$2e$5_babel$2d$plugin$2d$react$2d$compiler$40$1$2e$0$2e$0_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "w-64"
-        }, void 0, false, {
-            fileName: "[project]/src/app/top-categories/page.tsx",
-            lineNumber: 513,
-            columnNumber: 11
-        }, this);
-        $[70] = t19;
-    } else {
-        t19 = $[70];
-    }
-    let t20;
-    if ($[71] !== t18 || $[72] !== t2 || $[73] !== t3) {
-        t20 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$1_$40$babel$2b$core$40$7$2e$28$2e$5_babel$2d$plugin$2d$react$2d$compiler$40$1$2e$0$2e$0_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: t2,
-            children: [
-                t3,
-                t18,
-                t19
+                t10,
+                t11,
+                t12
             ]
         }, void 0, true, {
             fileName: "[project]/src/app/top-categories/page.tsx",
             lineNumber: 520,
             columnNumber: 11
         }, this);
-        $[71] = t18;
-        $[72] = t2;
-        $[73] = t3;
-        $[74] = t20;
+        $[69] = t10;
+        $[70] = t11;
+        $[71] = t12;
+        $[72] = t13;
     } else {
-        t20 = $[74];
+        t13 = $[72];
     }
-    let t21;
-    if ($[75] !== t20 || $[76] !== t4) {
-        t21 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$1_$40$babel$2b$core$40$7$2e$28$2e$5_babel$2d$plugin$2d$react$2d$compiler$40$1$2e$0$2e$0_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: t4,
-            children: t20
-        }, void 0, false, {
+    let t14;
+    if ($[73] !== t13 || $[74] !== t2 || $[75] !== t3) {
+        t14 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$1_$40$babel$2b$core$40$7$2e$28$2e$5_babel$2d$plugin$2d$react$2d$compiler$40$1$2e$0$2e$0_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: t2,
+            children: [
+                t3,
+                t13
+            ]
+        }, void 0, true, {
             fileName: "[project]/src/app/top-categories/page.tsx",
             lineNumber: 530,
             columnNumber: 11
         }, this);
-        $[75] = t20;
-        $[76] = t4;
-        $[77] = t21;
+        $[73] = t13;
+        $[74] = t2;
+        $[75] = t3;
+        $[76] = t14;
     } else {
-        t21 = $[77];
+        t14 = $[76];
     }
-    let t22;
-    if ($[78] !== t21 || $[79] !== t5 || $[80] !== t6 || $[81] !== t7) {
-        t22 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$1_$40$babel$2b$core$40$7$2e$28$2e$5_babel$2d$plugin$2d$react$2d$compiler$40$1$2e$0$2e$0_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("main", {
+    let t15;
+    if ($[77] !== t14 || $[78] !== t4) {
+        t15 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$1_$40$babel$2b$core$40$7$2e$28$2e$5_babel$2d$plugin$2d$react$2d$compiler$40$1$2e$0$2e$0_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: t4,
+            children: t14
+        }, void 0, false, {
+            fileName: "[project]/src/app/top-categories/page.tsx",
+            lineNumber: 540,
+            columnNumber: 11
+        }, this);
+        $[77] = t14;
+        $[78] = t4;
+        $[79] = t15;
+    } else {
+        t15 = $[79];
+    }
+    let t16;
+    if ($[80] !== t15 || $[81] !== t5 || $[82] !== t6 || $[83] !== t7) {
+        t16 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$1_$40$babel$2b$core$40$7$2e$28$2e$5_babel$2d$plugin$2d$react$2d$compiler$40$1$2e$0$2e$0_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("main", {
             className: t5,
             children: [
                 t6,
                 t7,
-                t21
+                t15
             ]
         }, void 0, true, {
             fileName: "[project]/src/app/top-categories/page.tsx",
-            lineNumber: 539,
+            lineNumber: 549,
             columnNumber: 11
         }, this);
-        $[78] = t21;
-        $[79] = t5;
-        $[80] = t6;
-        $[81] = t7;
-        $[82] = t22;
+        $[80] = t15;
+        $[81] = t5;
+        $[82] = t6;
+        $[83] = t7;
+        $[84] = t16;
     } else {
-        t22 = $[82];
+        t16 = $[84];
     }
-    let t23;
-    if ($[83] === Symbol.for("react.memo_cache_sentinel")) {
-        t23 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$1_$40$babel$2b$core$40$7$2e$28$2e$5_babel$2d$plugin$2d$react$2d$compiler$40$1$2e$0$2e$0_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$footer$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
+    let t17;
+    if ($[85] === Symbol.for("react.memo_cache_sentinel")) {
+        t17 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$1_$40$babel$2b$core$40$7$2e$28$2e$5_babel$2d$plugin$2d$react$2d$compiler$40$1$2e$0$2e$0_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$footer$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
             fileName: "[project]/src/app/top-categories/page.tsx",
-            lineNumber: 550,
+            lineNumber: 560,
             columnNumber: 11
         }, this);
-        $[83] = t23;
+        $[85] = t17;
     } else {
-        t23 = $[83];
+        t17 = $[85];
     }
-    let t24;
-    if ($[84] !== t22 || $[85] !== t8 || $[86] !== t9) {
-        t24 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$1_$40$babel$2b$core$40$7$2e$28$2e$5_babel$2d$plugin$2d$react$2d$compiler$40$1$2e$0$2e$0_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+    let t18;
+    if ($[86] !== t16 || $[87] !== t8 || $[88] !== t9) {
+        t18 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$1_$40$babel$2b$core$40$7$2e$28$2e$5_babel$2d$plugin$2d$react$2d$compiler$40$1$2e$0$2e$0_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: t8,
             children: [
                 t9,
-                t22,
-                t23
+                t16,
+                t17
             ]
         }, void 0, true, {
             fileName: "[project]/src/app/top-categories/page.tsx",
-            lineNumber: 557,
+            lineNumber: 567,
             columnNumber: 11
         }, this);
-        $[84] = t22;
-        $[85] = t8;
-        $[86] = t9;
-        $[87] = t24;
+        $[86] = t16;
+        $[87] = t8;
+        $[88] = t9;
+        $[89] = t18;
     } else {
-        t24 = $[87];
+        t18 = $[89];
     }
-    return t24;
+    return t18;
 }
-_s(TopCategoriesPage, "EjYjjVfKke8AGhMLU2j6gcaKiYs=");
+_s(TopCategoriesPage, "DvgvgJB3evx335fefFIfvd2RTVE=");
 _c = TopCategoriesPage;
 function _TopCategoriesPageArrayFrom(_, i) {
     return i + 1;

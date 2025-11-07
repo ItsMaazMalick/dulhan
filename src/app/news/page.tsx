@@ -4,6 +4,7 @@ import { useState } from "react";
 import Navbar from "@/components/navbar";
 import Footer from "@/components/footer";
 import { Calendar, User, ArrowRight, Search } from "lucide-react";
+import TopBanner from "@/components/top-banner";
 
 interface BlogPost {
   id: number;
@@ -130,20 +131,12 @@ export default function NewsPage() {
 
   return (
     <div className="min-h-screen bg-black flex flex-col">
-      <Navbar />
-
       {/* Hero Section */}
-      <div className="relative py-20 px-4 border-b border-amber-700/30">
-        <div className="max-w-7xl mx-auto text-center">
-          <h1 className="text-5xl md:text-6xl font-bold text-white mb-4 animate-fadeInUp">
-            Wedding Insights
-          </h1>
-          <p className="text-gray-400 text-lg animate-fadeInUp delay-100">
-            Stay updated with the latest trends, tips, and stories from the
-            world of bridal fashion
-          </p>
-        </div>
-      </div>
+      <TopBanner
+        title="Wedding Insights"
+        description="Stay updated with the latest trends, tips, and stories from the
+            world of bridal fashion"
+      />
 
       <div className="flex-1 max-w-7xl w-full mx-auto px-4 py-12">
         {/* Search and Filters */}
@@ -423,8 +416,6 @@ export default function NewsPage() {
           </div>
         </div>
       )}
-
-      <Footer />
     </div>
   );
 }

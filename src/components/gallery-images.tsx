@@ -37,7 +37,7 @@ const InstaIcon = () => (
 );
 
 export default function ImageGallerySection() {
-  const [hoveredIndex, setHoveredIndex] = useState(null);
+  const [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
 
   const images = [
     {
@@ -94,7 +94,7 @@ export default function ImageGallerySection() {
             return (
               <div
                 key={index}
-                // onMouseEnter={() => setHoveredIndex(index)}
+                onMouseEnter={() => setHoveredIndex(index)}
                 onMouseLeave={() => setHoveredIndex(null)}
                 className={`
                   relative overflow-hidden transition-all duration-500 cursor-pointer

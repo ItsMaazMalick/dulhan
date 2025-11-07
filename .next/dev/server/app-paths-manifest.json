@@ -1,4 +1,10 @@
 {
   "/_not-found/page": "app/_not-found/page.js",
-  "/top-categories/page": "app/top-categories/page.js"
+  "/about/page": "app/about/page.js",
+  "/contact/page": "app/contact/page.js",
+  "/custom-orders/page": "app/custom-orders/page.js",
+  "/gallery/page": "app/gallery/page.js",
+  "/news/page": "app/news/page.js",
+  "/page": "app/page.js",
+  "/products/page": "app/products/page.js"
 }

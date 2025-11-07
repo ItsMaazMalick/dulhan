@@ -156,6 +156,7 @@
 
 import { useState, useEffect } from "react";
 import CarouselSlide from "./carousel-slide";
+import SocialLinks from "./social-links";
 import NavigationIndicators from "./navigation-indicators";
 
 const slides = [
@@ -206,13 +207,15 @@ const slides = [
 export default function SplitCarousel() {
   const [currentIndex, setCurrentIndex] = useState(0); // this represents the LEFT panel index
   const [isAnimating, setIsAnimating] = useState(false);
-  const [animationPhase, setAnimationPhase] = useState(null);
+  const [animationPhase, setAnimationPhase] = useState<
+    "cover" | "reveal" | null
+  >(null);
 
   useEffect(() => {
-    // if (animationPhase === "cover") {
-    //   // const timer = setTimeout(() => setAnimationPhase("reveal"), 500);
-    //   return () => clearTimeout(timer);
-    // }
+    if (animationPhase === "cover") {
+      const timer = setTimeout(() => setAnimationPhase("reveal"), 500);
+      return () => clearTimeout(timer);
+    }
     if (animationPhase === "reveal") {
       const timer = setTimeout(() => {
         setAnimationPhase(null);
@@ -225,7 +228,7 @@ export default function SplitCarousel() {
   const nextSlide = () => {
     if (!isAnimating) {
       setIsAnimating(true);
-      // setAnimationPhase("cover");
+      setAnimationPhase("cover");
       setTimeout(() => {
         setCurrentIndex((prev) => (prev + 1) % slides.length);
       }, 500);
@@ -235,7 +238,7 @@ export default function SplitCarousel() {
   const prevSlide = () => {
     if (!isAnimating) {
       setIsAnimating(true);
-      // setAnimationPhase("cover");
+      setAnimationPhase("cover");
       setTimeout(() => {
         setCurrentIndex((prev) => (prev - 1 + slides.length) % slides.length);
       }, 500);

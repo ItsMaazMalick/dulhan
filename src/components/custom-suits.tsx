@@ -50,8 +50,8 @@ const products = [
 ];
 
 export default function CustomSuitsSection() {
-  const [activeHotspot, setActiveHotspot] = useState(null);
-  const [hoveredCard, setHoveredCard] = useState(null);
+  const [activeHotspot, setActiveHotspot] = useState<number | null>(null);
+  const [hoveredCard, setHoveredCard] = useState<number | null>(null);
 
   return (
     <section className="py-20 px-4 md:px-8 lg:px-16 bg-black">
@@ -89,7 +89,7 @@ export default function CustomSuitsSection() {
                   key={hotspot.id}
                   className="absolute"
                   style={{ left: `${hotspot.x}%`, top: `${hotspot.y}%` }}
-                  // onMouseEnter={() => setActiveHotspot(hotspot.id)}
+                  onMouseEnter={() => setActiveHotspot(hotspot.id)}
                   onMouseLeave={() => setActiveHotspot(null)}
                 >
                   {/* Dot */}
@@ -133,7 +133,7 @@ export default function CustomSuitsSection() {
               {products.map((product) => (
                 <div
                   key={product.id}
-                  // onMouseEnter={() => setHoveredCard(product.id)}
+                  onMouseEnter={() => setHoveredCard(product.id)}
                   onMouseLeave={() => setHoveredCard(null)}
                   className="transition-all duration-300"
                 >

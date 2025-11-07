@@ -52,8 +52,6 @@ export default function WishlistPage() {
 
   return (
     <div className="min-h-screen bg-black flex flex-col">
-      <Navbar />
-
       {/* Hero Section */}
       <section className="pt-32 pb-12 px-4 md:px-8 lg:px-16 bg-black">
         <div className="max-w-7xl mx-auto">
@@ -212,8 +210,6 @@ export default function WishlistPage() {
           )}
         </div>
       </section>
-
-      <Footer />
     </div>
   );
 }

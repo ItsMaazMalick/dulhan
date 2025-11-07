@@ -58,7 +58,7 @@ const allProducts = [
 
 export default function FilteredProducts() {
   const [activeFilter, setActiveFilter] = useState("all");
-  const [hoveredCard, setHoveredCard] = useState(null);
+  const [hoveredCard, setHoveredCard] = useState<number | null>(null);
 
   const filteredProducts =
     activeFilter === "all"
@@ -120,7 +120,7 @@ export default function FilteredProducts() {
           {filteredProducts.map((product) => (
             <div
               key={product.id}
-              // onMouseEnter={() => setHoveredCard(product.id)}
+              onMouseEnter={() => setHoveredCard(product.id)}
               onMouseLeave={() => setHoveredCard(null)}
               className="transition-all duration-400"
             >

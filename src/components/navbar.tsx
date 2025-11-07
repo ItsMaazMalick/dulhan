@@ -8,11 +8,12 @@ export default function Navbar() {
 
   const navLinks = {
     HOME: "/",
-    Products: "/products",
-    "Top Categories": "/top-category",
+    PRODUCTS: "/products",
     GALLERY: "/gallery",
     NEWS: "/news",
     CONTACT: "/contact",
+    ABOUT: "/about",
+    "CUSTOM ORDERS": "/custom-orders",
   } as const; // <--- important
 
   type NavKey = keyof typeof navLinks; // "HOME" | "Products" | ...

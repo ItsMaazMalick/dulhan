@@ -44,7 +44,7 @@ const features = [
 ];
 
 export default function BrandFeaturesSection() {
-  const [hoveredId, setHoveredId] = useState(null);
+  const [hoveredId, setHoveredId] = useState<number | null>(null);
 
   return (
     <section className="py-20 px-4 md:px-8 lg:px-16 bg-black">
@@ -72,7 +72,7 @@ export default function BrandFeaturesSection() {
             <div
               key={feature.id}
               className="relative group"
-              // onMouseEnter={() => setHoveredId(feature.id)}
+              onMouseEnter={() => setHoveredId(feature.id)}
               onMouseLeave={() => setHoveredId(null)}
             >
               {/* Background Image - Fades in on hover */}
