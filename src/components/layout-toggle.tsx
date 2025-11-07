@@ -22,14 +22,14 @@ export default function LayoutToggle({
   const layouts = [
     { id: "grid-2", label: "2x2 Grid", icon: Grid2X2 },
     { id: "grid-3", label: "3x3 Grid", icon: Grid3X3 },
-    { id: "grid-4", label: "4x4 Grid", icon: Rows },
+    // { id: "grid-4", label: "4x4 Grid", icon: Rows },
     { id: "list", label: "List View", icon: List },
     { id: "table", label: "Table View", icon: Table2 },
     { id: "compact", label: "Compact", icon: AlignLeft },
   ];
 
   return (
-    <div className="flex gap-2 flex-wrap bg-slate-900/50 border border-amber-600/30 rounded-lg p-4 backdrop-blur">
+    <div className="flex gap-4 flex-wrap bg-slate-900/50 border border-amber-600/30 rounded-lg p-4 backdrop-blur justify-center">
       {layouts.map((layout) => {
         const Icon = layout.icon;
         return (

@@ -272,24 +272,24 @@ export default function TopCategoriesPage() {
     <div className="min-h-screen bg-black">
       <Navbar />
 
-      <main className="pt-20 pb-20">
+      <main className="py-16">
         <div className="bg-gradient-to-r from-black via-slate-900 to-black border-b border-amber-600/30 py-12">
           <div className="max-w-7xl mx-auto px-4">
-            <h1 className="text-5xl font-serif text-white mb-2 animate-fadeInDown">
+            <h1 className="text-4xl font-serif text-white mb-2 animate-fadeInDown">
               Top Categories
             </h1>
-            <p className="text-amber-500 text-lg animate-fadeInUp">
+            <p className="text-amber-500 text-md animate-fadeInUp">
               Discover our exquisite bridal collection
             </p>
           </div>
         </div>
 
-        <div className="max-w-7xl mx-auto px-4 py-12">
-          <h2 className="text-2xl font-serif text-white mb-8 animate-fadeInDown">
-            Explore by Category
+        <div className="max-w-7xl mx-auto px-4 py-8">
+          <h2 className="text-2xl font-serif text-white mb-6 animate-fadeInDown">
+            Search by Category
           </h2>
           <div className="relative">
-            <div className="flex gap-6 overflow-x-auto pb-4 scrollbar-hide">
+            <div className="flex gap-6 overflow-x-auto p-4 scrollbar-hide">
               {categories.map((cat, index) => (
                 <div
                   key={cat.id}
@@ -298,7 +298,7 @@ export default function TopCategoriesPage() {
                   style={{ animationDelay: `${index * 100}ms` }}
                 >
                   <div
-                    className={`w-36 h-36 rounded-full overflow-hidden border-2 transition-all duration-500 ${
+                    className={`w-30 h-30 rounded-full overflow-hidden border-2 transition-all duration-500 ${
                       selectedCategory === cat.id
                         ? "border-amber-500 shadow-2xl shadow-amber-500/50 scale-105"
                         : "border-amber-600/30 hover:border-amber-500 hover:shadow-xl hover:shadow-amber-500/30"
@@ -406,7 +406,7 @@ export default function TopCategoriesPage() {
                   </p>
                 </div>
 
-                <div className="w-full md:w-auto animate-fadeInRight">
+                <div className="w-full  animate-fadeInRight">
                   <LayoutToggle
                     activeLayout={layout}
                     onLayoutChange={setLayout}
