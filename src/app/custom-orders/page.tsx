@@ -26,11 +26,11 @@ export default function GraphicDesigningPage() {
           {/* <Button className="bg-gradient-to-t from-purple-600 to-blue-500 w-fit ml-auto mt-10">
             Presision
           </Button> */}
-          <p className="text-6xl font-bold text-white">Innovative</p>
+          <p className="text-6xl font-bold text-white">Traditional</p>
           <p className="text-6xl font-bold text-white">
-            Graphic Design Solutions
+            Dulhan & Dulha Perfect Wear
           </p>
-          <p className="text-6xl font-bold text-purple-600">for Your Brand</p>
+          <p className="text-6xl font-bold text-purple-600">for Special Days</p>
           {/* <p className="text-white">
             Molestie a iaculis at erat pellentesque adipiscing commodo elit at.
             Ultricies tristique nulla aliquet enim tortor. Eu consequat ac felis

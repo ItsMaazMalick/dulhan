@@ -9,14 +9,14 @@ const features = [
     id: "01",
     title: "Concept & Planning",
     description:
-      "Define the purpose, theme, and style of the graphics based on requirements. ",
+      "Discuss your wedding style, color preferences, and dress ideas to create a personalized design plan. ",
     image: "/b1.png",
   },
   {
     id: "02",
     title: "Design & Creation",
     description:
-      "Develop visuals using industry-standard tools while ensuring creativity and precision.",
+      "We share progress for your feedback, refine every detail, and ensure the perfect bridal fit.",
     image: "/b2.png",
   },
   {
@@ -30,7 +30,7 @@ const features = [
     id: "04",
     title: "Finalization & Delivery",
     description:
-      "Optimize, export, and deliver high-quality graphics in the required formats.",
+      "Your final outfit is pressed, packed, and delivered — ready to make your wedding day special.",
     image: "/b22.png",
   },
 ];
@@ -41,10 +41,10 @@ export function UniqueWorkflow() {
   return (
     <section className="min-h-screen bg-black bg-[radial-gradient(white_1px,transparent_1px)] bg-[size:50px_50px] py-16">
       <div className="container text-end">
-        <p className="ml-auto text-white mb-2">Our Unique Workflow</p>
+        <p className="ml-auto text-white mb-2">Our Making Process</p>
         <p className="text-4xl font-bold text-white mb-10">
-          The Softex Graphics Team&nbsp;
-          <span className="text-purple-500">will elevate your visuals</span>
+          The Dhanpuri Team&nbsp;
+          <span className="text-purple-500">Crafts Your Dream Outfit</span>
         </p>
       </div>
       <div className="container mx-auto px-4">
@@ -54,7 +54,7 @@ export function UniqueWorkflow() {
             {features.map((feature) => (
               <div
                 key={feature.id}
-                className={`group cursor-pointer transition-all duration-300 ${
+                className={`group cursor-pointer transition-all duration-300 PKR{
                   activeFeature.id === feature.id ? "scale-105" : ""
                 }`}
                 onMouseEnter={() => setActiveFeature(feature)}
@@ -65,7 +65,7 @@ export function UniqueWorkflow() {
                   </span>
                   <div className="space-y-2">
                     <h3
-                      className={`text-2xl font-bold transition-colors duration-300 ${
+                      className={`text-2xl font-bold transition-colors duration-300 PKR{
                         activeFeature.id === feature.id
                           ? "text-purple-500"
                           : "text-white"
@@ -79,7 +79,7 @@ export function UniqueWorkflow() {
                   </div>
                 </div>
                 <div
-                  className={`h-0.5 bg-purple-500 scale-x-0 transition-transform duration-300 mt-4 ${
+                  className={`h-0.5 bg-purple-500 scale-x-0 transition-transform duration-300 mt-4 PKR{
                     activeFeature.id === feature.id ? "scale-x-100" : ""
                   }`}
                 />
@@ -92,7 +92,7 @@ export function UniqueWorkflow() {
             {features.map((feature) => (
               <div
                 key={feature.id}
-                className={`absolute inset-0 transition-opacity duration-500 rounded-lg ${
+                className={`absolute inset-0 transition-opacity duration-500 rounded-lg PKR{
                   activeFeature.id === feature.id ? "opacity-100" : "opacity-0"
                 }`}
               >

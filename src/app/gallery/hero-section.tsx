@@ -32,9 +32,9 @@ export function HeroSection() {
         >
           Transform Your{" "}
           <span className="text-amber-500 drop-shadow-[0_0_15px_rgba(245,158,11,0.8)]">
-            Vision
+            Dream
           </span>{" "}
-          into Digital Reality
+          into Beautiful Reality
         </motion.h1>
 
         <motion.p
@@ -44,11 +44,8 @@ export function HeroSection() {
           className="mt-6 text-slate-200 text-base md:text-lg leading-relaxed"
         >
           At{" "}
-          <span className="text-amber-400 font-semibold">Softex Solutions</span>
-          , we turn complex challenges into elegant digital solutions. Our
-          expert developers, designers, and strategists collaborate to craft
-          software that drives your business forward — with creativity,
-          precision, and performance.
+          <span className="text-amber-400 font-semibold">Dhanpuri</span>
+          ,we turn your wedding dreams into beautifully crafted outfits. Our skilled designers, artisans, and stylists work together to create attire that reflects elegance, culture, and perfection — tailored just for you.
         </motion.p>
 
         {/* === Call-to-Action Buttons === */}

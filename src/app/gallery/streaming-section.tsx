@@ -10,14 +10,14 @@ import { motion } from "framer-motion";
 const podcastItems = [
   {
     id: "1",
-    title: "Myths vs Reality, Being a Developer",
-    artist: "Yayoi Kusama",
+    title: "Bridal Trends 2025 — Myths vs Reality",
+    artist: "sick",
     image: "/b1.png",
   },
   {
     id: "2",
-    title: "MERN vs FLUTTER, The Ultimate Developer Showdown",
-    artist: "Andy Warhol",
+    title: "Modern vs Traditional — The Wedding Style Showdown",
+    artist: "sick",
     image: "/b2.png",
   },
 ];
@@ -52,10 +52,11 @@ export function StreamingSection() {
         >
           <div>
             <h2 className="text-4xl md:text-5xl font-extrabold">
-              Softex <span className="text-amber-500">Podcast</span>
+              Dhanpuri <span className="text-amber-500">Podcast</span>
             </h2>
             <p className="text-slate-300 mt-2">
-              Tune into the latest tech talks, insights, and developer stories.
+              Tune into the latest bridal trends, style inspirations, and
+              designer stories from the world of wedding fashion.
             </p>
           </div>
         </motion.div>

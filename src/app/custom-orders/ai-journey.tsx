@@ -18,9 +18,7 @@ export function AIJourney() {
                 <span className="text-white">Personalized AI</span> */}
               </h2>
               <p className="text-gray-400 max-w-xl">
-                At Softex Solutions, we combine creativity with strategy to
-                deliver high-quality, impactful designs that bring your vision
-                to life.
+                At Dhanpuri, we blend tradition with modern style to create high-quality bridal and groom wear that turns your dream outfit into reality.
               </p>
             </div>
 

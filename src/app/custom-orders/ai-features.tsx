@@ -7,18 +7,14 @@ export function AIFeatures() {
         {/* Header Section */}
         <div className="text-center mb-16">
           <div className="inline-block  text-white px-4 py-1 rounded-md mb-6">
-            Our Best Services
+            Our Fashion Expertise
           </div>
           <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
-            <span className="text-purple-500">Crafting Your Vision&nbsp;</span>
-            <span className="text-white">into Stunning Designs</span>
+            <span className="text-purple-500">Transforming Dream&nbsp;</span>
+            <span className="text-white">into Wedding Reality</span>
           </h2>
           <p className="text-gray-400 max-w-3xl mx-auto text-center">
-            Our graphic design services are crafted to enhance your brand’s
-            identity with creativity and precision. From eye-catching visuals to
-            seamless user experiences, we ensure designs that captivate and
-            engage. Let us bring your vision to life with innovative and
-            high-quality graphics.
+            Our custom bridal wear services are crafted to enhance your wedding style with elegance and detail. From stunning dulhan dresses to graceful groom attire, we ensure designs that captivate and inspire. Let us bring your dream outfit to life with expert tailoring and timeless craftsmanship.
           </p>
         </div>
 
@@ -26,9 +22,9 @@ export function AIFeatures() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           {[
             {
-              title: "Branding & Logo Design",
+              title: "Bridal & Groom Couture",
               description:
-                "We craft unique and memorable brand identities that reflect your vision and values. From logos to complete branding kits, our designs ensure a strong and lasting impression.",
+                "We craft elegant dulhan and dulha outfits that reflect your personal style and tradition. From mehndi to walima, our couture ensures you shine at every event.",
               icon: (
                 <svg
                   className="w-12 h-12 text-pink-400"
@@ -45,9 +41,9 @@ export function AIFeatures() {
               ),
             },
             {
-              title: "UI/UX Design",
+              title: "Custom Design & Stitching",
               description:
-                "Our team designs intuitive and engaging user interfaces for web and mobile applications. We focus on aesthetics, functionality, and seamless user experiences to enhance engagement.",
+                "Our team designs and tailors each outfit with care, blending premium fabrics, perfect fitting, and beautiful detailing to create your dream wedding look.",
               icon: (
                 <svg
                   className="w-12 h-12 text-pink-400"
@@ -62,9 +58,9 @@ export function AIFeatures() {
               ),
             },
             {
-              title: "Marketing & Social Media Graphics",
+              title: "Luxury Accessories & Embroidery",
               description:
-                "We create eye-catching visuals for advertisements, social media, and promotional materials. Our designs help you capture attention, communicate effectively, and boost your brand presence.",
+                "We offer handcrafted dupattas, jewelry accents, and detailed embroidery that add charm and sophistication to your bridal and groom ensembles.",
               icon: (
                 <svg
                   className="w-12 h-12 text-pink-400"
@@ -77,9 +73,9 @@ export function AIFeatures() {
               ),
             },
             {
-              title: "Remarkable AI Ideas",
+              title: "Made-to-Order Experience",
               description:
-                "Bring your ideas to life with dynamic animations and motion graphics. Whether it’s explainer videos, animated logos, or social media animations, we deliver captivating visual content.",
+                "Share your ideas, colors, and inspirations — we’ll bring them to life with our personalized consultation, expert craftsmanship, and on-time delivery.",
               icon: (
                 <svg
                   className="w-12 h-12 text-pink-400"

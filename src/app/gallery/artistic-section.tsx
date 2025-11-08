@@ -4,11 +4,11 @@ import { motion } from "framer-motion";
 
 export function ArtisticSection() {
   const features = [
-    "Custom Software Development",
-    "Mobile App Development",
-    "Web Application Development",
-    "Cloud Solutions & DevOps",
-    "UI/UX Design",
+    "Custom Bridal Design",
+    "Groom Wear Tailoring",
+    "Luxury Fabric Selection",
+    "Hand Embroidery & Detailing",
+    "Perfect Fitting & Finishing",
   ];
 
   return (
