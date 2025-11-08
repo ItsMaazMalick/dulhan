@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
+import { Heart, User2 } from "lucide-react";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -68,8 +69,18 @@ export default function Navbar() {
               </svg>
             </button>
 
+            {/* Wishlist */}
+            <Link
+              href="/wishlist"
+              className="text-white/70 hover:text-white transition-colors relative"
+              aria-label="Shopping bag"
+            >
+              <Heart />
+            </Link>
+
             {/* Shopping Bag Icon */}
-            <button
+            <Link
+              href="/cart"
               className="text-white/70 hover:text-white transition-colors relative"
               aria-label="Shopping bag"
             >
@@ -89,28 +100,16 @@ export default function Navbar() {
               <span className="absolute -top-2 -right-2 bg-white text-black text-xs w-5 h-5 rounded-full flex items-center justify-center font-bold">
                 0
               </span>
-            </button>
+            </Link>
 
-            {/* Grid Icon */}
-            <button
-              className="text-white/70 hover:text-white transition-colors hidden sm:block"
-              aria-label="Grid menu"
+            {/* User Icon */}
+            <Link
+              href="/auth"
+              className="text-white/70 hover:text-white transition-colors relative"
+              aria-label="Shopping bag"
             >
-              <svg
-                className="w-5 h-5"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth={2}
-                  d="M4 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2V6zM14 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2V6zM4 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2v-2zM14 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2v-2z"
-                />
-              </svg>
-            </button>
-
+              <User2 />
+            </Link>
             {/* Mobile Menu Toggle */}
             <button
               onClick={() => setIsOpen(!isOpen)}

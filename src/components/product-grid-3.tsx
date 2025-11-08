@@ -1,6 +1,7 @@
 "use client";
 
 import { Heart, Eye } from "lucide-react";
+import Link from "next/link";
 
 interface Product {
   id: number;
@@ -26,7 +27,8 @@ export default function ProductGrid3({
   return (
     <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-6">
       {products.map((product, index) => (
-        <div
+        <Link
+          href={`/products/${product.id}`}
           key={product.id}
           className="group bg-slate-900/50 border border-amber-600/30 rounded-xl overflow-hidden hover:border-amber-500/50 transition-all duration-500 hover:shadow-2xl hover:shadow-amber-500/20 animate-fadeInUp"
           style={{ animationDelay: `${index * 80}ms` }}
@@ -96,7 +98,7 @@ export default function ProductGrid3({
               </button>
             </div>
           </div>
-        </div>
+        </Link>
       ))}
     </div>
   );

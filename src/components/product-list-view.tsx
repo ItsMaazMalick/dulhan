@@ -1,6 +1,7 @@
 "use client";
 
 import { Heart, Eye, ShoppingCart } from "lucide-react";
+import Link from "next/link";
 
 interface Product {
   id: number;
@@ -26,7 +27,8 @@ export default function ProductListView({
   return (
     <div className="space-y-4">
       {products.map((product, index) => (
-        <div
+        <Link
+          href={`/products/${product.id}`}
           key={product.id}
           className="group flex gap-6 bg-gradient-to-r from-slate-900/50 to-black border border-amber-600/30 rounded-xl p-6 hover:border-amber-500/50 transition-all duration-500 hover:shadow-2xl hover:shadow-amber-500/20 animate-slideInLeft"
           style={{ animationDelay: `${index * 60}ms` }}
@@ -107,7 +109,7 @@ export default function ProductListView({
               </button>
             </div>
           </div>
-        </div>
+        </Link>
       ))}
     </div>
   );
