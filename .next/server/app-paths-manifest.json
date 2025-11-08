@@ -9,7 +9,9 @@
   "/favicon.ico/route": "app/favicon.ico/route.js",
   "/gallery/page": "app/gallery/page.js",
   "/news/page": "app/news/page.js",
+  "/order-tracking/page": "app/order-tracking/page.js",
   "/page": "app/page.js",
+  "/products/[id]/page": "app/products/[id]/page.js",
   "/products/page": "app/products/page.js",
   "/wishlist/page": "app/wishlist/page.js"
 }

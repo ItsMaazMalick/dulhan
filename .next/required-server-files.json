@@ -104,7 +104,7 @@
         "transform": "lodash/{{member}}"
       }
     },
-    "outputFileTracingRoot": "/home/maaz/Documents/Personal/dulhan",
+    "outputFileTracingRoot": "/home/maaz/Web/Personal/dulhan",
     "cacheComponents": false,
     "cacheLife": {
       "default": {
@@ -296,11 +296,11 @@
     "configFileName": "next.config.ts",
     "reactCompiler": true,
     "turbopack": {
-      "root": "/home/maaz/Documents/Personal/dulhan"
+      "root": "/home/maaz/Web/Personal/dulhan"
     },
     "distDirRoot": ".next"
   },
-  "appDir": "/home/maaz/Documents/Personal/dulhan",
+  "appDir": "/home/maaz/Web/Personal/dulhan",
   "relativeAppDir": "",
   "files": [
     ".next/routes-manifest.json",

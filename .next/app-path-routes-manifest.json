@@ -9,7 +9,9 @@
   "/favicon.ico/route": "/favicon.ico",
   "/gallery/page": "/gallery",
   "/news/page": "/news",
+  "/order-tracking/page": "/order-tracking",
   "/page": "/",
+  "/products/[id]/page": "/products/[id]",
   "/products/page": "/products",
   "/wishlist/page": "/wishlist"
 }

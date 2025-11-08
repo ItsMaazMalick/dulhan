@@ -7,45 +7,16 @@ import { AIJourney } from "./ai-journey";
 import { Testimonials } from "./testimonials";
 import Link from "next/link";
 
-const faqData = [
-  {
-    question: "What cybersecurity solutions does Softex offer?",
-    answer:
-      "Softex offers cutting-edge cybersecurity solutions including real-time protection, network protections, server protections, vulnerability assessments, and proactive threat monitoring to ensure comprehensive security for businesses.",
-  },
-  {
-    question: "How does Softex ensure the safety of sensitive information?",
-    answer:
-      "Softex provides robust network and server protections, along with continuous vulnerability assessments, to keep sensitive information secure and always protected from potential cyber threats.",
-  },
-  {
-    question: "What makes Softex's cybersecurity services stand out?",
-    answer:
-      "Softex stands out by offering customized security plans, an expert team of professionals, proactive threat monitoring, and a proven track record of successful cybersecurity solutions for over 400 projects.",
-  },
-  {
-    question: "How can Softex help businesses with malware protection?",
-    answer:
-      "Softex offers comprehensive security monitoring and malware protection services to businesses, defending their data from cyber threats and ensuring business continuity.",
-  },
-  {
-    question:
-      "Why should businesses choose Softex for their cybersecurity needs?",
-    answer:
-      "Businesses should choose Softex for its cutting-edge technology, expert team, proactive monitoring, and proven success in providing tailored cybersecurity solutions that keep data safe from emerging threats.",
-  },
-];
-
 export default function GraphicDesigningPage() {
   return (
-    <div>
+    <div className="overflow-x-hidden">
       <div
-        className="h-[104dvh] w-full flex items-center overflow-hidden mt-[-15px] bg-slate-900"
-        // style={{
-        //   background: "url('/b1.png')",
-        //   backgroundSize: "cover",
-        //   backgroundRepeat: "no-repeat",
-        // }}
+        className="h-[104dvh] w-full flex items-center overflow-hidden mt-[-15px]"
+        style={{
+          background: "url('/banner.gif')",
+          backgroundSize: "cover",
+          backgroundRepeat: "no-repeat",
+        }}
       >
         <div className="brightness-50 bg-black h-[104dvh] w-screen absolute top-0 opacity-50"></div>
         <div className="hidden lg:block lg:w-[65%]">

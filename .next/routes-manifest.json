@@ -19,7 +19,16 @@
     "afterFiles": [],
     "fallback": []
   },
-  "dynamicRoutes": [],
+  "dynamicRoutes": [
+    {
+      "page": "/products/[id]",
+      "regex": "^/products/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPid": "nxtPid"
+      },
+      "namedRegex": "^/products/(?<nxtPid>[^/]+?)(?:/)?$"
+    }
+  ],
   "staticRoutes": [
     {
       "page": "/",
@@ -86,6 +95,12 @@
       "regex": "^/news(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/news(?:/)?$"
+    },
+    {
+      "page": "/order-tracking",
+      "regex": "^/order\\-tracking(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/order\\-tracking(?:/)?$"
     },
     {
       "page": "/products",
