@@ -118,7 +118,7 @@ export default function CartPage() {
                     <div
                       key={item.id}
                       className="group border border-gray-800 hover:border-primary transition-all duration-300 p-6 rounded-lg hover:shadow-lg hover:shadow-primary/10 hover:bg-gray-900/10 animate-fadeInUp"
-                      style={{ animationDelay: `${index * 0.1}s` }}
+                      style={{ animationDelay: `Rs {index * 0.1}s` }}
                     >
                       <div className="grid grid-cols-1 md:grid-cols-5 gap-6">
                         {/* Image */}
@@ -139,7 +139,7 @@ export default function CartPage() {
                           <div className="space-y-1 text-sm text-gray-400 group-hover:text-gray-300 transition-colors">
                             <p>Size: {item.size}</p>
                             <p className="text-2xl font-light text-white mt-3 group-hover:text-primary transition-colors">
-                              ${item.price.toFixed(2)}
+                              Rs {item.price.toFixed(2)}
                             </p>
                           </div>
                         </div>
@@ -217,30 +217,32 @@ export default function CartPage() {
                   <div className="space-y-3">
                     <div className="flex justify-between text-gray-400 text-sm hover:text-gray-300 transition-colors">
                       <span>Subtotal</span>
-                      <span>${subtotal.toFixed(2)}</span>
+                      <span>Rs {subtotal.toFixed(2)}</span>
                     </div>
                     {couponApplied && (
                       <div className="flex justify-between text-primary text-sm animate-slideInLeft">
                         <span>Discount (10%)</span>
-                        <span>-${discount.toFixed(2)}</span>
+                        <span>-Rs {discount.toFixed(2)}</span>
                       </div>
                     )}
                     <div className="flex justify-between text-gray-400 text-sm hover:text-gray-300 transition-colors">
                       <span>Shipping</span>
                       <span>
-                        {shipping === 0 ? "FREE" : `$${shipping.toFixed(2)}`}
+                        {shipping === 0
+                          ? "FREE"
+                          : `Rs Rs {shipping.toFixed(2)}`}
                       </span>
                     </div>
                     <div className="flex justify-between text-gray-400 text-sm hover:text-gray-300 transition-colors">
                       <span>Tax</span>
-                      <span>${tax.toFixed(2)}</span>
+                      <span>Rs {tax.toFixed(2)}</span>
                     </div>
                   </div>
 
                   <div className="border-t border-gray-800 pt-3 flex justify-between text-white text-lg font-light">
                     <span>Total</span>
                     <span className="text-primary text-xl">
-                      ${total.toFixed(2)}
+                      Rs {total.toFixed(2)}
                     </span>
                   </div>
 

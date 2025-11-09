@@ -12,13 +12,15 @@ export function AIJourney() {
             <div>
               <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
                 <span className="text-white">Why </span>
-                <span className="text-purple-500">Choose Us? </span>
+                <span className="text-primary">Choose Us? </span>
                 {/* <span className="text-white">Of</span>
                 <br />
                 <span className="text-white">Personalized AI</span> */}
               </h2>
               <p className="text-gray-400 max-w-xl">
-                At Dhanpuri, we blend tradition with modern style to create high-quality bridal and groom wear that turns your dream outfit into reality.
+                At Dhanpuri, we blend tradition with modern style to create
+                high-quality bridal and groom wear that turns your dream outfit
+                into reality.
               </p>
             </div>
 
@@ -51,8 +53,8 @@ export function AIJourney() {
                 },
               ].map((feature, index) => (
                 <div key={index} className="group text-center">
-                  <div className="inline-flex p-4 rounded-full bg-gray-800/50 mb-4 transition-transform duration-300 group-hover:scale-110 group-hover:bg-purple-500/20">
-                    <div className="text-purple-500">{feature.icon}</div>
+                  <div className="inline-flex p-4 rounded-full bg-gray-800/50 mb-4 transition-transform duration-300 group-hover:scale-110 group-hover:bg-primary/20">
+                    <div className="text-primary">{feature.icon}</div>
                   </div>
                   <h3 className="text-white text-xl font-bold mb-2">
                     {feature.title}

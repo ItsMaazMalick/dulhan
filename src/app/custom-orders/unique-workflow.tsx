@@ -44,7 +44,7 @@ export function UniqueWorkflow() {
         <p className="ml-auto text-white mb-2">Our Making Process</p>
         <p className="text-4xl font-bold text-white mb-10">
           The Dhanpuri Team&nbsp;
-          <span className="text-purple-500">Crafts Your Dream Outfit</span>
+          <span className="text-primary">Crafts Your Dream Outfit</span>
         </p>
       </div>
       <div className="container mx-auto px-4">
@@ -60,14 +60,14 @@ export function UniqueWorkflow() {
                 onMouseEnter={() => setActiveFeature(feature)}
               >
                 <div className="flex gap-4">
-                  <span className="text-purple-500 text-4xl font-bold">
+                  <span className="text-primary text-4xl font-bold">
                     {feature.id}
                   </span>
                   <div className="space-y-2">
                     <h3
                       className={`text-2xl font-bold transition-colors duration-300 PKR{
                         activeFeature.id === feature.id
-                          ? "text-purple-500"
+                          ? "text-primary"
                           : "text-white"
                       }`}
                     >
@@ -79,7 +79,7 @@ export function UniqueWorkflow() {
                   </div>
                 </div>
                 <div
-                  className={`h-0.5 bg-purple-500 scale-x-0 transition-transform duration-300 mt-4 PKR{
+                  className={`h-0.5 bg-primary scale-x-0 transition-transform duration-300 mt-4 PKR{
                     activeFeature.id === feature.id ? "scale-x-100" : ""
                   }`}
                 />

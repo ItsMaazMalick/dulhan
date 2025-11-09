@@ -16,6 +16,8 @@ interface LayoutToggleProps {
   onLayoutChange: (layout: LayoutType) => void;
   paginated: number;
   filtered: number;
+  selectedGender: string;
+  setSelectedGender: (gender: string) => void;
 }
 
 export default function LayoutToggle({
@@ -23,6 +25,8 @@ export default function LayoutToggle({
   onLayoutChange,
   paginated,
   filtered,
+  selectedGender,
+  setSelectedGender,
 }: LayoutToggleProps) {
   const layouts = [
     { id: "grid-2", label: "2x2 Grid", icon: Grid2X2 },
@@ -39,59 +43,71 @@ export default function LayoutToggle({
       transition={{ duration: 0.4 }}
       className="flex flex-wrap items-center justify-between gap-6 rounded-2xl border border-primary/30 bg-transparent p-5 shadow-lg shadow-primary/10 backdrop-blur-xl"
     >
-      <div className="flex items-center gap-10">
-        <div className="text-gray-400 animate-fadeInLeft">
+      {/* <div className="text-gray-400 animate-fadeInLeft">
           <p className="text-sm">
             Showing <span className="text-primary font-bold">{paginated}</span>{" "}
             of <span className="text-primary font-bold">{filtered}</span>{" "}
             results
           </p>
-        </div>
-        {/* Layout Buttons */}
-        <div className="flex flex-wrap gap-8">
-          {layouts.map((layout) => {
-            const Icon = layout.icon;
-            const isActive = activeLayout === layout.id;
-
-            return (
-              <motion.button
-                key={layout.id}
-                onClick={() => onLayoutChange(layout.id as LayoutType)}
-                title={layout.label}
-                whileHover={{ scale: 1.12 }}
-                whileTap={{ scale: 0.9 }}
-                className={`relative group flex items-center justify-center p-3 rounded-xl transition-all duration-300 border backdrop-blur-sm ${
-                  isActive
-                    ? "bg-primary text-black border-primary shadow-lg shadow-primary/40"
-                    : "bg-slate-800/60 text-primary border-primary/20 hover:bg-primary hover:text-black hover:shadow-lg hover:shadow-primary/30"
-                }`}
-              >
-                <Icon className="w-5 h-5 transition-transform duration-300 group-hover:rotate-6" />
-                {isActive && (
-                  <motion.span
-                    layoutId="active-glow"
-                    className="absolute inset-0 rounded-xl ring-2 ring-primary/50"
-                    transition={{ type: "spring", stiffness: 300, damping: 20 }}
-                  />
-                )}
-              </motion.button>
-            );
-          })}
-        </div>
+        </div> */}
+      {/* 👰🤵 Bride / Groom Toggle */}
+      <div className="mt-2 flex items-center gap-4  rounded-2xl p-2  animate-fadeInUp">
+        {[
+          {
+            id: "bride",
+            label: "Bride",
+            icon: "👰",
+          },
+          {
+            id: "groom",
+            label: "Groom",
+            icon: "🤵",
+          },
+        ].map((g) => (
+          <button
+            key={g.id}
+            onClick={() => setSelectedGender(g.id as "bride" | "groom")}
+            className={`flex items-center gap-3 px-5 py-3 rounded-xl text-lg font-semibold transition-all duration-300 ${
+              selectedGender === g.id
+                ? "bg-primary text-black shadow-lg shadow-primary/50 scale-105"
+                : "bg-slate-900 text-primary border border-primary/30 hover:bg-primary hover:text-black hover:shadow-primary/30 hover:scale-105"
+            }`}
+          >
+            <span className="text-2xl">{g.icon}</span>
+          </button>
+        ))}
       </div>
+      {/* Layout Buttons */}
+      <div className="flex flex-wrap gap-8">
+        {layouts.map((layout) => {
+          const Icon = layout.icon;
+          const isActive = activeLayout === layout.id;
 
-      {/* Sort Dropdown */}
-      <motion.select
-        whileFocus={{ scale: 1.05, boxShadow: "0 0 15px rgba(251,191,36,0.4)" }}
-        transition={{ type: "spring", stiffness: 200, damping: 15 }}
-        className="bg-slate-900/70 border border-primary/30 text-primary rounded-xl px-4 py-3 focus:outline-none focus:border-primary shadow-inner shadow-black/40 transition-all duration-300"
-      >
-        <option>Default Sort</option>
-        <option>Price: Low to High</option>
-        <option>Price: High to Low</option>
-        <option>Newest</option>
-        <option>Best Rated</option>
-      </motion.select>
+          return (
+            <motion.button
+              key={layout.id}
+              onClick={() => onLayoutChange(layout.id as LayoutType)}
+              title={layout.label}
+              whileHover={{ scale: 1.12 }}
+              whileTap={{ scale: 0.9 }}
+              className={`relative group flex items-center justify-center p-3 rounded-xl transition-all duration-300 border backdrop-blur-sm ${
+                isActive
+                  ? "bg-primary text-black border-primary shadow-lg shadow-primary/40"
+                  : "bg-slate-800/60 text-primary border-primary/20 hover:bg-primary hover:text-black hover:shadow-lg hover:shadow-primary/30"
+              }`}
+            >
+              <Icon className="w-5 h-5 transition-transform duration-300 group-hover:rotate-6" />
+              {isActive && (
+                <motion.span
+                  layoutId="active-glow"
+                  className="absolute inset-0 rounded-xl ring-2 ring-primary/50"
+                  transition={{ type: "spring", stiffness: 300, damping: 20 }}
+                />
+              )}
+            </motion.button>
+          );
+        })}
+      </div>
     </motion.div>
   );
 }

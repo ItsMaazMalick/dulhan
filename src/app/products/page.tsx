@@ -22,9 +22,7 @@ export default function TopCategoriesPage() {
   const [layout, setLayout] = useState<LayoutType>("grid-3");
   const [currentPage, setCurrentPage] = useState(1);
   const [categoryScrollPos, setCategoryScrollPos] = useState(0);
-  const [selectedGender, setSelectedGender] = useState<"bride" | "groom">(
-    "bride"
-  );
+  const [selectedGender, setSelectedGender] = useState<string>("bride");
 
   const categories =
     selectedGender === "bride"
@@ -342,33 +340,6 @@ export default function TopCategoriesPage() {
                 <ChevronRight className="size-10 text-primary" />
               </div>
             </div>
-            {/* 👰🤵 Bride / Groom Toggle */}
-            <div className="mt-2 flex items-center gap-4  rounded-2xl p-2  animate-fadeInUp">
-              {[
-                {
-                  id: "bride",
-                  label: "Bride",
-                  icon: "👰",
-                },
-                {
-                  id: "groom",
-                  label: "Groom",
-                  icon: "🤵",
-                },
-              ].map((g) => (
-                <button
-                  key={g.id}
-                  onClick={() => setSelectedGender(g.id as "bride" | "groom")}
-                  className={`flex items-center gap-3 px-5 py-3 rounded-xl text-lg font-semibold transition-all duration-300 ${
-                    selectedGender === g.id
-                      ? "bg-primary text-black shadow-lg shadow-primary/50 scale-105"
-                      : "bg-slate-900 text-primary border border-primary/30 hover:bg-primary hover:text-black hover:shadow-primary/30 hover:scale-105"
-                  }`}
-                >
-                  <span className="text-2xl">{g.icon}</span>
-                </button>
-              ))}
-            </div>
           </div>
         </div>
 
@@ -497,6 +468,8 @@ export default function TopCategoriesPage() {
                     onLayoutChange={setLayout}
                     paginated={paginatedProducts.length}
                     filtered={filteredProducts.length}
+                    selectedGender={selectedGender}
+                    setSelectedGender={setSelectedGender}
                   />
                 </div>
               </div>

@@ -12,7 +12,7 @@ export default function WishlistPage() {
     {
       id: 1,
       name: "Bridal - Royal Gold",
-      price: "PKR 1500.00",
+      price: "Rs 1500.00",
       image: "/bb3.png",
       category: "Bridal",
       rating: 5,
@@ -20,7 +20,7 @@ export default function WishlistPage() {
     {
       id: 2,
       name: "Groom Collection - Modern",
-      price: "PKR 520.00",
+      price: "Rs 520.00",
       image: "/c11.png",
       category: "Groom",
       rating: 5,
@@ -28,7 +28,7 @@ export default function WishlistPage() {
     {
       id: 3,
       name: "Bridal - Luxury Pearl",
-      price: "PKR 1800.00",
+      price: "Rs 1800.00",
       image: "/b11.png",
       category: "Bridal",
       rating: 5,

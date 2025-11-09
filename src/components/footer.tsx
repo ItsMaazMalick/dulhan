@@ -31,8 +31,8 @@ export default function Footer() {
             </span> */}
           </div>
           <p className="text-gray-400 leading-relaxed text-sm">
-            At Softex Solution, we craft elegant digital experiences that align
-            with your goals. Let’s turn your vision into a modern, functional
+            At Dhanpuri, we craft elegant digital experiences that align with
+            your goals. Let’s turn your vision into a modern, functional
             reality.
           </p>
         </motion.div>
@@ -92,7 +92,7 @@ export default function Footer() {
             />
             <button
               type="submit"
-              className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 text-sm font-medium transition-all duration-300 flex items-center gap-1"
+              className="bg-primary text-white px-4 py-2 text-sm font-medium transition-all duration-300 flex items-center gap-1"
             >
               Subscribe <ArrowRight size={14} />
             </button>

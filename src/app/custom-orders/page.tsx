@@ -30,16 +30,13 @@ export default function GraphicDesigningPage() {
           <p className="text-6xl font-bold text-white">
             Dulhan & Dulha Perfect Wear
           </p>
-          <p className="text-6xl font-bold text-purple-600">for Special Days</p>
+          <p className="text-6xl font-bold text-primary">for Special Days</p>
           {/* <p className="text-white">
             Molestie a iaculis at erat pellentesque adipiscing commodo elit at.
             Ultricies tristique nulla aliquet enim tortor. Eu consequat ac felis
             donec et.Nunc cursus fermentum nisi nec sollicitudin.
           </p> */}
-          <Button
-            asChild
-            className="bg-gradient-to-t from-purple-600 to-blue-500 w-fit ml-auto rounded-full"
-          >
+          <Button asChild className="bg-primary w-fit ml-auto rounded-full">
             <Link href="/#contact-us">Contact Us</Link>
           </Button>
         </div>

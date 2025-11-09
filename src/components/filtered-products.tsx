@@ -8,7 +8,7 @@ const allProducts = [
     id: 1,
     name: "Groom Collection - Classic",
     category: "groom",
-    price: "$450.00",
+    price: "Rs 450.00",
     image: "/c11.png",
     hoverImage: "/c22.png",
   },
@@ -16,7 +16,7 @@ const allProducts = [
     id: 2,
     name: "Bridal - Elegant White",
     category: "bridal",
-    price: "$1200.00",
+    price: "Rs 1200.00",
     image:
       "https://darkfashion.wpengine.com/wp-content/uploads/2023/10/fashion-1-shop-6-1.webp",
     hoverImage:
@@ -26,7 +26,7 @@ const allProducts = [
     id: 3,
     name: "Groom Collection - Modern",
     category: "groom",
-    price: "$520.00",
+    price: "Rs 520.00",
     image: "/c11.png",
     hoverImage: "/c22.png",
   },
@@ -34,7 +34,7 @@ const allProducts = [
     id: 4,
     name: "Bridal - Royal Gold",
     category: "bridal",
-    price: "$1500.00",
+    price: "Rs 1500.00",
     image: "/c11.png",
     hoverImage: "/c22.png",
   },
@@ -42,7 +42,7 @@ const allProducts = [
     id: 5,
     name: "Groom Collection - Premium",
     category: "groom",
-    price: "$680.00",
+    price: "Rs 680.00",
     image: "/b11.png",
     hoverImage: "/b22.png",
   },
@@ -50,7 +50,7 @@ const allProducts = [
     id: 6,
     name: "Bridal - Luxury Pearl",
     category: "bridal",
-    price: "$1800.00",
+    price: "Rs 1800.00",
     image: "/b11.png",
     hoverImage: "/b22.png",
   },
@@ -84,7 +84,7 @@ export default function FilteredProducts() {
           <div className="flex justify-center gap-4 flex-wrap">
             <button
               onClick={() => setActiveFilter("all")}
-              className={`px-6 py-2 text-sm tracking-widest transition-all duration-400 ${
+              className={`px-6 py-2 text-sm tracking-widest transition-all duration-400 Rs {
                 activeFilter === "all"
                   ? "bg-white text-black"
                   : "bg-transparent text-white border border-gray-600 hover:border-white"
@@ -94,7 +94,7 @@ export default function FilteredProducts() {
             </button>
             <button
               onClick={() => setActiveFilter("groom")}
-              className={`px-6 py-2 text-sm tracking-widest transition-all duration-300 ${
+              className={`px-6 py-2 text-sm tracking-widest transition-all duration-300 Rs {
                 activeFilter === "groom"
                   ? "bg-white text-black"
                   : "bg-transparent text-white border border-gray-600 hover:border-white"
@@ -104,7 +104,7 @@ export default function FilteredProducts() {
             </button>
             <button
               onClick={() => setActiveFilter("bridal")}
-              className={`px-6 py-2 text-sm tracking-widest transition-all duration-300 ${
+              className={`px-6 py-2 text-sm tracking-widest transition-all duration-300 Rs {
                 activeFilter === "bridal"
                   ? "bg-white text-black"
                   : "bg-transparent text-white border border-gray-600 hover:border-white"
@@ -137,15 +137,15 @@ export default function FilteredProducts() {
                     src={product.image || "/placeholder.svg"}
                     alt={product.name}
                     fill
-                    className={`object-contain bg-center transition-opacity duration-400 ${
+                    className={`object-contain bg-center transition-opacity duration-400 Rs {
                       hoveredCard === product.id ? "opacity-0" : "opacity-100"
                     }`}
                   />
                   <Image
                     src={product.hoverImage || "/placeholder.svg"}
-                    alt={`${product.name} hover`}
+                    alt={`Rs {product.name} hover`}
                     fill
-                    className={`object-contain bg-center transition-all duration-400 ${
+                    className={`object-contain bg-center transition-all duration-400 Rs {
                       hoveredCard === product.id
                         ? "opacity-100 scale-100"
                         : "opacity-0 scale-80"

@@ -93,7 +93,7 @@ export default function ProductTableView({
               </td>
               <td className="p-4 text-right">
                 <p className="text-primary font-bold text-lg">
-                  ₹{product.price.toLocaleString()}
+                  Rs {product.price.toLocaleString()}
                 </p>
               </td>
               <td className="p-4 text-center">

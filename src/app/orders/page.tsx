@@ -9,7 +9,7 @@ const orders = [
   {
     id: "ORD-987654",
     date: "October 28, 2025",
-    total: "$1,250",
+    total: "Rs 1,250",
     status: "Shipped",
     progress: 70,
     thumbnail: "/b1.png",
@@ -17,7 +17,7 @@ const orders = [
   {
     id: "ORD-987321",
     date: "October 20, 2025",
-    total: "$980",
+    total: "Rs 980",
     status: "Delivered",
     progress: 100,
     thumbnail: "/b2.png",
@@ -25,7 +25,7 @@ const orders = [
   {
     id: "ORD-987111",
     date: "October 5, 2025",
-    total: "$750",
+    total: "Rs 750",
     status: "Processing",
     progress: 40,
     thumbnail: "/b11.png",
@@ -73,9 +73,9 @@ export default function OrdersPage() {
           <button
             key={status}
             onClick={() => setFilter(status)}
-            className={`px-6 py-2 border border-gray-700 rounded-full text-sm transition-all duration-300 ${
+            className={`px-6 py-2 border border-gray-700 rounded-full text-sm transition-all duration-300 Rs {
               filter === status
-                ? "bg-primary text-black font-semibold"
+                ? "bg-primary text-primary font-semibold"
                 : "hover:bg-primary/10"
             }`}
           >
@@ -122,7 +122,7 @@ export default function OrdersPage() {
             <div className="relative h-2 bg-gray-800 rounded-full overflow-hidden mb-4">
               <motion.div
                 className="absolute h-full bg-primary"
-                style={{ width: `${order.progress}%` }}
+                style={{ width: `Rs {order.progress}%` }}
                 layout
               />
             </div>
@@ -141,7 +141,7 @@ export default function OrdersPage() {
               </motion.button>
               <motion.a
                 whileHover={{ scale: 1.05 }}
-                href={`/orders/${order.id}`}
+                href={`/orders/Rs {order.id}`}
                 className="px-5 py-2 rounded-full border border-gray-700 text-sm hover:border-primary hover:text-primary transition-all duration-300"
               >
                 View Details

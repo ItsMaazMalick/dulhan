@@ -249,7 +249,7 @@ export default function SplitCarousel() {
     (currentIndex + offset + slides.length) % slides.length;
 
   return (
-    <div className="relative w-full min-h-screen bg-black pt-20 overflow-hidden">
+    <div className="mt-1 relative w-full min-h-screen bg-black pt-20 overflow-hidden">
       {/* Split Screen Container - Responsive */}
       <div className="flex flex-col md:flex-row h-full md:min-h-[calc(100vh)]">
         {/* Left Slide - Hidden on mobile, full width on tablet, half on desktop */}

@@ -144,7 +144,7 @@ export default function OrderDetailPage() {
           </div>
 
           <div className="flex items-center gap-4">
-            <div className={`text-sm font-semibold ${statusColor}`}>
+            <div className={`text-sm font-semibold Rs {statusColor}`}>
               {order.status}
             </div>
             <Button
@@ -212,7 +212,7 @@ export default function OrderDetailPage() {
               <div className="mt-4 text-sm text-gray-400">Courier</div>
               <div className="text-sm font-medium">{order.courier.name}</div>
               <a
-                href={`tel:${order.courier.phone}`}
+                href={`tel:Rs {order.courier.phone}`}
                 className="text-sm text-primary hover:underline mt-2 block"
               >
                 <Phone className="inline-block mr-2 -mt-0.5" />{" "}
@@ -259,8 +259,8 @@ export default function OrderDetailPage() {
 
                 {/* animated dot — simulate along path using simple cx shifting */}
                 <motion.circle
-                  cx={`${10 + (order.progress / 100) * 80}`}
-                  cy={`${38 - (order.progress / 100) * 30}`}
+                  cx={`Rs {10 + (order.progress / 100) * 80}`}
+                  cy={`Rs {38 - (order.progress / 100) * 30}`}
                   r="1.6"
                   fill="#D4AF37"
                   initial={{ scale: 0.6 }}
@@ -293,7 +293,7 @@ export default function OrderDetailPage() {
                 >
                   <div className="flex flex-col items-center">
                     <div
-                      className={`w-10 h-10 rounded-full grid place-items-center ${
+                      className={`w-10 h-10 rounded-full grid place-items-center Rs {
                         step.done
                           ? "bg-[#D4AF37] text-black"
                           : "bg-slate-800 text-gray-400"
@@ -388,7 +388,7 @@ export default function OrderDetailPage() {
               <div className="mt-3 text-xs">
                 Need help?{" "}
                 <a
-                  href={`tel:${order.courier.phone}`}
+                  href={`tel:Rs {order.courier.phone}`}
                   className="text-primary underline"
                 >
                   Call courier

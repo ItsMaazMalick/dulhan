@@ -88,7 +88,7 @@ const Card3D = ({ children, isLastVisible }: any) => {
         transformStyle: "preserve-3d",
       }}
       className={`${
-        isLastVisible ? "bg-purple-600" : "bg-gray-800/50"
+        isLastVisible ? "bg-primary" : "bg-gray-800/50"
       } backdrop-blur-sm p-8 rounded-lg h-full shadow-xl transition-all duration-300 hover:shadow-2xl`}
     >
       <div
@@ -146,12 +146,12 @@ export function Testimonials() {
       <div className="container mx-auto px-4">
         {/* Header */}
         <div className="text-center mb-16">
-          <div className="inline-block bg-purple-600 text-white px-4 py-1 rounded-md mb-6">
+          <div className="inline-block bg-primary text-white px-4 py-1 rounded-md mb-6">
             Reviews
           </div>
           <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold">
             <span className="text-white">What </span>
-            <span className="text-purple-500">Our Customers Say</span>
+            <span className="text-primary">Our Customers Say</span>
             {/* <span className="text-white">Have To Say</span> */}
           </h2>
         </div>
@@ -175,14 +175,14 @@ export function Testimonials() {
                 >
                   <Card3D isLastVisible={index === lastVisibleIndex}>
                     <div className="mb-8">
-                      <QuoteIcon className="w-8 h-8 text-purple-500 mb-4" />
+                      <QuoteIcon className="w-8 h-8 text-primary mb-4" />
                       <p className="text-gray-300 text-lg">
                         {testimonial.text}
                       </p>
                     </div>
                     <div className="flex items-center justify-between">
                       <div>
-                        <h4 className="text-rose-400 font-semibold">
+                        <h4 className="text-primary font-semibold">
                           {testimonial.name}
                         </h4>
                         <p className="text-gray-400 text-sm">
@@ -213,7 +213,7 @@ export function Testimonials() {
               <button
                 key={index}
                 className={`h-2 rounded-full transition-all duration-300 ${
-                  index === current ? "w-8 bg-purple-500" : "w-2 bg-gray-600"
+                  index === current ? "w-8 bg-primary" : "w-2 bg-gray-600"
                 }`}
                 onClick={() => api?.scrollTo(index)}
               />

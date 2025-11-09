@@ -101,7 +101,7 @@ export default function ProductListView({
 
             <div className="flex justify-between items-center pt-4 border-t border-primary/20">
               <p className="text-primary font-bold text-2xl">
-                ₹{product.price.toLocaleString()}
+                Rs {product.price.toLocaleString()}
               </p>
               <button className="bg-primary hover:bg-primary text-black px-6 py-3 rounded-full font-semibold flex items-center gap-2 transition-all duration-300 hover:shadow-lg hover:shadow-primary/50 hover:scale-105">
                 <ShoppingCart className="w-5 h-5" />

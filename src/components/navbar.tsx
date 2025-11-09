@@ -31,7 +31,7 @@ export default function Navbar() {
             <img
               src="/logo.png"
               alt="Logo"
-              style={{ width: "160px", height: "auto" }}
+              style={{ width: "80px", height: "auto" }}
             />
           </Link>
 

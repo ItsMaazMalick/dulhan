@@ -99,7 +99,7 @@ export default function ProductGrid2({
 
               <div className="flex justify-between items-center pt-4 border-t border-primary/20">
                 <p className="text-primary font-bold text-2xl">
-                  ₹{product.price.toLocaleString()}
+                  Rs {product.price.toLocaleString()}
                 </p>
                 <button className="bg-primary hover:bg-primary text-black px-6 py-2 rounded-full font-semibold transition-all duration-300 hover:shadow-lg hover:shadow-primary/50 hover:scale-105">
                   Add to Cart

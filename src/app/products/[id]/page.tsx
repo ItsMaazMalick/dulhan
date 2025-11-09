@@ -98,7 +98,7 @@ export default function ProductPage() {
   const resetTilt = () => setTilt({ rx: 0, ry: 0, tz: 0 });
 
   return (
-    <main className="min-h-screen bg-gradient-to-b from-black via-slate-900 to-black text-white">
+    <main className="min-h-screen bg-black text-white">
       {/* Sticky action bar */}
       <div className="z-50 backdrop-blur bg-black/40 border-b border-primary/8">
         <div className="max-w-7xl mx-auto px-6 py-3 flex items-center justify-between gap-4">

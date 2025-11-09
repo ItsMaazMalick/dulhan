@@ -66,7 +66,7 @@ export default function ProductCard({
         </div>
         <div className="flex items-center justify-between">
           <span className="text-2xl font-bold text-primary">
-            ₹{price.toLocaleString()}
+            Rs {price.toLocaleString()}
           </span>
           <button
             disabled={!inStock}

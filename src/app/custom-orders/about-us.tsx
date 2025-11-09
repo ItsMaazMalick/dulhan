@@ -6,7 +6,7 @@ export function AboutUs() {
       <div className="container mx-auto px-4">
         {/* About Us Label */}
         <div className="flex justify-center mb-8">
-          <div className="bg-purple-600 text-white px-4 py-1 rounded-md">
+          <div className="bg-primary text-white px-4 py-1 rounded-md">
             About Us
           </div>
         </div>
@@ -26,7 +26,7 @@ export function AboutUs() {
           </h1>
 
           <div className="flex items-center justify-center gap-2">
-            <span className="text-purple-500 text-3xl md:text-4xl lg:text-5xl font-bold">
+            <span className="text-primary text-3xl md:text-4xl lg:text-5xl font-bold">
               AI Based Application
             </span>
             <div className="flex -space-x-4">
@@ -45,13 +45,13 @@ export function AboutUs() {
                 </div>
               ))}
             </div>
-            <span className="text-purple-500 text-3xl md:text-4xl lg:text-5xl font-bold">
+            <span className="text-primary text-3xl md:text-4xl lg:text-5xl font-bold">
               With Our Best
             </span>
           </div>
 
           <div className="flex  justify-center gap-2">
-            <span className="text-purple-500 text-3xl md:text-4xl lg:text-5xl font-bold">
+            <span className="text-primary text-3xl md:text-4xl lg:text-5xl font-bold">
               Experts Will Help You And
             </span>
             <div className="flex -space-x-4">
@@ -70,7 +70,7 @@ export function AboutUs() {
                 </div>
               ))}
             </div>
-            <span className="text-purple-500 text-3xl md:text-4xl lg:text-5xl font-bold">
+            <span className="text-primary text-3xl md:text-4xl lg:text-5xl font-bold">
               Experts Will Help You And
             </span>
           </div>

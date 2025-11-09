@@ -10,11 +10,15 @@ export function AIFeatures() {
             Our Fashion Expertise
           </div>
           <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
-            <span className="text-purple-500">Transforming Dream&nbsp;</span>
+            <span className="text-primary">Transforming Dream&nbsp;</span>
             <span className="text-white">into Wedding Reality</span>
           </h2>
           <p className="text-gray-400 max-w-3xl mx-auto text-center">
-            Our custom bridal wear services are crafted to enhance your wedding style with elegance and detail. From stunning dulhan dresses to graceful groom attire, we ensure designs that captivate and inspire. Let us bring your dream outfit to life with expert tailoring and timeless craftsmanship.
+            Our custom bridal wear services are crafted to enhance your wedding
+            style with elegance and detail. From stunning dulhan dresses to
+            graceful groom attire, we ensure designs that captivate and inspire.
+            Let us bring your dream outfit to life with expert tailoring and
+            timeless craftsmanship.
           </p>
         </div>
 
@@ -27,7 +31,7 @@ export function AIFeatures() {
                 "We craft elegant dulhan and dulha outfits that reflect your personal style and tradition. From mehndi to walima, our couture ensures you shine at every event.",
               icon: (
                 <svg
-                  className="w-12 h-12 text-pink-400"
+                  className="w-12 h-12 text-primary"
                   viewBox="0 0 24 24"
                   fill="none"
                   stroke="currentColor"
@@ -46,7 +50,7 @@ export function AIFeatures() {
                 "Our team designs and tailors each outfit with care, blending premium fabrics, perfect fitting, and beautiful detailing to create your dream wedding look.",
               icon: (
                 <svg
-                  className="w-12 h-12 text-pink-400"
+                  className="w-12 h-12 text-primary"
                   viewBox="0 0 24 24"
                   fill="none"
                   stroke="currentColor"
@@ -63,7 +67,7 @@ export function AIFeatures() {
                 "We offer handcrafted dupattas, jewelry accents, and detailed embroidery that add charm and sophistication to your bridal and groom ensembles.",
               icon: (
                 <svg
-                  className="w-12 h-12 text-pink-400"
+                  className="w-12 h-12 text-primary"
                   viewBox="0 0 24 24"
                   fill="none"
                   stroke="currentColor"
@@ -78,7 +82,7 @@ export function AIFeatures() {
                 "Share your ideas, colors, and inspirations — we’ll bring them to life with our personalized consultation, expert craftsmanship, and on-time delivery.",
               icon: (
                 <svg
-                  className="w-12 h-12 text-pink-400"
+                  className="w-12 h-12 text-primary"
                   viewBox="0 0 24 24"
                   fill="none"
                   stroke="currentColor"
@@ -90,7 +94,7 @@ export function AIFeatures() {
           ].map((feature, index) => (
             <div key={index} className="group relative">
               {/* Glow effect */}
-              <div className="absolute -inset-0.5 bg-gradient-to-r from-purple-600 to-pink-600 rounded-lg blur opacity-0 group-hover:opacity-75 transition duration-500"></div>
+              <div className="absolute -inset-0.5 bg-primary rounded-lg blur opacity-0 group-hover:opacity-75 transition duration-500"></div>
 
               {/* Card content */}
               <div className="relative bg-gray-800/50 backdrop-blur-sm p-8 rounded-lg transition-all duration-500 group-hover:scale-[1.02] group-hover:bg-gray-800/70">
@@ -98,7 +102,7 @@ export function AIFeatures() {
                   <div className="transition-transform duration-500 group-hover:scale-110 group-hover:rotate-12">
                     {feature.icon}
                   </div>
-                  <h3 className="text-white text-xl font-bold mb-4 w-full transition-colors duration-300 group-hover:text-purple-400">
+                  <h3 className="text-white text-xl font-bold mb-4 w-full transition-colors duration-300 group-hover:text-primary">
                     {feature.title}
                   </h3>
                   <p className="text-gray-400 transition-colors duration-300 group-hover:text-gray-300">

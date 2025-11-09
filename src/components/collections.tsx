@@ -8,7 +8,7 @@ const products = [
     id: 1,
     name: "Groom Collection - Classic",
     category: "groom",
-    price: "$450.00",
+    price: "Rs450.00",
     image: "/bb1.png",
     hoverImage: "/bb2.png",
   },
@@ -16,7 +16,7 @@ const products = [
     id: 3,
     name: "Groom Collection - Modern",
     category: "groom",
-    price: "$520.00",
+    price: "Rs520.00",
     image:
       "https://darkfashion.wpengine.com/wp-content/uploads/2023/10/fashion-1-shop-6-1.webp",
     hoverImage:
@@ -26,7 +26,7 @@ const products = [
     id: 4,
     name: "Bridal - Royal Gold",
     category: "bridal",
-    price: "$1500.00",
+    price: "Rs1500.00",
     image: "/bb3.png",
     hoverImage: "/bb4.png",
   },
@@ -88,7 +88,7 @@ export default function CollectionsSection() {
                         src={product.image || "/placeholder.svg"}
                         alt={product.name}
                         fill
-                        className={`bg-center bg-cover object-contain transition-opacity duration-400 ${
+                        className={`bg-center bg-cover object-contain transition-opacity duration-400 Rs{
                           hoveredCard === product.id
                             ? "opacity-0"
                             : "opacity-100"
@@ -97,9 +97,9 @@ export default function CollectionsSection() {
 
                       <Image
                         src={product.hoverImage || "/placeholder.svg"}
-                        alt={`${product.name} hover`}
+                        alt={`Rs{product.name} hover`}
                         fill
-                        className={`transition-all duration-400 bg-center bg-cover object-contain ${
+                        className={`transition-all duration-400 bg-center bg-cover object-contain Rs{
                           hoveredCard === product.id
                             ? "opacity-100 scale-100"
                             : "opacity-0 scale-90"

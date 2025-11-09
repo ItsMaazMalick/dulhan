@@ -1,15 +1,8 @@
 "use client";
 
-import { useState } from "react";
 import { motion } from "framer-motion";
-import {
-  Calendar,
-  Send,
-  Briefcase,
-  Code,
-  Cpu,
-  CheckSquare,
-} from "lucide-react";
+import { Calendar, Send } from "lucide-react";
+import { useState } from "react";
 
 export default function AppointmentPage() {
   const [activeTab, setActiveTab] = useState<"Business" | "Career">("Business");
