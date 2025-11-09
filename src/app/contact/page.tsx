@@ -351,11 +351,11 @@ export default function ContactPage() {
               <label className="block text-sm font-medium mb-2">Services</label>
               <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
                 {[
-                  "DevOps",
-                  "AI Solutions",
-                  "App Development",
-                  "Web Development",
-                  "Quality Assurance",
+                  "Lehenga",
+                  "Sarhi",
+                  "Kurta",
+                  "Shalwar Kameez",
+                  "Frock",
                   "Others",
                 ].map((service) => (
                   <label key={service} className="flex items-center gap-2">

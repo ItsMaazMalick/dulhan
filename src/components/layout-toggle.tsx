@@ -41,7 +41,7 @@ export default function LayoutToggle({
       initial={{ opacity: 0, y: 10 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.4 }}
-      className="flex flex-wrap items-center justify-between gap-6 rounded-2xl border border-primary/30 bg-transparent p-5 shadow-lg shadow-primary/10 backdrop-blur-xl"
+      className="max-w-[1010px] px-4 mt-4 flex flex-wrap items-center justify-between gap-6 rounded-2xl border border-primary/30 bg-transparent shadow-lg shadow-primary/10 backdrop-blur-xl"
     >
       {/* <div className="text-gray-400 animate-fadeInLeft">
           <p className="text-sm">
@@ -78,7 +78,7 @@ export default function LayoutToggle({
         ))}
       </div>
       {/* Layout Buttons */}
-      <div className="flex flex-wrap gap-8">
+      <div className="flex flex-wrap gap-4">
         {layouts.map((layout) => {
           const Icon = layout.icon;
           const isActive = activeLayout === layout.id;

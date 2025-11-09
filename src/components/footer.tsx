@@ -41,7 +41,7 @@ export default function Footer() {
         <div>
           <h3 className="text-white font-semibold text-lg mb-4">Quick Links</h3>
           <ul className="space-y-2">
-            {["Home", "About", "Projects", "Careers", "Contact"].map((link) => (
+            {["Home", "About", "Products", "Contact", "Orders"].map((link) => (
               <li key={link}>
                 <Link
                   href={`/${link.toLowerCase()}`}
@@ -59,15 +59,16 @@ export default function Footer() {
           <h3 className="text-white font-semibold text-lg mb-4">Services</h3>
           <ul className="space-y-2">
             {[
-              "App Development",
-              "Web Development",
-              "AI Solutions",
-              "Data Security",
-              "Graphic Designing",
+              "Lehenga",
+              "Sarhi",
+              "Kurta",
+              "Shalwar Kameez",
+              "Frock",
+              "Others",
             ].map((service) => (
               <li key={service}>
                 <Link
-                  href="/services"
+                  href="/contact"
                   className="hover:text-white transition-all duration-300 hover:translate-x-1 inline-block"
                 >
                   {service}
@@ -103,7 +104,7 @@ export default function Footer() {
       {/* Bottom Bar */}
       <div className="border-t border-gray-700/50 mt-8 py-4 text-sm flex flex-col md:flex-row justify-between items-center px-6">
         <p className="text-gray-500">
-          © {new Date().getFullYear()} Softex Solution. All rights reserved.
+          © {new Date().getFullYear()} Dhanpuri. All rights reserved.
         </p>
         <div className="flex gap-6 text-gray-400">
           {["Privacy Policy", "Terms of Service", "Cookie Settings"].map(
