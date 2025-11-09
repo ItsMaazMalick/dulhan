@@ -75,7 +75,7 @@ export default function AuthPage() {
               >
                 Register
                 {activeTab === "register" && (
-                  <div className="absolute bottom-0 left-0 right-0 h-1 bg-gradient-to-r from-transparent via-amber-500 to-transparent animate-slideInLeft"></div>
+                  <div className="absolute bottom-0 left-0 right-0 h-1 bg-gradient-to-r from-transparent via-primary to-transparent animate-slideInLeft"></div>
                 )}
               </button>
               <button
@@ -88,7 +88,7 @@ export default function AuthPage() {
               >
                 Login
                 {activeTab === "login" && (
-                  <div className="absolute bottom-0 left-0 right-0 h-1 bg-gradient-to-r from-transparent via-amber-500 to-transparent animate-slideInRight"></div>
+                  <div className="absolute bottom-0 left-0 right-0 h-1 bg-gradient-to-r from-transparent via-primary to-transparent animate-slideInRight"></div>
                 )}
               </button>
             </div>
@@ -124,7 +124,7 @@ export default function AuthPage() {
                       value={registerData.username}
                       onChange={handleRegisterChange}
                       required
-                      className="w-full bg-transparent border border-gray-700 text-white pl-12 pr-4 py-3 focus:outline-none focus:border-amber-500 focus:shadow-lg focus:shadow-amber-500/20 transition-all duration-300 placeholder-gray-600"
+                      className="w-full bg-transparent border border-gray-700 text-white pl-12 pr-4 py-3 focus:outline-none focus:border-primary focus:shadow-lg focus:shadow-primary/20 transition-all duration-300 placeholder-gray-600"
                       placeholder="Enter your username"
                     />
                   </div>
@@ -143,7 +143,7 @@ export default function AuthPage() {
                       value={registerData.phone}
                       onChange={handleRegisterChange}
                       required
-                      className="w-full bg-transparent border border-gray-700 text-white pl-12 pr-4 py-3 focus:outline-none focus:border-amber-500 focus:shadow-lg focus:shadow-amber-500/20 transition-all duration-300 placeholder-gray-600"
+                      className="w-full bg-transparent border border-gray-700 text-white pl-12 pr-4 py-3 focus:outline-none focus:border-primary focus:shadow-lg focus:shadow-primary/20 transition-all duration-300 placeholder-gray-600"
                       placeholder="Enter your phone number"
                     />
                   </div>
@@ -162,7 +162,7 @@ export default function AuthPage() {
                       value={registerData.email}
                       onChange={handleRegisterChange}
                       required
-                      className="w-full bg-transparent border border-gray-700 text-white pl-12 pr-4 py-3 focus:outline-none focus:border-amber-500 focus:shadow-lg focus:shadow-amber-500/20 transition-all duration-300 placeholder-gray-600"
+                      className="w-full bg-transparent border border-gray-700 text-white pl-12 pr-4 py-3 focus:outline-none focus:border-primary focus:shadow-lg focus:shadow-primary/20 transition-all duration-300 placeholder-gray-600"
                       placeholder="Enter your email"
                     />
                   </div>
@@ -181,7 +181,7 @@ export default function AuthPage() {
                       value={registerData.password}
                       onChange={handleRegisterChange}
                       required
-                      className="w-full bg-transparent border border-gray-700 text-white pl-12 pr-12 py-3 focus:outline-none focus:border-amber-500 focus:shadow-lg focus:shadow-amber-500/20 transition-all duration-300 placeholder-gray-600"
+                      className="w-full bg-transparent border border-gray-700 text-white pl-12 pr-12 py-3 focus:outline-none focus:border-primary focus:shadow-lg focus:shadow-primary/20 transition-all duration-300 placeholder-gray-600"
                       placeholder="Enter password"
                     />
                     <button
@@ -192,7 +192,7 @@ export default function AuthPage() {
                           register: !prev.register,
                         }))
                       }
-                      className="absolute right-4 top-3 text-gray-400 hover:text-amber-500 transition-colors"
+                      className="absolute right-4 top-3 text-gray-400 hover:text-primary transition-colors"
                     >
                       {showPassword.register ? (
                         <EyeOff className="w-5 h-5" />
@@ -216,7 +216,7 @@ export default function AuthPage() {
                       value={registerData.confirmPassword}
                       onChange={handleRegisterChange}
                       required
-                      className="w-full bg-transparent border border-gray-700 text-white pl-12 pr-12 py-3 focus:outline-none focus:border-amber-500 focus:shadow-lg focus:shadow-amber-500/20 transition-all duration-300 placeholder-gray-600"
+                      className="w-full bg-transparent border border-gray-700 text-white pl-12 pr-12 py-3 focus:outline-none focus:border-primary focus:shadow-lg focus:shadow-primary/20 transition-all duration-300 placeholder-gray-600"
                       placeholder="Confirm password"
                     />
                     <button
@@ -227,7 +227,7 @@ export default function AuthPage() {
                           confirmPassword: !prev.confirmPassword,
                         }))
                       }
-                      className="absolute right-4 top-3 text-gray-400 hover:text-amber-500 transition-colors"
+                      className="absolute right-4 top-3 text-gray-400 hover:text-primary transition-colors"
                     >
                       {showPassword.confirmPassword ? (
                         <EyeOff className="w-5 h-5" />
@@ -243,7 +243,7 @@ export default function AuthPage() {
                   <label className="block text-sm text-gray-300 mb-3 font-light">
                     Profile Image (Optional)
                   </label>
-                  <label className="flex items-center justify-center w-full bg-transparent border border-gray-700 text-white px-4 py-3 cursor-pointer hover:border-amber-500 transition-all duration-300">
+                  <label className="flex items-center justify-center w-full bg-transparent border border-gray-700 text-white px-4 py-3 cursor-pointer hover:border-primary transition-all duration-300">
                     <span className="text-gray-400">
                       {"Choose File - No file chosen"}
                     </span>
@@ -265,14 +265,14 @@ export default function AuthPage() {
                     name="agreeTerms"
                     checked={registerData.agreeTerms}
                     onChange={handleRegisterChange}
-                    className="w-4 h-4 bg-gray-800 border border-gray-700 cursor-pointer hover:border-amber-500 transition-colors accent-amber-500"
+                    className="w-4 h-4 bg-gray-800 border border-gray-700 cursor-pointer hover:border-primary transition-colors accent-primary"
                     required
                   />
                   <label htmlFor="terms" className="text-sm text-gray-400">
                     I agree to the{" "}
                     <Link
                       href="#"
-                      className="text-amber-500 hover:text-amber-300 transition-colors"
+                      className="text-primary hover:text-primary transition-colors"
                     >
                       terms and conditions
                     </Link>
@@ -282,7 +282,7 @@ export default function AuthPage() {
                 <button
                   type="submit"
                   disabled={isLoading}
-                  className="w-full animate-fadeInUp delay-500 bg-gradient-to-r from-amber-600 to-amber-700 hover:from-amber-700 hover:to-amber-800 text-white tracking-widest py-3 font-light transition-all duration-300 disabled:opacity-50 hover:shadow-lg hover:shadow-amber-600/30 hover:scale-105 disabled:scale-100"
+                  className="w-full animate-fadeInUp delay-500 bg-gradient-to-r from-primary to-primary hover:from-primary hover:to-primary text-white tracking-widest py-3 font-light transition-all duration-300 disabled:opacity-50 hover:shadow-lg hover:shadow-primary/30 hover:scale-105 disabled:scale-100"
                 >
                   {isLoading ? "REGISTERING..." : "REGISTER"}
                 </button>
@@ -337,7 +337,7 @@ export default function AuthPage() {
                       value={loginData.email}
                       onChange={handleLoginChange}
                       required
-                      className="w-full bg-transparent border border-gray-700 text-white pl-12 pr-4 py-3 focus:outline-none focus:border-amber-500 focus:shadow-lg focus:shadow-amber-500/20 transition-all duration-300 placeholder-gray-600"
+                      className="w-full bg-transparent border border-gray-700 text-white pl-12 pr-4 py-3 focus:outline-none focus:border-primary focus:shadow-lg focus:shadow-primary/20 transition-all duration-300 placeholder-gray-600"
                       placeholder="Enter your email"
                     />
                   </div>
@@ -356,7 +356,7 @@ export default function AuthPage() {
                       value={loginData.password}
                       onChange={handleLoginChange}
                       required
-                      className="w-full bg-transparent border border-gray-700 text-white pl-12 pr-12 py-3 focus:outline-none focus:border-amber-500 focus:shadow-lg focus:shadow-amber-500/20 transition-all duration-300 placeholder-gray-600"
+                      className="w-full bg-transparent border border-gray-700 text-white pl-12 pr-12 py-3 focus:outline-none focus:border-primary focus:shadow-lg focus:shadow-primary/20 transition-all duration-300 placeholder-gray-600"
                       placeholder="Enter password"
                     />
                     <button
@@ -367,7 +367,7 @@ export default function AuthPage() {
                           login: !prev.login,
                         }))
                       }
-                      className="absolute right-4 top-3 text-gray-400 hover:text-amber-500 transition-colors"
+                      className="absolute right-4 top-3 text-gray-400 hover:text-primary transition-colors"
                     >
                       {showPassword.login ? (
                         <EyeOff className="w-5 h-5" />
@@ -381,7 +381,7 @@ export default function AuthPage() {
                 <button
                   type="submit"
                   disabled={isLoading}
-                  className="w-full animate-fadeInUp delay-350 bg-gradient-to-r from-amber-600 to-amber-700 hover:from-amber-700 hover:to-amber-800 text-white tracking-widest py-3 font-light transition-all duration-300 disabled:opacity-50 hover:shadow-lg hover:shadow-amber-600/30 hover:scale-105 disabled:scale-100"
+                  className="w-full animate-fadeInUp delay-350 bg-gradient-to-r from-primary to-primary hover:from-primary hover:to-primary text-white tracking-widest py-3 font-light transition-all duration-300 disabled:opacity-50 hover:shadow-lg hover:shadow-primary/30 hover:scale-105 disabled:scale-100"
                 >
                   {isLoading ? "LOGGING IN..." : "LOGIN"}
                 </button>
@@ -393,14 +393,14 @@ export default function AuthPage() {
                   Don't have an account?{" "}
                   <button
                     onClick={() => setActiveTab("register")}
-                    className="text-amber-500 hover:text-amber-300 transition-colors cursor-pointer"
+                    className="text-primary hover:text-primary transition-colors cursor-pointer"
                   >
                     Create one
                   </button>
                 </p>
                 <Link
                   href="/forgot-password"
-                  className="text-amber-500 hover:text-amber-300 transition-colors"
+                  className="text-primary hover:text-primary transition-colors"
                 >
                   Forgot password?
                 </Link>

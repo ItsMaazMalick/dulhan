@@ -42,11 +42,11 @@ export default function FeaturesSection() {
                 className="flex flex-col items-center text-center"
               >
                 {/* Top divider line */}
-                <div className="w-12 h-px bg-gradient-to-r from-transparent via-amber-600 to-transparent mb-6" />
+                <div className="w-12 h-px bg-gradient-to-r from-transparent via-primary to-transparent mb-6" />
 
                 {/* Icon */}
                 <Icon
-                  className="w-12 h-12 text-amber-600 mb-4"
+                  className="w-12 h-12 text-primary mb-4"
                   strokeWidth={1.5}
                 />
 
@@ -62,7 +62,7 @@ export default function FeaturesSection() {
                 <p className="text-sm text-gray-300">{feature.subtitle}</p>
 
                 {/* Bottom divider line */}
-                <div className="w-12 h-px bg-gradient-to-r from-transparent via-amber-600 to-transparent mt-6" />
+                <div className="w-12 h-px bg-gradient-to-r from-transparent via-primary to-transparent mt-6" />
               </div>
             );
           })}

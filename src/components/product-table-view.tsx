@@ -24,23 +24,23 @@ export default function ProductTableView({
   onToggleWishlist,
 }: ProductTableViewProps) {
   return (
-    <div className="border border-amber-600/30 rounded-xl overflow-hidden backdrop-blur">
+    <div className="border border-primary/30 rounded-xl overflow-hidden backdrop-blur">
       <table className="w-full">
         <thead>
-          <tr className="border-b border-amber-600/30 bg-slate-900/50">
-            <th className="text-left p-4 text-amber-400 font-bold text-sm uppercase tracking-wider">
+          <tr className="border-b border-primary/30 bg-slate-900/50">
+            <th className="text-left p-4 text-primary font-bold text-sm uppercase tracking-wider">
               Product
             </th>
-            <th className="text-left p-4 text-amber-400 font-bold text-sm uppercase tracking-wider">
+            <th className="text-left p-4 text-primary font-bold text-sm uppercase tracking-wider">
               Category
             </th>
-            <th className="text-center p-4 text-amber-400 font-bold text-sm uppercase tracking-wider">
+            <th className="text-center p-4 text-primary font-bold text-sm uppercase tracking-wider">
               Rating
             </th>
-            <th className="text-right p-4 text-amber-400 font-bold text-sm uppercase tracking-wider">
+            <th className="text-right p-4 text-primary font-bold text-sm uppercase tracking-wider">
               Price
             </th>
-            <th className="text-center p-4 text-amber-400 font-bold text-sm uppercase tracking-wider">
+            <th className="text-center p-4 text-primary font-bold text-sm uppercase tracking-wider">
               Actions
             </th>
           </tr>
@@ -49,7 +49,7 @@ export default function ProductTableView({
           {products.map((product, index) => (
             <tr
               key={product.id}
-              className="border-b border-amber-600/20 hover:bg-amber-500/10 transition-all duration-300 group animate-fadeInUp"
+              className="border-b border-primary/20 hover:bg-primary/10 transition-all duration-300 group animate-fadeInUp"
               style={{ animationDelay: `${index * 50}ms` }}
             >
               <td className="p-4">
@@ -63,7 +63,7 @@ export default function ProductTableView({
                     className="w-12 h-12 rounded-lg object-cover group-hover:scale-110 transition-transform duration-300"
                   />
                   <div>
-                    <p className="text-white font-semibold group-hover:text-amber-400 transition-colors">
+                    <p className="text-white font-semibold group-hover:text-primary transition-colors">
                       {product.name}
                     </p>
                     <p className="text-gray-400 text-xs">
@@ -72,7 +72,7 @@ export default function ProductTableView({
                   </div>
                 </div>
               </td>
-              <td className="p-4 text-amber-400 font-medium text-sm">
+              <td className="p-4 text-primary font-medium text-sm">
                 {product.category}
               </td>
               <td className="p-4 text-center">
@@ -82,7 +82,7 @@ export default function ProductTableView({
                       key={i}
                       className={`text-xs ${
                         i < Math.floor(product.rating)
-                          ? "text-amber-400"
+                          ? "text-primary"
                           : "text-gray-600"
                       }`}
                     >
@@ -92,7 +92,7 @@ export default function ProductTableView({
                 </div>
               </td>
               <td className="p-4 text-right">
-                <p className="text-amber-400 font-bold text-lg">
+                <p className="text-primary font-bold text-lg">
                   ₹{product.price.toLocaleString()}
                 </p>
               </td>
@@ -100,11 +100,11 @@ export default function ProductTableView({
                 <div className="flex gap-2 justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                   <button
                     onClick={() => onToggleWishlist(product.id)}
-                    className="w-8 h-8 bg-amber-500/20 text-amber-400 rounded-lg hover:bg-red-500 hover:text-white transition-all duration-300"
+                    className="w-8 h-8 bg-primary/20 text-primary rounded-lg hover:bg-red-500 hover:text-white transition-all duration-300"
                   >
                     <Heart className="w-4 h-4 mx-auto" />
                   </button>
-                  <button className="w-8 h-8 bg-amber-500/20 text-amber-400 rounded-lg hover:bg-amber-500 hover:text-black transition-all duration-300">
+                  <button className="w-8 h-8 bg-primary/20 text-primary rounded-lg hover:bg-primary hover:text-black transition-all duration-300">
                     <Eye className="w-4 h-4 mx-auto" />
                   </button>
                 </div>

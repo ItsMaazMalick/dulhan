@@ -100,16 +100,16 @@ export default function ProductPage() {
   return (
     <main className="min-h-screen bg-gradient-to-b from-black via-slate-900 to-black text-white">
       {/* Sticky action bar */}
-      <div className="z-50 backdrop-blur bg-black/40 border-b border-amber-600/8">
+      <div className="z-50 backdrop-blur bg-black/40 border-b border-primary/8">
         <div className="max-w-7xl mx-auto px-6 py-3 flex items-center justify-between gap-4">
           <div>
-            <div className="text-sm text-amber-300 font-medium">
+            <div className="text-sm text-primary font-medium">
               {product.name}
             </div>
             <div className="text-xs text-gray-300">{product.short}</div>
           </div>
           <div className="flex items-center gap-3">
-            <div className="text-2xl font-semibold text-amber-300">
+            <div className="text-2xl font-semibold text-primary">
               ₨ {product.price.toLocaleString()}
             </div>
             <Button
@@ -122,9 +122,7 @@ export default function ProductPage() {
               aria-label="wishlist"
               onClick={() => setFav((f) => !f)}
               className={`p-2 rounded-full ${
-                fav
-                  ? "bg-amber-500/20 text-amber-300"
-                  : "bg-white/5 text-gray-200"
+                fav ? "bg-primary/20 text-primary" : "bg-white/5 text-gray-200"
               }`}
             >
               <Heart />
@@ -145,7 +143,7 @@ export default function ProductPage() {
             className="relative"
           >
             <div
-              className="relative rounded-3xl overflow-hidden border border-amber-600/10 bg-black"
+              className="relative rounded-3xl overflow-hidden border border-primary/10 bg-black"
               style={{
                 transformStyle: "preserve-3d",
                 transition: "transform 0.45s ease",
@@ -183,9 +181,9 @@ export default function ProductPage() {
                 <button
                   onClick={() => setShowVideo(true)}
                   aria-label="Play product video"
-                  className="absolute bottom-6 left-6 bg-black/60 border border-amber-600/20 rounded-full p-3 hover:scale-105 transition"
+                  className="absolute bottom-6 left-6 bg-black/60 border border-primary/20 rounded-full p-3 hover:scale-105 transition"
                 >
-                  <Play className="h-5 w-5 text-amber-300" />
+                  <Play className="h-5 w-5 text-primary" />
                 </button>
 
                 {/* micro-thumbnails (left) */}
@@ -195,7 +193,7 @@ export default function ProductPage() {
                       key={t}
                       onClick={() => setIndex(i)}
                       className={`w-14 h-18 rounded-lg overflow-hidden border ${
-                        i === index ? "border-amber-400" : "border-gray-800"
+                        i === index ? "border-primary" : "border-gray-800"
                       } transform-gpu transition-all`}
                     >
                       <Image
@@ -213,10 +211,10 @@ export default function ProductPage() {
 
             {/* bottom badges */}
             <div className="mt-6 flex gap-4">
-              <div className="bg-slate-900/40 px-4 py-2 rounded-2xl border border-amber-600/10 text-sm">
+              <div className="bg-slate-900/40 px-4 py-2 rounded-2xl border border-primary/10 text-sm">
                 Handcrafted • 120+ hours
               </div>
-              <div className="bg-slate-900/40 px-4 py-2 rounded-2xl border border-amber-600/10 text-sm">
+              <div className="bg-slate-900/40 px-4 py-2 rounded-2xl border border-primary/10 text-sm">
                 Free fittings • Insured delivery
               </div>
             </div>
@@ -224,10 +222,10 @@ export default function ProductPage() {
 
           {/* Right: Info, highlights, size & actions */}
           <div className="space-y-6">
-            <h1 className="text-4xl lg:text-5xl font-serif text-amber-300 tracking-tight">
+            <h1 className="text-4xl lg:text-5xl font-serif text-primary tracking-tight">
               {product.name}
             </h1>
-            <p className="text-2xl font-semibold text-amber-300">
+            <p className="text-2xl font-semibold text-primary">
               ₨ {product.price.toLocaleString()}
             </p>
 
@@ -237,7 +235,7 @@ export default function ProductPage() {
               {product.highlights.map((h) => (
                 <div
                   key={h}
-                  className="bg-slate-900/40 p-3 rounded-lg border border-amber-600/8 text-sm"
+                  className="bg-slate-900/40 p-3 rounded-lg border border-primary/8 text-sm"
                 >
                   {h}
                 </div>
@@ -254,9 +252,7 @@ export default function ProductPage() {
                       key={s}
                       onClick={() => setSize(s)}
                       className={`px-4 py-2 rounded-full border ${
-                        size === s
-                          ? "bg-amber-300 text-black"
-                          : "border-gray-700"
+                        size === s ? "bg-primary text-black" : "border-gray-700"
                       }`}
                     >
                       {s}
@@ -265,7 +261,7 @@ export default function ProductPage() {
                 </div>
                 <button
                   onClick={() => setShowSizeGuide(true)}
-                  className="mt-2 text-xs text-amber-300 underline"
+                  className="mt-2 text-xs text-primary underline"
                 >
                   Size guide
                 </button>
@@ -273,7 +269,7 @@ export default function ProductPage() {
 
               <div className="flex items-center gap-3">
                 <div className="text-xs text-gray-400">Quantity</div>
-                <div className="flex items-center gap-2 bg-slate-900/30 border border-amber-600/8 rounded-full px-3 py-1">
+                <div className="flex items-center gap-2 bg-slate-900/30 border border-primary/8 rounded-full px-3 py-1">
                   <button
                     onClick={() => setQty((q) => Math.max(1, q - 1))}
                     className="px-2"
@@ -393,12 +389,12 @@ export default function ProductPage() {
             <motion.div
               key={i}
               whileHover={{ y: -6 }}
-              className="min-w-[260px] bg-slate-900/30 border border-amber-600/8 rounded-2xl p-4"
+              className="min-w-[260px] bg-slate-900/30 border border-primary/8 rounded-2xl p-4"
             >
               <div className="flex items-center justify-between">
                 <div>
                   <div className="font-medium">{r.name}</div>
-                  <div className="text-sm text-amber-300">
+                  <div className="text-sm text-primary">
                     {Array.from({ length: r.rating }).map((_, j) => "★")}
                   </div>
                 </div>
@@ -419,7 +415,7 @@ export default function ProductPage() {
               <motion.div
                 key={r.id}
                 whileHover={{ scale: 1.04 }}
-                className="min-w-[260px] bg-gradient-to-b from-slate-900/30 to-black rounded-2xl p-0 border border-amber-600/8 transform-gpu"
+                className="min-w-[260px] bg-gradient-to-b from-slate-900/30 to-black rounded-2xl p-0 border border-primary/8 transform-gpu"
               >
                 <div className="relative h-48 rounded-t-2xl overflow-hidden">
                   <Image
@@ -431,7 +427,7 @@ export default function ProductPage() {
                   />
                 </div>
                 <div className="p-4">
-                  <div className="text-sm text-amber-300 font-medium">
+                  <div className="text-sm text-primary font-medium">
                     {r.name}
                   </div>
                   <div className="text-lg font-semibold mt-2">
@@ -477,7 +473,7 @@ function ShippingEstimator({ price }: { price: number }) {
   };
 
   return (
-    <div className="mt-4 p-4 bg-slate-900/30 border border-amber-600/8 rounded-lg">
+    <div className="mt-4 p-4 bg-slate-900/30 border border-primary/8 rounded-lg">
       <div className="text-sm text-gray-300">Shipping estimator</div>
       <div className="flex gap-2 mt-3 items-center">
         <select
@@ -504,12 +500,12 @@ function ShippingEstimator({ price }: { price: number }) {
         <div className="mt-3 text-sm text-gray-300">
           <div>
             Cost:{" "}
-            <span className="text-amber-300">
+            <span className="text-primary">
               ₨ {estimate.cost.toLocaleString()}
             </span>
           </div>
           <div>
-            ETA: <span className="text-amber-300">{estimate.days}</span>
+            ETA: <span className="text-primary">{estimate.days}</span>
           </div>
         </div>
       )}

@@ -98,7 +98,7 @@ export default function ImageGallerySection() {
                 onMouseLeave={() => setHoveredIndex(null)}
                 className={`
                   relative overflow-hidden transition-all duration-500 cursor-pointer
-                  ${isHovered ? "z-20 scale-105 ring-2 ring-amber-600" : ""}
+                  ${isHovered ? "z-20 scale-105 ring-2 ring-primary" : ""}
                   ${
                     isAnyHovered && !isHovered
                       ? "opacity-40 scale-95"

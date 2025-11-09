@@ -144,7 +144,7 @@ export default function NewsPage() {
           {/* Search Bar */}
           <div className="relative animate-fadeInUp">
             <Search
-              className="absolute left-4 top-1/2 transform -translate-y-1/2 text-amber-500"
+              className="absolute left-4 top-1/2 transform -translate-y-1/2 text-primary"
               size={20}
             />
             <input
@@ -152,7 +152,7 @@ export default function NewsPage() {
               placeholder="Search articles..."
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
-              className="w-full pl-12 pr-4 py-3 bg-gray-900 border border-amber-700/30 rounded-lg text-white placeholder-gray-500 focus:border-amber-500 focus:outline-none transition"
+              className="w-full pl-12 pr-4 py-3 bg-gray-900 border border-primary/30 rounded-lg text-white placeholder-gray-500 focus:border-primary focus:outline-none transition"
             />
           </div>
 
@@ -164,8 +164,8 @@ export default function NewsPage() {
                 onClick={() => setSelectedCategory(cat)}
                 className={`px-4 py-2 rounded-full transition-all duration-300 ${
                   selectedCategory === cat
-                    ? "bg-amber-600 text-white shadow-[0_0_20px_rgba(212,175,55,0.4)]"
-                    : "border border-amber-700/30 text-gray-300 hover:border-amber-500/60"
+                    ? "bg-primary text-white shadow-[0_0_20px_rgba(212,175,55,0.4)]"
+                    : "border border-primary/30 text-gray-300 hover:border-primary/60"
                 }`}
               >
                 {cat}
@@ -178,7 +178,7 @@ export default function NewsPage() {
         {featuredPosts.length > 0 && (
           <div className="mb-16">
             <h2 className="text-3xl font-bold text-white mb-8 flex items-center gap-2">
-              <div className="w-2 h-8 bg-gradient-to-b from-amber-500 to-amber-700 rounded"></div>
+              <div className="w-2 h-8 bg-gradient-to-b from-primary to-primary rounded"></div>
               Featured Stories
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -186,7 +186,7 @@ export default function NewsPage() {
                 <div
                   key={post.id}
                   style={{ animationDelay: `${idx * 0.15}s` }}
-                  className="group bg-gradient-to-br from-gray-900 via-gray-900 to-black border border-amber-700/30 rounded-lg overflow-hidden hover:border-amber-500/60 transition-all duration-500 hover:shadow-[0_0_40px_rgba(212,175,55,0.25)] animate-scaleIn cursor-pointer"
+                  className="group bg-gradient-to-br from-gray-900 via-gray-900 to-black border border-primary/30 rounded-lg overflow-hidden hover:border-primary/60 transition-all duration-500 hover:shadow-[0_0_40px_rgba(212,175,55,0.25)] animate-scaleIn cursor-pointer"
                   onClick={() => setReadingPost(post)}
                 >
                   {/* Image */}
@@ -197,7 +197,7 @@ export default function NewsPage() {
                       className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                     />
                     {/* Featured Badge */}
-                    <div className="absolute top-4 left-4 px-3 py-1 bg-amber-600/90 backdrop-blur-sm rounded-full text-white text-xs font-bold">
+                    <div className="absolute top-4 left-4 px-3 py-1 bg-primary/90 backdrop-blur-sm rounded-full text-white text-xs font-bold">
                       Featured
                     </div>
                   </div>
@@ -205,14 +205,14 @@ export default function NewsPage() {
                   {/* Content */}
                   <div className="p-6">
                     <div className="flex items-center gap-3 mb-3">
-                      <span className="px-3 py-1 bg-amber-600/20 text-amber-400 text-xs font-semibold rounded-full">
+                      <span className="px-3 py-1 bg-primary/20 text-primary text-xs font-semibold rounded-full">
                         {post.category}
                       </span>
-                      <span className="text-amber-500 text-xs font-semibold">
+                      <span className="text-primary text-xs font-semibold">
                         {post.readTime} min read
                       </span>
                     </div>
-                    <h3 className="text-xl font-bold text-white mb-3 line-clamp-2 group-hover:text-amber-400 transition">
+                    <h3 className="text-xl font-bold text-white mb-3 line-clamp-2 group-hover:text-primary transition">
                       {post.title}
                     </h3>
                     <p className="text-gray-400 text-sm mb-4 line-clamp-2">
@@ -226,7 +226,7 @@ export default function NewsPage() {
                         <p>{post.date}</p>
                       </div>
                       <ArrowRight
-                        className="text-amber-500 group-hover:translate-x-2 transition-transform"
+                        className="text-primary group-hover:translate-x-2 transition-transform"
                         size={20}
                       />
                     </div>
@@ -241,7 +241,7 @@ export default function NewsPage() {
         {otherPosts.length > 0 && (
           <div>
             <h2 className="text-3xl font-bold text-white mb-8 flex items-center gap-2">
-              <div className="w-2 h-8 bg-gradient-to-b from-amber-500 to-amber-700 rounded"></div>
+              <div className="w-2 h-8 bg-gradient-to-b from-primary to-primary rounded"></div>
               Latest Articles
             </h2>
             <div className="space-y-6">
@@ -249,7 +249,7 @@ export default function NewsPage() {
                 <div
                   key={post.id}
                   style={{ animationDelay: `${idx * 0.1}s` }}
-                  className="group bg-gradient-to-r from-gray-900 to-black border border-amber-700/20 rounded-lg p-6 hover:border-amber-500/40 transition-all duration-500 hover:shadow-[0_0_30px_rgba(212,175,55,0.2)] animate-fadeInUp cursor-pointer flex gap-6"
+                  className="group bg-gradient-to-r from-gray-900 to-black border border-primary/20 rounded-lg p-6 hover:border-primary/40 transition-all duration-500 hover:shadow-[0_0_30px_rgba(212,175,55,0.2)] animate-fadeInUp cursor-pointer flex gap-6"
                   onClick={() => setReadingPost(post)}
                 >
                   {/* Image - Desktop Only */}
@@ -265,7 +265,7 @@ export default function NewsPage() {
                   <div className="flex-1 flex flex-col justify-between">
                     <div>
                       <div className="flex items-center gap-3 mb-3 flex-wrap">
-                        <span className="px-3 py-1 bg-amber-600/20 text-amber-400 text-xs font-semibold rounded-full">
+                        <span className="px-3 py-1 bg-primary/20 text-primary text-xs font-semibold rounded-full">
                           {post.category}
                         </span>
                         <span className="text-gray-500 text-xs">
@@ -276,7 +276,7 @@ export default function NewsPage() {
                           {post.readTime} min read
                         </span>
                       </div>
-                      <h3 className="text-xl font-bold text-white mb-3 line-clamp-2 group-hover:text-amber-400 transition">
+                      <h3 className="text-xl font-bold text-white mb-3 line-clamp-2 group-hover:text-primary transition">
                         {post.title}
                       </h3>
                       <p className="text-gray-400 text-sm line-clamp-2">
@@ -289,7 +289,7 @@ export default function NewsPage() {
                         <span>{post.author}</span>
                       </div>
                       <ArrowRight
-                        className="text-amber-500 group-hover:translate-x-2 transition-transform"
+                        className="text-primary group-hover:translate-x-2 transition-transform"
                         size={20}
                       />
                     </div>
@@ -309,7 +309,7 @@ export default function NewsPage() {
                 setSearchQuery("");
                 setSelectedCategory("All");
               }}
-              className="px-6 py-2 bg-amber-600 text-white rounded-lg hover:bg-amber-700 transition"
+              className="px-6 py-2 bg-primary text-white rounded-lg hover:bg-primary transition"
             >
               Clear Filters
             </button>
@@ -336,7 +336,7 @@ export default function NewsPage() {
             </button>
 
             {/* Article Header */}
-            <article className="bg-gradient-to-b from-gray-900 to-black border border-amber-700/30 rounded-lg overflow-hidden">
+            <article className="bg-gradient-to-b from-gray-900 to-black border border-primary/30 rounded-lg overflow-hidden">
               {/* Hero Image */}
               <div className="w-full h-96 overflow-hidden bg-gray-800">
                 <img
@@ -350,7 +350,7 @@ export default function NewsPage() {
               <div className="p-8 md:p-12">
                 {/* Meta */}
                 <div className="flex items-center gap-4 mb-4 flex-wrap text-sm text-gray-400">
-                  <span className="px-3 py-1 bg-amber-600/20 text-amber-400 font-semibold rounded-full">
+                  <span className="px-3 py-1 bg-primary/20 text-primary font-semibold rounded-full">
                     {readingPost.category}
                   </span>
                   <span className="flex items-center gap-1">
@@ -366,9 +366,9 @@ export default function NewsPage() {
                 </h1>
 
                 {/* Author */}
-                <div className="flex items-center gap-3 pb-6 border-b border-amber-700/20 mb-8">
-                  <div className="w-12 h-12 rounded-full bg-amber-600/30 flex items-center justify-center">
-                    <User className="text-amber-400" size={24} />
+                <div className="flex items-center gap-3 pb-6 border-b border-primary/20 mb-8">
+                  <div className="w-12 h-12 rounded-full bg-primary/30 flex items-center justify-center">
+                    <User className="text-primary" size={24} />
                   </div>
                   <div>
                     <p className="text-white font-semibold">
@@ -397,13 +397,13 @@ export default function NewsPage() {
                 </div>
 
                 {/* Tags */}
-                <div className="mt-8 pt-8 border-t border-amber-700/20">
+                <div className="mt-8 pt-8 border-t border-primary/20">
                   <div className="flex flex-wrap gap-3">
                     {["Wedding Fashion", "Bridal Wear", "Luxury", "Trends"].map(
                       (tag) => (
                         <span
                           key={tag}
-                          className="px-4 py-2 bg-amber-600/20 text-amber-400 text-sm font-semibold rounded-full hover:bg-amber-600/30 transition cursor-pointer"
+                          className="px-4 py-2 bg-primary/20 text-primary text-sm font-semibold rounded-full hover:bg-primary/30 transition cursor-pointer"
                         >
                           #{tag}
                         </span>

@@ -86,14 +86,14 @@ export default function ContactPage() {
             return (
               <div
                 key={index}
-                className="group p-8 border border-gray-800 hover:border-amber-500 transition-all duration-300 rounded-lg hover:shadow-lg hover:shadow-amber-500/10 hover:bg-gray-900/20 hover:scale-105 animate-scaleIn cursor-pointer"
+                className="group p-8 border border-gray-800 hover:border-primary transition-all duration-300 rounded-lg hover:shadow-lg hover:shadow-primary/10 hover:bg-gray-900/20 hover:scale-105 animate-scaleIn cursor-pointer"
                 style={{ animationDelay: `${index * 0.15}s` }}
               >
-                <Icon className="w-12 h-12 text-amber-500 mb-4 group-hover:scale-110 transition-transform duration-300" />
-                <h3 className="text-xl font-light text-white mb-2 group-hover:text-amber-200 transition-colors">
+                <Icon className="w-12 h-12 text-primary mb-4 group-hover:scale-110 transition-transform duration-300" />
+                <h3 className="text-xl font-light text-white mb-2 group-hover:text-primary transition-colors">
                   {info.label}
                 </h3>
-                <p className="text-white font-light mb-1 group-hover:text-amber-100 transition-colors">
+                <p className="text-white font-light mb-1 group-hover:text-primary transition-colors">
                   {info.value}
                 </p>
                 <p className="text-gray-400 text-sm group-hover:text-gray-300 transition-colors">
@@ -132,7 +132,7 @@ export default function ContactPage() {
                   value={formData.firstName}
                   onChange={handleChange}
                   required
-                  className="w-full bg-transparent border border-gray-700 text-white px-4 py-3 focus:outline-none focus:border-amber-500 focus:shadow-lg focus:shadow-amber-500/20 transition-all duration-300 placeholder-gray-600"
+                  className="w-full bg-transparent border border-gray-700 text-white px-4 py-3 focus:outline-none focus:border-primary focus:shadow-lg focus:shadow-primary/20 transition-all duration-300 placeholder-gray-600"
                 />
               </div>
               <div>
@@ -145,7 +145,7 @@ export default function ContactPage() {
                   value={formData.lastName}
                   onChange={handleChange}
                   required
-                  className="w-full bg-transparent border border-gray-700 text-white px-4 py-3 focus:outline-none focus:border-amber-500 focus:shadow-lg focus:shadow-amber-500/20 transition-all duration-300 placeholder-gray-600"
+                  className="w-full bg-transparent border border-gray-700 text-white px-4 py-3 focus:outline-none focus:border-primary focus:shadow-lg focus:shadow-primary/20 transition-all duration-300 placeholder-gray-600"
                 />
               </div>
             </div>
@@ -160,7 +160,7 @@ export default function ContactPage() {
                 value={formData.email}
                 onChange={handleChange}
                 required
-                className="w-full bg-transparent border border-gray-700 text-white px-4 py-3 focus:outline-none focus:border-amber-500 focus:shadow-lg focus:shadow-amber-500/20 transition-all duration-300 placeholder-gray-600"
+                className="w-full bg-transparent border border-gray-700 text-white px-4 py-3 focus:outline-none focus:border-primary focus:shadow-lg focus:shadow-primary/20 transition-all duration-300 placeholder-gray-600"
               />
             </div>
 
@@ -174,7 +174,7 @@ export default function ContactPage() {
                 value={formData.subject}
                 onChange={handleChange}
                 required
-                className="w-full bg-transparent border border-gray-700 text-white px-4 py-3 focus:outline-none focus:border-amber-500 focus:shadow-lg focus:shadow-amber-500/20 transition-all duration-300 placeholder-gray-600"
+                className="w-full bg-transparent border border-gray-700 text-white px-4 py-3 focus:outline-none focus:border-primary focus:shadow-lg focus:shadow-primary/20 transition-all duration-300 placeholder-gray-600"
               />
             </div>
 
@@ -188,14 +188,14 @@ export default function ContactPage() {
                 onChange={handleChange}
                 required
                 rows={6}
-                className="w-full bg-transparent border border-gray-700 text-white px-4 py-3 focus:outline-none focus:border-amber-500 focus:shadow-lg focus:shadow-amber-500/20 transition-all duration-300 resize-none placeholder-gray-600"
+                className="w-full bg-transparent border border-gray-700 text-white px-4 py-3 focus:outline-none focus:border-primary focus:shadow-lg focus:shadow-primary/20 transition-all duration-300 resize-none placeholder-gray-600"
               />
             </div>
 
             <button
               type="submit"
               disabled={isSubmitting}
-              className="w-full bg-amber-600 hover:bg-amber-700 text-white tracking-widest py-3 transition-all duration-300 disabled:opacity-50 font-light hover:shadow-lg hover:shadow-amber-600/30 hover:scale-105 disabled:scale-100"
+              className="w-full bg-primary hover:bg-primary text-white tracking-widest py-3 transition-all duration-300 disabled:opacity-50 font-light hover:shadow-lg hover:shadow-primary/30 hover:scale-105 disabled:scale-100"
             >
               {isSubmitting ? "SENDING..." : "SEND MESSAGE"}
             </button>
@@ -217,7 +217,7 @@ export default function ContactPage() {
             {["Instagram", "Facebook", "Pinterest"].map((social, index) => (
               <button
                 key={social}
-                className="text-amber-500 hover:text-amber-300 transition-all duration-300 text-sm tracking-widest font-light hover:scale-110 hover:gap-2"
+                className="text-primary hover:text-primary transition-all duration-300 text-sm tracking-widest font-light hover:scale-110 hover:gap-2"
                 style={{ animationDelay: `${index * 0.1}s` }}
               >
                 {social}

@@ -15,6 +15,7 @@ export default function Navbar() {
     CONTACT: "/contact",
     ABOUT: "/about",
     "CUSTOM ORDERS": "/custom-orders",
+    TRACK: "/order-tracking",
   } as const; // <--- important
 
   type NavKey = keyof typeof navLinks; // "HOME" | "Products" | ...

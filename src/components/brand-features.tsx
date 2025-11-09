@@ -56,10 +56,7 @@ export default function BrandFeaturesSection() {
         <p className="text-xs tracking-widest text-gray-400 mb-4">
           GLOBAL BRIDAL DRESS BRAND
         </p>
-        <h2
-          className="text-4xl md:text-5xl font-light mb-8"
-          style={{ color: "#D4AF37" }}
-        >
+        <h2 className="text-4xl md:text-5xl font-light mb-8 text-primary">
           Your Dream Wedding Begins with a Perfect Outfit
         </h2>
       </div>
@@ -95,7 +92,7 @@ export default function BrandFeaturesSection() {
               </div>
 
               {/* Content */}
-              <div className="relative z-10 p-8 border-l border-r border-gray-900 hover:border-amber-500 transition-colors duration-300 bg-black/80 hover:bg-black/60 min-h-[350px] flex flex-col justify-between">
+              <div className="relative z-10 p-8 border-l border-r border-gray-900 hover:border-primary transition-colors duration-300 bg-black/80 hover:bg-black/60 min-h-[350px] flex flex-col justify-between">
                 {/* Icon */}
                 {/* <div className="text-4xl mb-6">{feature.icon}</div> */}
                 {Icon}
@@ -112,7 +109,7 @@ export default function BrandFeaturesSection() {
 
                 {/* Arrow Icon */}
                 <div className="flex justify-end mt-6">
-                  <span className="text-amber-500 text-xl">↗</span>
+                  <span className="text-primary text-xl">↗</span>
                 </div>
               </div>
             </div>

@@ -100,7 +100,7 @@ export default function CustomerReviewsSection() {
                     </h4>
                     <div className="flex gap-1 mt-1">
                       {[...Array(review.rating)].map((_, i) => (
-                        <span key={i} className="text-amber-500 text-xs">
+                        <span key={i} className="text-primary text-xs">
                           ★
                         </span>
                       ))}

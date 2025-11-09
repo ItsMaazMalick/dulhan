@@ -9,6 +9,7 @@ import ProductGrid3 from "@/components/product-grid-3";
 import ProductListView from "@/components/product-list-view";
 import ProductTableView from "@/components/product-table-view";
 import TopBanner from "@/components/top-banner";
+import { ArrowLeft, ChevronLeft, ChevronRight } from "lucide-react";
 
 const PRODUCTS_PER_PAGE = 8;
 
@@ -297,14 +298,52 @@ export default function TopCategoriesPage() {
           title="Products"
           description="Discover our exquisite bridal collection"
         />
-        <div className="max-w-7xl mx-auto px-4">
+        <div className="max-w-7xl mx-auto px-4 mt-4">
           <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-6">
-            <h2 className="text-2xl font-serif text-white animate-fadeInDown">
+            <h2 className="text-2xl font-serif text-primary animate-fadeInDown italic">
               Search by Category
             </h2>
+          </div>
 
+          {/* Categories carousel */}
+          <div className="relative">
+            <div className="h-64 flex items-center">
+              <div>
+                <ChevronLeft className="size-10 text-primary" />
+              </div>
+              <div className="flex-1 flex gap-6 overflow-x-auto p-4 scrollbar-hide">
+                {categories.map((cat, index) => (
+                  <div
+                    key={cat.id}
+                    onClick={() => handleCategoryChange(cat.id)}
+                    className="flex-shrink-0 cursor-pointer group animate-slideInLeft"
+                    style={{ animationDelay: `${index * 100}ms` }}
+                  >
+                    <div
+                      className={`w-30 h-30 rounded-full overflow-hidden border-2 transition-all duration-500 ${
+                        selectedCategory === cat.id
+                          ? "border-primary shadow-2xl shadow-primary/50 scale-105"
+                          : "border-primary/30 hover:border-primary hover:shadow-xl hover:shadow-primary/30"
+                      }`}
+                    >
+                      <img
+                        src={cat.image || "/placeholder.svg"}
+                        alt={cat.name}
+                        className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                      />
+                    </div>
+                    <p className="text-center text-white mt-4 text-sm font-semibold group-hover:text-primary transition-colors">
+                      {cat.name}
+                    </p>
+                  </div>
+                ))}
+              </div>
+              <div>
+                <ChevronRight className="size-10 text-primary" />
+              </div>
+            </div>
             {/* 👰🤵 Bride / Groom Toggle */}
-            <div className="flex items-center gap-4 bg-gradient-to-r from-slate-900/70 to-slate-800/70 border border-amber-600/30 rounded-2xl p-2 backdrop-blur-md shadow-lg shadow-amber-500/10 animate-fadeInUp">
+            <div className="mt-2 flex items-center gap-4  rounded-2xl p-2  animate-fadeInUp">
               {[
                 {
                   id: "bride",
@@ -322,44 +361,12 @@ export default function TopCategoriesPage() {
                   onClick={() => setSelectedGender(g.id as "bride" | "groom")}
                   className={`flex items-center gap-3 px-5 py-3 rounded-xl text-lg font-semibold transition-all duration-300 ${
                     selectedGender === g.id
-                      ? "bg-amber-500 text-black shadow-lg shadow-amber-500/50 scale-105"
-                      : "bg-slate-900 text-amber-400 border border-amber-600/30 hover:bg-amber-500 hover:text-black hover:shadow-amber-500/30 hover:scale-105"
+                      ? "bg-primary text-black shadow-lg shadow-primary/50 scale-105"
+                      : "bg-slate-900 text-primary border border-primary/30 hover:bg-primary hover:text-black hover:shadow-primary/30 hover:scale-105"
                   }`}
                 >
                   <span className="text-2xl">{g.icon}</span>
-                  {g.label}
                 </button>
-              ))}
-            </div>
-          </div>
-
-          {/* Categories carousel */}
-          <div className="relative">
-            <div className="flex gap-6 overflow-x-auto p-4 scrollbar-hide">
-              {categories.map((cat, index) => (
-                <div
-                  key={cat.id}
-                  onClick={() => handleCategoryChange(cat.id)}
-                  className="flex-shrink-0 cursor-pointer group animate-slideInLeft"
-                  style={{ animationDelay: `${index * 100}ms` }}
-                >
-                  <div
-                    className={`w-30 h-30 rounded-full overflow-hidden border-2 transition-all duration-500 ${
-                      selectedCategory === cat.id
-                        ? "border-amber-500 shadow-2xl shadow-amber-500/50 scale-105"
-                        : "border-amber-600/30 hover:border-amber-500 hover:shadow-xl hover:shadow-amber-500/30"
-                    }`}
-                  >
-                    <img
-                      src={cat.image || "/placeholder.svg"}
-                      alt={cat.name}
-                      className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
-                    />
-                  </div>
-                  <p className="text-center text-white mt-4 text-sm font-semibold group-hover:text-amber-400 transition-colors">
-                    {cat.name}
-                  </p>
-                </div>
               ))}
             </div>
           </div>
@@ -370,9 +377,9 @@ export default function TopCategoriesPage() {
             {/* Subcategories Sidebar */}
             {currentSubcategories.length > 0 && (
               <div className="w-64  animate-slideInLeft">
-                <div className="sticky top-24 bg-gradient-to-b from-slate-900/80 to-slate-900/40 border border-amber-600/30 rounded-2xl p-6 backdrop-blur-sm hover:border-amber-500/50 transition-all duration-300">
-                  <h3 className="text-white font-serif text-xl mb-6 text-amber-400 flex items-center gap-2">
-                    <span className="w-1 h-6 bg-amber-500 rounded-full"></span>
+                <div className="sticky top-24 bg-gradient-to-b from-slate-900/80 to-slate-900/40 border border-primary/30 rounded-2xl p-6 backdrop-blur-sm hover:border-primary/50 transition-all duration-300">
+                  <h3 className="text-white font-serif text-xl mb-6 text-primary flex items-center gap-2">
+                    <span className="w-1 h-6 bg-primary rounded-full"></span>
                     Subcategories
                   </h3>
 
@@ -381,15 +388,15 @@ export default function TopCategoriesPage() {
                       onClick={() => handleSubcategoryChange(null)}
                       className={`w-full text-left px-4 py-3 rounded-xl font-semibold transition-all duration-300 flex items-center gap-3 group ${
                         selectedSubcategory === null
-                          ? "bg-amber-500/20 text-amber-400 border border-amber-500 shadow-lg shadow-amber-500/20"
-                          : "text-gray-300 border border-transparent hover:text-amber-400 hover:bg-amber-500/10 hover:border-amber-500/30"
+                          ? "bg-primary/20 text-primary border border-primary shadow-lg shadow-primary/20"
+                          : "text-gray-300 border border-transparent hover:text-primary hover:bg-primary/10 hover:border-primary/30"
                       }`}
                     >
                       <span
                         className={`w-2 h-2 rounded-full transition-all ${
                           selectedSubcategory === null
-                            ? "bg-amber-500"
-                            : "bg-gray-600 group-hover:bg-amber-400"
+                            ? "bg-primary"
+                            : "bg-gray-600 group-hover:bg-primary"
                         }`}
                       ></span>
                       All Subcategories
@@ -401,16 +408,16 @@ export default function TopCategoriesPage() {
                         onClick={() => handleSubcategoryChange(subcat)}
                         className={`w-full text-left px-4 py-3 rounded-xl font-semibold transition-all duration-300 flex items-center gap-3 group animate-fadeInLeft ${
                           selectedSubcategory === subcat
-                            ? "bg-amber-500/20 text-amber-400 border border-amber-500 shadow-lg shadow-amber-500/20"
-                            : "text-gray-300 border border-transparent hover:text-amber-400 hover:bg-amber-500/10 hover:border-amber-500/30"
+                            ? "bg-primary/20 text-primary border border-primary shadow-lg shadow-primary/20"
+                            : "text-gray-300 border border-transparent hover:text-primary hover:bg-primary/10 hover:border-primary/30"
                         }`}
                         style={{ animationDelay: `${index * 80}ms` }}
                       >
                         <span
                           className={`w-2 h-2 rounded-full transition-all ${
                             selectedSubcategory === subcat
-                              ? "bg-amber-500"
-                              : "bg-gray-600 group-hover:bg-amber-400"
+                              ? "bg-primary"
+                              : "bg-gray-600 group-hover:bg-primary"
                           }`}
                         ></span>
                         {subcat}
@@ -418,17 +425,63 @@ export default function TopCategoriesPage() {
                     ))}
                   </div>
 
-                  <div className="mt-8 pt-6 border-t border-amber-600/20">
+                  <div className="mt-8 pt-6 border-t border-primary/20">
                     <p className="text-xs text-gray-500 mb-3 font-semibold uppercase tracking-wide">
                       Product Count
                     </p>
-                    <div className="bg-slate-800/50 rounded-xl p-4 text-center border border-amber-600/10">
-                      <p className="text-3xl font-bold text-amber-400">
+                    <div className="bg-slate-800/50 rounded-xl p-4 text-center border border-primary/10">
+                      <p className="text-3xl font-bold text-primary">
                         {filteredProducts.length}
                       </p>
                       <p className="text-xs text-gray-400 mt-2">
                         items available
                       </p>
+                    </div>
+                  </div>
+
+                  {/* 🔹 Filters Section */}
+                  <div className="mt-8 pt-6 border-t border-primary/20 space-y-6">
+                    <h4 className="text-white font-serif text-lg mb-4 text-primary">
+                      Filters
+                    </h4>
+
+                    {/* Price Filter */}
+                    <div>
+                      <label className="block text-sm font-medium mb-2 text-gray-400">
+                        Price Range (PKR)
+                      </label>
+                      <input
+                        type="range"
+                        min="10000"
+                        max="100000"
+                        step="1000"
+                        className="w-full accent-primary cursor-pointer"
+                        onChange={(e) => console.log("Price:", e.target.value)}
+                      />
+                      <p className="text-sm text-gray-500 mt-1 text-center">
+                        Up to{" "}
+                        <span className="text-primary font-semibold">
+                          PKR 100,000
+                        </span>
+                      </p>
+                    </div>
+
+                    {/* Rating Filter */}
+                    <div>
+                      <label className="block text-sm font-medium mb-2 text-gray-400">
+                        Minimum Rating
+                      </label>
+                      <div className="flex gap-1 justify-center">
+                        {[1, 2, 3, 4, 5].map((r) => (
+                          <button
+                            key={r}
+                            onClick={() => console.log("Rating:", r)}
+                            className="text-yellow-400 hover:scale-125 transition-transform duration-300"
+                          >
+                            ★
+                          </button>
+                        ))}
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -457,8 +510,8 @@ export default function TopCategoriesPage() {
                     disabled={currentPage === 1}
                     className={`w-12 h-12 rounded-lg transition-all duration-300 flex items-center justify-center font-bold text-lg ${
                       currentPage === 1
-                        ? "bg-slate-900 border border-amber-600/20 text-gray-600 cursor-not-allowed opacity-50"
-                        : "bg-slate-900 border border-amber-600/30 text-white hover:bg-amber-500 hover:text-black hover:shadow-lg hover:shadow-amber-500/50 hover:scale-110"
+                        ? "bg-slate-900 border border-primary/20 text-gray-600 cursor-not-allowed opacity-50"
+                        : "bg-slate-900 border border-primary/30 text-white hover:bg-primary hover:text-black hover:shadow-lg hover:shadow-primary/50 hover:scale-110"
                     }`}
                   >
                     ←
@@ -475,8 +528,8 @@ export default function TopCategoriesPage() {
                           }}
                           className={`w-12 h-12 rounded-lg font-bold transition-all duration-300 ${
                             currentPage === page
-                              ? "bg-amber-500 text-black shadow-lg shadow-amber-500/50 hover:scale-110"
-                              : "bg-slate-900 border border-amber-600/30 text-white hover:bg-amber-500 hover:text-black hover:shadow-lg hover:shadow-amber-500/50 hover:scale-110"
+                              ? "bg-primary text-black shadow-lg shadow-primary/50 hover:scale-110"
+                              : "bg-slate-900 border border-primary/30 text-white hover:bg-primary hover:text-black hover:shadow-lg hover:shadow-primary/50 hover:scale-110"
                           }`}
                         >
                           {page}
@@ -490,8 +543,8 @@ export default function TopCategoriesPage() {
                     disabled={currentPage === totalPages}
                     className={`w-12 h-12 rounded-lg transition-all duration-300 flex items-center justify-center font-bold text-lg ${
                       currentPage === totalPages
-                        ? "bg-slate-900 border border-amber-600/20 text-gray-600 cursor-not-allowed opacity-50"
-                        : "bg-slate-900 border border-amber-600/30 text-white hover:bg-amber-500 hover:text-black hover:shadow-lg hover:shadow-amber-500/50 hover:scale-110"
+                        ? "bg-slate-900 border border-primary/20 text-gray-600 cursor-not-allowed opacity-50"
+                        : "bg-slate-900 border border-primary/30 text-white hover:bg-primary hover:text-black hover:shadow-lg hover:shadow-primary/50 hover:scale-110"
                     }`}
                   >
                     →

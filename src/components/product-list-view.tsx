@@ -30,7 +30,7 @@ export default function ProductListView({
         <Link
           href={`/products/${product.id}`}
           key={product.id}
-          className="group flex gap-6 bg-gradient-to-r from-slate-900/50 to-black border border-amber-600/30 rounded-xl p-6 hover:border-amber-500/50 transition-all duration-500 hover:shadow-2xl hover:shadow-amber-500/20 animate-slideInLeft"
+          className="group flex gap-6 bg-gradient-to-r from-slate-900/50 to-black border border-primary/30 rounded-xl p-6 hover:border-primary/50 transition-all duration-500 hover:shadow-2xl hover:shadow-primary/20 animate-slideInLeft"
           style={{ animationDelay: `${index * 60}ms` }}
         >
           {/* Thumbnail */}
@@ -45,13 +45,13 @@ export default function ProductListView({
             />
             <button
               onClick={() => onToggleWishlist(product.id)}
-              className="absolute top-3 right-3 w-10 h-10 bg-black/80 hover:bg-amber-500 rounded-full flex items-center justify-center transition-all duration-300 hover:scale-110"
+              className="absolute top-3 right-3 w-10 h-10 bg-black/80 hover:bg-primary rounded-full flex items-center justify-center transition-all duration-300 hover:scale-110"
             >
               <Heart
                 className={`w-5 h-5 transition-colors ${
                   wishlist[product.id]
                     ? "fill-red-500 text-red-500"
-                    : "text-amber-400"
+                    : "text-primary"
                 }`}
               />
             </button>
@@ -62,14 +62,14 @@ export default function ProductListView({
             <div>
               <div className="flex items-start justify-between mb-2">
                 <div>
-                  <p className="text-amber-400 text-xs font-bold tracking-widest uppercase">
+                  <p className="text-primary text-xs font-bold tracking-widest uppercase">
                     {product.category}
                   </p>
-                  <h3 className="text-xl font-semibold text-white mt-2 group-hover:text-amber-400 transition-colors">
+                  <h3 className="text-xl font-semibold text-white mt-2 group-hover:text-primary transition-colors">
                     {product.name}
                   </h3>
                 </div>
-                <button className="bg-amber-500/20 text-amber-400 p-2 rounded-lg hover:bg-amber-500 hover:text-black transition-all duration-300 hover:scale-110">
+                <button className="bg-primary/20 text-primary p-2 rounded-lg hover:bg-primary hover:text-black transition-all duration-300 hover:scale-110">
                   <Eye className="w-5 h-5" />
                 </button>
               </div>
@@ -85,7 +85,7 @@ export default function ProductListView({
                       key={i}
                       className={`text-sm ${
                         i < Math.floor(product.rating)
-                          ? "text-amber-400"
+                          ? "text-primary"
                           : "text-gray-600"
                       }`}
                     >
@@ -99,11 +99,11 @@ export default function ProductListView({
               </div>
             </div>
 
-            <div className="flex justify-between items-center pt-4 border-t border-amber-600/20">
-              <p className="text-amber-400 font-bold text-2xl">
+            <div className="flex justify-between items-center pt-4 border-t border-primary/20">
+              <p className="text-primary font-bold text-2xl">
                 ₹{product.price.toLocaleString()}
               </p>
-              <button className="bg-amber-500 hover:bg-amber-600 text-black px-6 py-3 rounded-full font-semibold flex items-center gap-2 transition-all duration-300 hover:shadow-lg hover:shadow-amber-500/50 hover:scale-105">
+              <button className="bg-primary hover:bg-primary text-black px-6 py-3 rounded-full font-semibold flex items-center gap-2 transition-all duration-300 hover:shadow-lg hover:shadow-primary/50 hover:scale-105">
                 <ShoppingCart className="w-5 h-5" />
                 Add to Cart
               </button>

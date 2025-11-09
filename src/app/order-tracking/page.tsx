@@ -105,7 +105,7 @@ export default function OrderTrackingPage() {
               initial={{ opacity: 0, scale: 0.98 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ duration: 0.9 }}
-              className="relative rounded-3xl overflow-hidden border border-amber-600/10 shadow-xl"
+              className="relative rounded-3xl overflow-hidden border border-primary/10 shadow-xl"
             >
               <div className="aspect-[16/10] relative w-full bg-gradient-to-br from-slate-900/40 via-black to-black/20">
                 <Image
@@ -115,8 +115,8 @@ export default function OrderTrackingPage() {
                   className="object-cover opacity-95"
                 />
                 <div className="absolute inset-0 bg-black/30" />
-                <div className="absolute left-6 bottom-6 bg-black/50 border border-amber-600/20 rounded-2xl p-4">
-                  <p className="text-xs text-amber-300">Order Concierge</p>
+                <div className="absolute left-6 bottom-6 bg-black/50 border border-primary/20 rounded-2xl p-4">
+                  <p className="text-xs text-primary">Order Concierge</p>
                   <p className="mt-1 text-sm text-white font-medium">
                     24/7 personal support
                   </p>
@@ -137,7 +137,7 @@ export default function OrderTrackingPage() {
         >
           {/* Timeline & progress (left) */}
           <div className="lg:col-span-2">
-            <Card className="bg-gradient-to-b from-slate-900/60 to-black/60 border border-amber-600/10 overflow-visible">
+            <Card className="bg-gradient-to-b from-slate-900/60 to-black/60 border border-primary/10 overflow-visible">
               <CardHeaderInner
                 title="Order Timeline"
                 subtitle={order ? `Order ${order.id}` : "Awaiting tracking ID"}
@@ -187,7 +187,7 @@ export default function OrderTrackingPage() {
                           </div>
 
                           <div>
-                            <p className="text-sm text-amber-200 font-medium">
+                            <p className="text-sm text-primary font-medium">
                               {step.label}
                             </p>
                             <p className="text-xs text-gray-400 mt-1">
@@ -210,7 +210,7 @@ export default function OrderTrackingPage() {
                 transition={{ delay: 0.15 }}
                 className="mt-6 grid grid-cols-1 md:grid-cols-2 gap-6"
               >
-                <Card className="bg-slate-900/60 border border-amber-600/10">
+                <Card className="bg-slate-900/60 border border-primary/10">
                   <CardHeaderInner
                     title="Order Story"
                     subtitle="A tailor-made journey"
@@ -232,7 +232,7 @@ export default function OrderTrackingPage() {
                   </CardContent>
                 </Card>
 
-                <Card className="bg-slate-900/60 border border-amber-600/10">
+                <Card className="bg-slate-900/60 border border-primary/10">
                   <CardHeaderInner
                     title="Need Help?"
                     subtitle="We're here for you"
@@ -240,11 +240,11 @@ export default function OrderTrackingPage() {
                   <CardContent>
                     <div className="space-y-3 text-gray-300">
                       <p>
-                        <strong className="text-amber-400">Phone: </strong> +92
+                        <strong className="text-primary">Phone: </strong> +92
                         300 000000
                       </p>
                       <p>
-                        <strong className="text-amber-400">Email: </strong>{" "}
+                        <strong className="text-primary">Email: </strong>{" "}
                         concierge@softexboutique.com
                       </p>
                       <p className="text-sm text-gray-400">
@@ -260,7 +260,7 @@ export default function OrderTrackingPage() {
 
           {/* Order summary (right column) */}
           <aside>
-            <Card className="sticky top-28 bg-gradient-to-b from-slate-900/40 to-black/60 border border-amber-600/10">
+            <Card className="sticky top-28 bg-gradient-to-b from-slate-900/40 to-black/60 border border-primary/10">
               <CardHeaderInner
                 title="Order Summary"
                 subtitle={order ? `#${order.id}` : "—"}
@@ -288,13 +288,13 @@ export default function OrderTrackingPage() {
                           <p className="text-sm font-medium">{it.name}</p>
                           <p className="text-xs text-gray-400">Qty {it.qty}</p>
                         </div>
-                        <div className="text-sm text-amber-300 font-semibold">
+                        <div className="text-sm text-primary font-semibold">
                           ₨ {it.price.toLocaleString()}
                         </div>
                       </div>
                     ))}
 
-                    <div className="pt-3 border-t border-amber-600/10">
+                    <div className="pt-3 border-t border-primary/10">
                       <div className="flex justify-between text-gray-400">
                         <span>Subtotal</span>
                         <span>
@@ -326,12 +326,12 @@ export default function OrderTrackingPage() {
 
                       <div className="mt-4">
                         <p className="text-xs text-gray-400">Courier</p>
-                        <p className="text-sm text-amber-300 font-medium">
+                        <p className="text-sm text-primary font-medium">
                           {order.courier.name}
                         </p>
                         <a
                           href={order.courier.trackingUrl}
-                          className="text-xs text-amber-400 underline"
+                          className="text-xs text-primary underline"
                         >
                           View courier status
                         </a>
@@ -366,10 +366,10 @@ function CardHeaderInner({
   subtitle?: string;
 }) {
   return (
-    <div className="px-6 py-4 border-b border-amber-600/5 flex items-center justify-between">
+    <div className="px-6 py-4 border-b border-primary/5 flex items-center justify-between">
       <div>
         <h3 className="text-lg font-semibold text-white">{title}</h3>
-        {subtitle && <p className="text-xs text-amber-300 mt-1">{subtitle}</p>}
+        {subtitle && <p className="text-xs text-primary mt-1">{subtitle}</p>}
       </div>
     </div>
   );
@@ -386,9 +386,9 @@ function ProgressBar({
     <div>
       <div className="flex items-center justify-between mb-2">
         <div className="text-sm text-gray-300">Status</div>
-        <div className="text-sm text-amber-300 font-semibold">{status}</div>
+        <div className="text-sm text-primary font-semibold">{status}</div>
       </div>
-      <div className="w-full bg-slate-800 rounded-full h-3 overflow-hidden border border-amber-600/8">
+      <div className="w-full bg-slate-800 rounded-full h-3 overflow-hidden border border-primary/8">
         <div
           className="h-full"
           style={{

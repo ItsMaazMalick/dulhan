@@ -93,7 +93,7 @@ export default function WishlistPage() {
               </p>
               <Link
                 href="/products"
-                className="inline-block bg-amber-600 hover:bg-amber-700 text-white tracking-widest py-3 px-8 transition-all duration-300 font-light hover:shadow-lg hover:shadow-amber-600/30 hover:scale-105"
+                className="inline-block bg-primary hover:bg-primary text-white tracking-widest py-3 px-8 transition-all duration-300 font-light hover:shadow-lg hover:shadow-primary/30 hover:scale-105"
               >
                 EXPLORE COLLECTIONS
               </Link>
@@ -106,12 +106,12 @@ export default function WishlistPage() {
                   {wishlistItems.map((item, index) => (
                     <div
                       key={item.id}
-                      className="group border border-gray-800 hover:border-amber-500 transition-all duration-300 p-6 rounded-lg hover:shadow-lg hover:shadow-amber-500/10 hover:bg-gray-900/10 animate-fadeInUp"
+                      className="group border border-gray-800 hover:border-primary transition-all duration-300 p-6 rounded-lg hover:shadow-lg hover:shadow-primary/10 hover:bg-gray-900/10 animate-fadeInUp"
                       style={{ animationDelay: `${index * 0.1}s` }}
                     >
                       <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
                         {/* Image */}
-                        <div className="relative h-40 md:h-auto md:aspect-square rounded overflow-hidden border border-gray-700 group-hover:border-amber-500 transition-colors">
+                        <div className="relative h-40 md:h-auto md:aspect-square rounded overflow-hidden border border-gray-700 group-hover:border-primary transition-colors">
                           <Image
                             src={item.image || "/placeholder.svg"}
                             alt={item.name}
@@ -123,24 +123,21 @@ export default function WishlistPage() {
                         {/* Info */}
                         <div className="md:col-span-2 flex flex-col justify-between">
                           <div>
-                            <p className="text-xs text-amber-500 tracking-widest mb-1 group-hover:text-amber-300 transition-colors">
+                            <p className="text-xs text-primary tracking-widest mb-1 group-hover:text-primary transition-colors">
                               {item.category}
                             </p>
-                            <h3 className="text-lg font-light text-white mb-2 group-hover:text-amber-100 transition-colors">
+                            <h3 className="text-lg font-light text-white mb-2 group-hover:text-primary transition-colors">
                               {item.name}
                             </h3>
                             <div className="flex gap-1">
                               {[...Array(item.rating)].map((_, i) => (
-                                <span
-                                  key={i}
-                                  className="text-amber-500 text-sm"
-                                >
+                                <span key={i} className="text-primary text-sm">
                                   ★
                                 </span>
                               ))}
                             </div>
                           </div>
-                          <p className="text-2xl font-light text-white group-hover:text-amber-200 transition-colors">
+                          <p className="text-2xl font-light text-white group-hover:text-primary transition-colors">
                             {item.price}
                           </p>
                         </div>
@@ -149,7 +146,7 @@ export default function WishlistPage() {
                         <div className="flex flex-col gap-2 justify-center">
                           <button
                             onClick={() => handleAddToCart(item.id)}
-                            className="flex items-center justify-center gap-2 bg-amber-600 hover:bg-amber-700 text-white py-2 transition-all duration-300 text-sm font-light tracking-widest hover:shadow-lg hover:shadow-amber-600/30 hover:scale-105"
+                            className="flex items-center justify-center gap-2 bg-primary hover:bg-primary text-white py-2 transition-all duration-300 text-sm font-light tracking-widest hover:shadow-lg hover:shadow-primary/30 hover:scale-105"
                           >
                             <ShoppingBag className="w-4 h-4" />
                             ADD
@@ -170,7 +167,7 @@ export default function WishlistPage() {
 
               {/* Summary */}
               <div className="lg:col-span-1">
-                <div className="border border-gray-800 p-8 rounded-lg sticky top-32 space-y-6 hover:border-amber-500 transition-all duration-300 hover:shadow-lg hover:shadow-amber-500/10 hover:bg-gray-900/10 animate-slideInRight">
+                <div className="border border-gray-800 p-8 rounded-lg sticky top-32 space-y-6 hover:border-primary transition-all duration-300 hover:shadow-lg hover:shadow-primary/10 hover:bg-gray-900/10 animate-slideInRight">
                   <h3 className="text-xl font-light text-white">
                     Order Summary
                   </h3>
@@ -180,7 +177,7 @@ export default function WishlistPage() {
                       <span>Subtotal</span>
                       <span>${total.toFixed(2)}</span>
                     </div>
-                    <div className="flex justify-between text-amber-500 text-sm">
+                    <div className="flex justify-between text-primary text-sm">
                       <span>Shipping</span>
                       <span>FREE</span>
                     </div>
@@ -192,16 +189,16 @@ export default function WishlistPage() {
 
                   <div className="flex justify-between text-white text-lg font-light">
                     <span>Total</span>
-                    <span className="text-amber-200">
+                    <span className="text-primary">
                       ${(total * 1.1).toFixed(2)}
                     </span>
                   </div>
 
-                  <button className="w-full bg-amber-600 hover:bg-amber-700 text-white tracking-widest py-3 transition-all duration-300 font-light hover:shadow-lg hover:shadow-amber-600/30 hover:scale-105">
+                  <button className="w-full bg-primary hover:bg-primary text-white tracking-widest py-3 transition-all duration-300 font-light hover:shadow-lg hover:shadow-primary/30 hover:scale-105">
                     PROCEED TO CHECKOUT
                   </button>
 
-                  <button className="w-full border border-gray-700 hover:border-amber-500 text-white tracking-widest py-3 transition-all duration-300 font-light text-sm hover:shadow-lg hover:shadow-amber-500/10 hover:scale-105">
+                  <button className="w-full border border-gray-700 hover:border-primary text-white tracking-widest py-3 transition-all duration-300 font-light text-sm hover:shadow-lg hover:shadow-primary/10 hover:scale-105">
                     CONTINUE SHOPPING
                   </button>
                 </div>

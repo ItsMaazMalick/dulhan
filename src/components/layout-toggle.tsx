@@ -37,14 +37,14 @@ export default function LayoutToggle({
       initial={{ opacity: 0, y: 10 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.4 }}
-      className="flex flex-wrap items-center justify-between gap-6 rounded-2xl border border-amber-500/30 bg-transparent p-5 shadow-lg shadow-amber-500/10 backdrop-blur-xl"
+      className="flex flex-wrap items-center justify-between gap-6 rounded-2xl border border-primary/30 bg-transparent p-5 shadow-lg shadow-primary/10 backdrop-blur-xl"
     >
       <div className="flex items-center gap-10">
         <div className="text-gray-400 animate-fadeInLeft">
           <p className="text-sm">
-            Showing{" "}
-            <span className="text-amber-400 font-bold">{paginated}</span> of{" "}
-            <span className="text-amber-400 font-bold">{filtered}</span> results
+            Showing <span className="text-primary font-bold">{paginated}</span>{" "}
+            of <span className="text-primary font-bold">{filtered}</span>{" "}
+            results
           </p>
         </div>
         {/* Layout Buttons */}
@@ -62,15 +62,15 @@ export default function LayoutToggle({
                 whileTap={{ scale: 0.9 }}
                 className={`relative group flex items-center justify-center p-3 rounded-xl transition-all duration-300 border backdrop-blur-sm ${
                   isActive
-                    ? "bg-amber-500 text-black border-amber-400 shadow-lg shadow-amber-500/40"
-                    : "bg-slate-800/60 text-amber-400 border-amber-600/20 hover:bg-amber-500 hover:text-black hover:shadow-lg hover:shadow-amber-500/30"
+                    ? "bg-primary text-black border-primary shadow-lg shadow-primary/40"
+                    : "bg-slate-800/60 text-primary border-primary/20 hover:bg-primary hover:text-black hover:shadow-lg hover:shadow-primary/30"
                 }`}
               >
                 <Icon className="w-5 h-5 transition-transform duration-300 group-hover:rotate-6" />
                 {isActive && (
                   <motion.span
                     layoutId="active-glow"
-                    className="absolute inset-0 rounded-xl ring-2 ring-amber-500/50"
+                    className="absolute inset-0 rounded-xl ring-2 ring-primary/50"
                     transition={{ type: "spring", stiffness: 300, damping: 20 }}
                   />
                 )}
@@ -84,7 +84,7 @@ export default function LayoutToggle({
       <motion.select
         whileFocus={{ scale: 1.05, boxShadow: "0 0 15px rgba(251,191,36,0.4)" }}
         transition={{ type: "spring", stiffness: 200, damping: 15 }}
-        className="bg-slate-900/70 border border-amber-600/30 text-amber-300 rounded-xl px-4 py-3 focus:outline-none focus:border-amber-500 shadow-inner shadow-black/40 transition-all duration-300"
+        className="bg-slate-900/70 border border-primary/30 text-primary rounded-xl px-4 py-3 focus:outline-none focus:border-primary shadow-inner shadow-black/40 transition-all duration-300"
       >
         <option>Default Sort</option>
         <option>Price: Low to High</option>

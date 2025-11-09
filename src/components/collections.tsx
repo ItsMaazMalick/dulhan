@@ -136,9 +136,9 @@ export default function CollectionsSection() {
                 <input
                   type="email"
                   placeholder="Enter your email to subscribe*"
-                  className="flex-1 bg-transparent border border-gray-600 text-white placeholder-gray-500 px-4 py-3 text-sm focus:outline-none focus:border-amber-500 transition-colors"
+                  className="flex-1 bg-transparent border border-gray-600 text-white placeholder-gray-500 px-4 py-3 text-sm focus:outline-none focus:border-primary transition-colors"
                 />
-                <button className="bg-amber-600 hover:bg-amber-700 text-white text-xs tracking-widest px-6 py-3 transition-colors duration-400 font-medium">
+                <button className="bg-primary/90 hover:bg-primary text-white text-xs tracking-widest px-6 py-3 transition-colors duration-400 font-medium">
                   SUBSCRIBE
                 </button>
               </div>

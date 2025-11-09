@@ -30,7 +30,7 @@ export default function ProductGrid3({
         <Link
           href={`/products/${product.id}`}
           key={product.id}
-          className="group bg-slate-900/50 border border-amber-600/30 rounded-xl overflow-hidden hover:border-amber-500/50 transition-all duration-500 hover:shadow-2xl hover:shadow-amber-500/20 animate-fadeInUp"
+          className="group bg-slate-900/50 border border-primary/30 rounded-xl overflow-hidden hover:border-primary/50 transition-all duration-500 hover:shadow-2xl hover:shadow-primary/20 animate-fadeInUp"
           style={{ animationDelay: `${index * 80}ms` }}
         >
           {/* Image */}
@@ -45,17 +45,17 @@ export default function ProductGrid3({
             />
             <button
               onClick={() => onToggleWishlist(product.id)}
-              className="absolute top-4 right-4 w-12 h-12 bg-black/80 hover:bg-amber-500 rounded-full flex items-center justify-center transition-all duration-300 hover:scale-110 hover:shadow-lg hover:shadow-amber-500/50"
+              className="absolute top-4 right-4 w-12 h-12 bg-black/80 hover:bg-primary rounded-full flex items-center justify-center transition-all duration-300 hover:scale-110 hover:shadow-lg hover:shadow-primary/50"
             >
               <Heart
                 className={`w-6 h-6 transition-colors ${
                   wishlist[product.id]
                     ? "fill-red-500 text-red-500"
-                    : "text-amber-400"
+                    : "text-primary"
                 }`}
               />
             </button>
-            <button className="absolute bottom-4 left-1/2 -translate-x-1/2 bg-amber-500 hover:bg-amber-600 text-black px-6 py-2 rounded-full font-semibold flex items-center gap-2 opacity-0 group-hover:opacity-100 transition-all duration-300 transform translate-y-4 group-hover:translate-y-0 text-sm shadow-lg">
+            <button className="absolute bottom-4 left-1/2 -translate-x-1/2 bg-primary hover:bg-primary text-black px-6 py-2 rounded-full font-semibold flex items-center gap-2 opacity-0 group-hover:opacity-100 transition-all duration-300 transform translate-y-4 group-hover:translate-y-0 text-sm shadow-lg">
               <Eye className="w-4 h-4" />
               View
             </button>
@@ -63,10 +63,10 @@ export default function ProductGrid3({
 
           {/* Info */}
           <div className="p-5">
-            <p className="text-amber-400 text-xs font-bold tracking-wider uppercase mb-2">
+            <p className="text-primary text-xs font-bold tracking-wider uppercase mb-2">
               {product.category}
             </p>
-            <h3 className="text-lg font-semibold text-white mb-2 group-hover:text-amber-400 transition-colors line-clamp-2">
+            <h3 className="text-lg font-semibold text-white mb-2 group-hover:text-primary transition-colors line-clamp-2">
               {product.name}
             </h3>
 
@@ -78,7 +78,7 @@ export default function ProductGrid3({
                     key={i}
                     className={`text-xs ${
                       i < Math.floor(product.rating)
-                        ? "text-amber-400"
+                        ? "text-primary"
                         : "text-gray-600"
                     }`}
                   >
@@ -90,10 +90,10 @@ export default function ProductGrid3({
             </div>
 
             <div className="flex justify-between items-center">
-              <p className="text-amber-400 font-bold text-xl">
+              <p className="text-primary font-bold text-xl">
                 ₹{product.price.toLocaleString()}
               </p>
-              <button className="bg-amber-500 hover:bg-amber-600 text-black px-4 py-2 rounded-lg font-semibold text-sm transition-all duration-300 hover:shadow-lg hover:shadow-amber-500/50 hover:scale-105">
+              <button className="bg-primary hover:bg-primary text-black px-4 py-2 rounded-lg font-semibold text-sm transition-all duration-300 hover:shadow-lg hover:shadow-primary/50 hover:scale-105">
                 Add
               </button>
             </div>

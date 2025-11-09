@@ -116,7 +116,7 @@ export default function AboutPage() {
               className="object-cover group-hover:scale-105 transition-transform duration-500"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
-            <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-gradient-to-t from-amber-500/20 to-transparent" />
+            <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-gradient-to-t from-primary/20 to-transparent" />
           </div>
         </div>
       </section>
@@ -146,11 +146,11 @@ export default function AboutPage() {
                 >
                   {milestone.year}
                 </div>
-                <div className="relative p-6 border-l-4 border-gray-700 hover:border-amber-500 pl-8 transition-all duration-300 group-hover:pl-10 hover:bg-gray-900/30">
-                  <p className="text-sm tracking-widest text-amber-500 mb-2 group-hover:text-amber-400 transition-colors">
+                <div className="relative p-6 border-l-4 border-gray-700 hover:border-primary pl-8 transition-all duration-300 group-hover:pl-10 hover:bg-gray-900/30">
+                  <p className="text-sm tracking-widest text-primary mb-2 group-hover:text-primary transition-colors">
                     {milestone.year}
                   </p>
-                  <h3 className="text-xl font-light text-white mb-2 group-hover:text-amber-100 transition-colors">
+                  <h3 className="text-xl font-light text-white mb-2 group-hover:text-primary transition-colors">
                     {milestone.title}
                   </h3>
                   <p className="text-gray-400 text-sm group-hover:text-gray-300 transition-colors">
@@ -184,7 +184,7 @@ export default function AboutPage() {
                 className="group relative animate-scaleIn"
                 style={{ animationDelay: `${index * 0.1}s` }}
               >
-                <div className="relative h-80 overflow-hidden rounded-lg border border-gray-800 group-hover:border-amber-500 transition-all duration-300 group-hover:shadow-xl group-hover:shadow-amber-500/20">
+                <div className="relative h-80 overflow-hidden rounded-lg border border-gray-800 group-hover:border-primary transition-all duration-300 group-hover:shadow-xl group-hover:shadow-primary/20">
                   <Image
                     src={member.image || "/placeholder.svg"}
                     alt={member.name}
@@ -194,10 +194,10 @@ export default function AboutPage() {
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/0 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
                 </div>
                 <div className="absolute bottom-0 left-0 right-0 p-6 text-white transform translate-y-2 group-hover:translate-y-0 transition-transform duration-300">
-                  <h3 className="text-lg font-light mb-1 group-hover:text-amber-200 transition-colors">
+                  <h3 className="text-lg font-light mb-1 group-hover:text-primary transition-colors">
                     {member.name}
                   </h3>
-                  <p className="text-sm text-amber-500">{member.role}</p>
+                  <p className="text-sm text-primary">{member.role}</p>
                 </div>
               </div>
             ))}
@@ -237,10 +237,10 @@ export default function AboutPage() {
             ].map((value, index) => (
               <div
                 key={index}
-                className="group p-8 border border-gray-800 hover:border-amber-500 transition-all duration-300 rounded-lg hover:shadow-lg hover:shadow-amber-500/10 hover:bg-gray-900/20 animate-fadeInUp"
+                className="group p-8 border border-gray-800 hover:border-primary transition-all duration-300 rounded-lg hover:shadow-lg hover:shadow-primary/10 hover:bg-gray-900/20 animate-fadeInUp"
                 style={{ animationDelay: `${index * 0.1}s` }}
               >
-                <h3 className="text-2xl font-light text-white mb-3 group-hover:text-amber-200 transition-colors">
+                <h3 className="text-2xl font-light text-white mb-3 group-hover:text-primary transition-colors">
                   {value.title}
                 </h3>
                 <p className="text-gray-400 group-hover:text-gray-300 transition-colors">

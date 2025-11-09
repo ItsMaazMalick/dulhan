@@ -19,8 +19,8 @@ export function HeroSection() {
       </div>
 
       {/* === Floating Ambient Glow Orbs === */}
-      <div className="absolute top-10 left-10 w-72 h-72 bg-amber-500/10 blur-3xl rounded-full animate-pulse" />
-      <div className="absolute bottom-10 right-10 w-96 h-96 bg-amber-600/10 blur-3xl rounded-full animate-pulse" />
+      <div className="absolute top-10 left-10 w-72 h-72 bg-primary/10 blur-3xl rounded-full animate-pulse" />
+      <div className="absolute bottom-10 right-10 w-96 h-96 bg-primary/10 blur-3xl rounded-full animate-pulse" />
 
       {/* === Content === */}
       <div className="relative z-10 h-full flex flex-col justify-center px-8 md:px-16 lg:px-24 max-w-4xl">
@@ -31,7 +31,7 @@ export function HeroSection() {
           className="text-4xl md:text-6xl font-extrabold leading-tight tracking-tight"
         >
           Transform Your{" "}
-          <span className="text-amber-500 drop-shadow-[0_0_15px_rgba(245,158,11,0.8)]">
+          <span className="text-primary drop-shadow-[0_0_15px_rgba(245,158,11,0.8)]">
             Dream
           </span>{" "}
           into Beautiful Reality
@@ -43,9 +43,11 @@ export function HeroSection() {
           transition={{ duration: 1.2 }}
           className="mt-6 text-slate-200 text-base md:text-lg leading-relaxed"
         >
-          At{" "}
-          <span className="text-amber-400 font-semibold">Dhanpuri</span>
-          ,we turn your wedding dreams into beautifully crafted outfits. Our skilled designers, artisans, and stylists work together to create attire that reflects elegance, culture, and perfection — tailored just for you.
+          At <span className="text-primary font-semibold">Dhanpuri</span>
+          ,we turn your wedding dreams into beautifully crafted outfits. Our
+          skilled designers, artisans, and stylists work together to create
+          attire that reflects elegance, culture, and perfection — tailored just
+          for you.
         </motion.p>
 
         {/* === Call-to-Action Buttons === */}
@@ -57,13 +59,13 @@ export function HeroSection() {
         >
           <Link
             href="#projects"
-            className="px-8 py-3 bg-amber-500 text-black font-semibold rounded-full shadow-lg shadow-amber-500/30 hover:bg-amber-400 transition-all duration-300 hover:shadow-amber-400/40 hover:scale-105"
+            className="px-8 py-3 bg-primary text-black font-semibold rounded-full shadow-lg shadow-primary/30 hover:bg-primary transition-all duration-300 hover:shadow-primary/40 hover:scale-105"
           >
             Explore Projects
           </Link>
           <Link
             href="#contact"
-            className="px-8 py-3 border border-amber-500/50 text-amber-400 rounded-full hover:bg-amber-500 hover:text-black transition-all duration-300 hover:shadow-amber-500/40 hover:scale-105"
+            className="px-8 py-3 border border-primary/50 text-primary rounded-full hover:bg-primary hover:text-black transition-all duration-300 hover:shadow-primary/40 hover:scale-105"
           >
             Contact Us
           </Link>
@@ -82,15 +84,15 @@ export function HeroSection() {
             key={i}
             className={`w-3 h-3 rounded-full transition-all duration-500 ${
               i === 0
-                ? "bg-amber-500 shadow-lg shadow-amber-500/40 scale-110"
-                : "bg-white/40 hover:bg-amber-400/70"
+                ? "bg-primary shadow-lg shadow-primary/40 scale-110"
+                : "bg-white/40 hover:bg-primary/70"
             }`}
           ></span>
         ))}
       </motion.div>
 
       {/* === Decorative Gradient Line === */}
-      <div className="absolute bottom-0 left-0 w-full h-[2px] bg-gradient-to-r from-transparent via-amber-500/70 to-transparent animate-pulse" />
+      <div className="absolute bottom-0 left-0 w-full h-[2px] bg-gradient-to-r from-transparent via-primary/70 to-transparent animate-pulse" />
     </section>
   );
 }

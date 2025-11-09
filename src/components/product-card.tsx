@@ -28,7 +28,7 @@ export default function ProductCard({
   isWishlisted,
 }: ProductCardProps) {
   return (
-    <div className="group bg-gradient-to-b from-gray-900 to-black border border-amber-700/30 rounded-lg overflow-hidden hover:border-amber-500/60 transition-all duration-500 hover:shadow-[0_0_30px_rgba(212,175,55,0.3)]">
+    <div className="group bg-gradient-to-b from-gray-900 to-black border border-primary/30 rounded-lg overflow-hidden hover:border-primary/60 transition-all duration-500 hover:shadow-[0_0_30px_rgba(212,175,55,0.3)]">
       {/* Image */}
       <div className="relative h-64 w-full overflow-hidden bg-gray-800">
         <img
@@ -44,11 +44,11 @@ export default function ProductCard({
         <div className="absolute inset-0 bg-black/0 group-hover:bg-black/40 transition-colors flex items-center justify-center gap-4 opacity-0 group-hover:opacity-100">
           <button
             onClick={() => onToggleWishlist?.(id)}
-            className="p-3 bg-amber-600 hover:bg-amber-700 rounded-full transition"
+            className="p-3 bg-primary hover:bg-primary rounded-full transition"
           >
             <Heart size={20} fill={isWishlisted ? "white" : "none"} />
           </button>
-          <button className="p-3 bg-amber-600 hover:bg-amber-700 rounded-full transition">
+          <button className="p-3 bg-primary hover:bg-primary rounded-full transition">
             <ShoppingCart size={20} />
           </button>
         </div>
@@ -56,7 +56,7 @@ export default function ProductCard({
 
       {/* Info */}
       <div className="p-4">
-        <p className="text-amber-500 text-sm mb-2">{category}</p>
+        <p className="text-primary text-sm mb-2">{category}</p>
         <h3 className="text-white font-semibold mb-2 line-clamp-2">{name}</h3>
         <div className="flex text-yellow-400 text-sm mb-3">
           {[...Array(5)].map((_, i) => (
@@ -65,7 +65,7 @@ export default function ProductCard({
           <span className="text-gray-400 ml-2">({rating})</span>
         </div>
         <div className="flex items-center justify-between">
-          <span className="text-2xl font-bold text-amber-500">
+          <span className="text-2xl font-bold text-primary">
             ₹{price.toLocaleString()}
           </span>
           <button
@@ -73,7 +73,7 @@ export default function ProductCard({
             onClick={() => onAddToCart?.(id)}
             className={`p-2 rounded transition ${
               inStock
-                ? "bg-amber-600 hover:bg-amber-700 text-white"
+                ? "bg-primary hover:bg-primary text-white"
                 : "bg-gray-700 text-gray-500 cursor-not-allowed"
             }`}
           >

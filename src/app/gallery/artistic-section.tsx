@@ -14,8 +14,8 @@ export function ArtisticSection() {
   return (
     <section className="relative py-20 px-4 bg-gradient-to-b from-slate-950 via-slate-900 to-slate-950 text-white overflow-hidden">
       {/* Subtle glowing orbs */}
-      <div className="absolute top-10 left-10 w-72 h-72 bg-amber-500/10 blur-3xl rounded-full animate-pulse" />
-      <div className="absolute bottom-10 right-10 w-80 h-80 bg-amber-600/10 blur-3xl rounded-full animate-pulse" />
+      <div className="absolute top-10 left-10 w-72 h-72 bg-primary/10 blur-3xl rounded-full animate-pulse" />
+      <div className="absolute bottom-10 right-10 w-80 h-80 bg-primary/10 blur-3xl rounded-full animate-pulse" />
 
       <div className="max-w-7xl mx-auto relative z-10 grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
         {/* Left side - floating layered images */}
@@ -26,7 +26,7 @@ export function ArtisticSection() {
           transition={{ duration: 1 }}
         >
           <motion.div
-            className="relative w-[80%] h-[400px] rounded-2xl overflow-hidden border border-amber-500/30 shadow-amber-500/30 shadow-xl"
+            className="relative w-[80%] h-[400px] rounded-2xl overflow-hidden border border-primary/30 shadow-primary/30 shadow-xl"
             whileHover={{ scale: 1.03, rotate: 1 }}
             transition={{ type: "spring", stiffness: 200 }}
           >
@@ -39,7 +39,7 @@ export function ArtisticSection() {
           </motion.div>
 
           <motion.div
-            className="absolute top-[80px] right-[-40px] w-60 h-[300px] rounded-2xl overflow-hidden border border-amber-400/30 shadow-lg shadow-amber-500/40"
+            className="absolute top-[80px] right-[-40px] w-60 h-[300px] rounded-2xl overflow-hidden border border-primary/30 shadow-lg shadow-primary/40"
             initial={{ opacity: 0, x: 50 }}
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8 }}
@@ -62,7 +62,7 @@ export function ArtisticSection() {
         >
           <h2 className="text-4xl md:text-5xl font-extrabold text-white leading-tight">
             Key{" "}
-            <span className="text-amber-500 drop-shadow-[0_0_10px_rgba(245,158,11,0.7)]">
+            <span className="text-primary drop-shadow-[0_0_10px_rgba(245,158,11,0.7)]">
               Features
             </span>
           </h2>
@@ -76,10 +76,10 @@ export function ArtisticSection() {
             {features.map((item, index) => (
               <motion.li
                 key={index}
-                className="flex items-center gap-3 bg-slate-900/40 border border-amber-600/30 rounded-xl p-4 backdrop-blur-sm transition-all duration-300 hover:bg-amber-500/20 hover:scale-[1.02]"
+                className="flex items-center gap-3 bg-slate-900/40 border border-primary/30 rounded-xl p-4 backdrop-blur-sm transition-all duration-300 hover:bg-primary/20 hover:scale-[1.02]"
                 whileHover={{ x: 5 }}
               >
-                <div className="w-6 h-6 rounded-full flex items-center justify-center bg-amber-500/20 border border-amber-400/40">
+                <div className="w-6 h-6 rounded-full flex items-center justify-center bg-primary/20 border border-primary/40">
                   <svg
                     width="14"
                     height="14"
